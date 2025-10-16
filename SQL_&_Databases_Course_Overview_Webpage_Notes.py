@@ -1,5 +1,4 @@
 """ SQL & Databases Course Overview Webpage Notes
-SQL & Databases Course Overview Notes
     -> course introduction
         -> this course is a comprehensive introduction to SQL and MySQL covering theory and practical applications
         -> target audience: beginners, intermediates, and experienced coders seeking to strengthen their database
