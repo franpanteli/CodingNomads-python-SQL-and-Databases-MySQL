@@ -11,7 +11,9 @@ while True:
     print("2. Create notes")
     print("3. Open GitHub repository in Chrome")
     print("4. Open project in PyCharm")
-    print("5. Exit")
+    print("5. Delete file with given directory")
+    print("6. Clear terminal")
+    print("7. Exit")
 
     choice = input("Enter your choice (1-5): ").strip()
 
@@ -32,6 +34,13 @@ while True:
         print("\nOpening project in PyCharm...")
         open_project_in_pycharm.open_project()  # Make sure open_project_in_pycharm.py has a function named open_project()
     elif choice == "5":
+        from course_automation_scripts import delete_file
+        print("\nDeleting file...")
+        delete_file.main()
+    elif choice == "6":
+        from course_automation_scripts import clear_terminal
+        clear_terminal.main()
+    elif choice == "7":
         print("Exiting program. Goodbye!")
         sys.exit(0)
     else:
