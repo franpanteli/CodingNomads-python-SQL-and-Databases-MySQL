@@ -1,9 +1,10 @@
 import subprocess
-import shutil
+import os
 
 project_path = "/Users/francescapanteli/Desktop/CodingNomads-python-SQL-and-Databases-MySQL"
 
-if shutil.which("charm") is None:
-    print("Error: PyCharm command-line launcher 'charm' not found. Enable it via PyCharm → Tools → Create Command-line Launcher.")
-else:
-    subprocess.run(["charm", project_path])
+# Path to PyCharm app (adjust if your version is different)
+pycharm_app_path = "/Applications/PyCharm.app"
+
+# Open the project
+subprocess.run(["open", "-a", pycharm_app_path, project_path])
