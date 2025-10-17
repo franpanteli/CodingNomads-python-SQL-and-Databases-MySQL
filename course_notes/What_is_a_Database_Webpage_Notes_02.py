@@ -33,5 +33,5 @@
                 -> we can search / store / analyse and modify data, using a computer system
     -> what you can do with a database
         -> managing data <- large amounts of data in a structured system
-        -> accuratley store data <-
+        -> accurately store data <-
 """
