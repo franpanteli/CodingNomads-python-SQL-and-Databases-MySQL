@@ -283,6 +283,12 @@
                     -> this enables it to be useful for caching and time-sensitive data
                 -> it supports data persistence
                     -> the data can survive a Redis server restart or crash
+                    -> it can persist data to a disk in several ways
+                        -> RDB, AOF
+                        -> this ensures data availability and can prevent data loss
+                -> this is a high-performance, in-memory data store
+                -> for use-cases involving low-latency and high-throughput data processing
+                -> 
             -> benefits
         -> Apache Cassandra
             -> about
