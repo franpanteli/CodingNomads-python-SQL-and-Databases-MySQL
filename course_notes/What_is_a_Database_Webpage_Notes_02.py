@@ -202,7 +202,12 @@
                     -> easy to perform complex queries and data analysis
                 -> it has an aggregation framework
                     -> this can perform data processing and analytics on large datasets
-                    ->  
+                -> flexible, scalable
+                -> can be used with different applications and use cases
+                -> CAN HANDLE UNSTRUCTURED AND SEMI-STRUCTURED DATA
+                -> support for horizontal scaling
+                -> many query and indexing options
+                ->
 
 
 
