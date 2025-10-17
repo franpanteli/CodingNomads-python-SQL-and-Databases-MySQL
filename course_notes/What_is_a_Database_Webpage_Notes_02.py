@@ -128,6 +128,10 @@
                     -> built-in support for full-text search and geographic data
             -> avaliable on multiple operating systems
             -> why use PostgreSQL
-                -> 
+                -> extensibility <- you can define your own data types, operators and functions
+                -> stored procefures can be called without having to retype code
+                -> provides triggers and views for complex data manupulation and querying
+        -> Oracle
+            -> 
 
 """
