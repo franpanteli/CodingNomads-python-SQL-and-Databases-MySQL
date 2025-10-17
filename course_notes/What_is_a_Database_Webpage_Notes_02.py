@@ -349,6 +349,7 @@
                     -> Python
                     -> C++
                 -> it has a large community that provides many resources, to help developers get started
-                
+            -> there are SQL and Database tutorials in this course
+                -> mostly MySQL for this 
     -> summary
 """
