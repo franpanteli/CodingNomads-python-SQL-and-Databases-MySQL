@@ -156,7 +156,9 @@
             -> for Microsoft customers only
                 -> it is compatible with Windows and Linux
             -> MS has invested in new features and improvements
-                -> Azure SQL <-   
+                -> Azure SQL <- cloud database service and SQL database as a service, and SQL on Linux environments
+                ->
+                 
 
 
 """
