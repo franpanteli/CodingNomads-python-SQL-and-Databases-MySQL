@@ -132,9 +132,13 @@
                 -> stored procefures can be called without having to retype code
                 -> provides triggers and views for complex data manupulation and querying
         -> Oracle
-            -> an open-source relational database
-            -> used by corporate businesses and enterprise customers
-            -> IT IS USED FOR ANALYSING GLOBAL DATA USAGE
+            -> about
+                -> an open-source relational database
+                -> used by corporate businesses and enterprise customers
+                -> IT IS USED FOR ANALYSING GLOBAL DATA USAGE
+                    -> it is built on multi-model architecture
+                -> it can support relational and NoSQL data
+                -> it uses SQL <- STRUCTURED QUERY LANGUAGE for data manipulation
             -> benefits
                 -> reliability, scalability and performance
                 -> for integrity, transactions, and locking
@@ -143,10 +147,11 @@
                 -> built-in support for high avaliability and desaster recovery
                     -> Data Guard, Real Application Clusters (RAC) and Active Data Guard
                     -> it contains most of the features of other RDBMS's, and more
-            -> it is built on multi-model architecture
-                -> it can support relational and NoSQL data
-            -> it uses SQL <- STRUCTURED QUERY LANGUAGE for data manipulation
-                ->
+                    -> ideal for global enterprise businesses
+                    -> Oracle Autonomous Database
+                        -> fully autonomous, self-driving, self-securing and a self-repairing database service
+        -> Microsoft SQL Server
+            -> CLOSED-COURSE 
 
 
 """
