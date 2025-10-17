@@ -213,7 +213,10 @@
                 -> ease of use
                     -> developer-friendly features
                         -> works with SQL, C, C++, Java and .NET (multiple languages)
-                        -> has a wide range of developer tools and resources 
+                        -> has a wide range of developer tools and resources
+        -> IBM DB2
+            ->
+            
 
 
 
