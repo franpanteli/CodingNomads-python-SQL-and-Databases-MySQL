@@ -335,7 +335,11 @@
                     -> it can handle large and diverse data sets, advanced data analytics and reporting capabilities
                         -> high availability and durability
                         -> tunable consistency
-                        ->
+                        -> ease of use
+                -> a popular choice for businesses, government organisations, and other entities that require robust
+                    data management capabilities
+                    -> ability to handle high-write and read loads
             -> benefits
+                -> 
     -> summary
 """
