@@ -335,7 +335,7 @@
                     -> it can handle large and diverse data sets, advanced data analytics and reporting capabilities
                         -> high avalability and durability
                         -> tunable consistency
-                        -> 
+                        ->
             -> benefits
     -> summary
 """
