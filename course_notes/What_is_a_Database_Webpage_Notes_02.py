@@ -187,6 +187,7 @@
                             -> arrays
                             -> other documents
                 -> ALL OF THESE ARE SYSTEMS FOR MANAGING DATABASES - MONGODB IS ONE
+                -> IT'S A DATABASE
             -> benefits
                 -> more flexible than traditional relational databases
                 -> SHARDING <- IT SCALES HORIZONTALLY ACROSS MULTIPLE SERVERS
@@ -207,7 +208,12 @@
                 -> CAN HANDLE UNSTRUCTURED AND SEMI-STRUCTURED DATA
                 -> support for horizontal scaling
                 -> many query and indexing options
-                ->
+                -> powerful / flexible / scalable
+                -> for web and mobile applications, real-time analytics and other big data use cases
+                -> ease of use
+                    -> developer-friendly features
+                        -> works with SQL, C, C++, Java and .NET (multiple languages)
+                        -> has a wide range of developer tools and resources 
 
 
 
