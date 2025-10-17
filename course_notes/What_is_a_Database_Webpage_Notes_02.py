@@ -33,5 +33,13 @@
                 -> we can search / store / analyse and modify data, using a computer system
     -> what you can do with a database
         -> managing data <- large amounts of data in a structured system
-        -> accurately store data <-
+        -> accurately store data, for it's integrity
+        -> safely store data long-term
+            -> data only stored by the application could be lost if it shuts down
+            -> third-party storage
+        -> ACCESSING DATA CONCURRENTLY <- MULTIPLE USERS CAN ACCESS THE SAME DATA
+            -> we can manage multiple users and have the data be consistent
+        -> retrieving data <- finding data quickly and efficiently
+        -> connecting data <- we can connect different pieces of related data together
+    -> uses for databases 
 """
