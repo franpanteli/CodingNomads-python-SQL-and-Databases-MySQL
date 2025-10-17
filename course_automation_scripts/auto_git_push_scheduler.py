@@ -15,11 +15,11 @@ def run_git_push():
         print(f"Error running auto_git_push.py: {e}\n")
 
 def main():
-    print("Starting auto_git_push scheduler (runs every 5 minutes)...")
+    print("Starting auto_git_push scheduler (runs every 1 minute)...")
     while True:
         run_git_push()
-        # Sleep for 5 minutes (300 seconds)
-        time.sleep(300)
+        # Sleep for 1 minute (60 seconds)
+        time.sleep(60)
 
 if __name__ == "__main__":
     main()

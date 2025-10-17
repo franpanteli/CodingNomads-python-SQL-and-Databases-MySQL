@@ -8,7 +8,7 @@ while True:
     #print menu 
     print("\n=== Course Automation Menu ===")
     print("1. Push all changes to GitHub")
-    print("2. Auto-push to GitHub every 5 minutes (turn on)")
+    print("2. Auto-push to GitHub every minute (turn on)")
     print("3. Create notes")
     print("4. Edit file with a given directory")
     print("5. Open GitHub repository in Chrome")
