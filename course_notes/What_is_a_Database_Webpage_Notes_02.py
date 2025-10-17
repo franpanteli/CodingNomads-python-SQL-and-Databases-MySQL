@@ -356,6 +356,14 @@
     -> summary
         -> using the MySQL database <- next
         -> databases organise structured information
-        -> DATABASES ORGANISE STRUCTURED INFORMATION <- DATA  
-        ->
+        -> DATABASES ORGANISE STRUCTURED INFORMATION <- DATA
+        -> electronic databases allow you to do things to data
+            -> store
+            -> search
+            -> retreive
+            -> analyze
+            -> modifying digital data using a computer system
+            -> processing millions / billions of rows of data
+        -> databases vs spreadsheets
+            -> working in a smarter, more efficient way 
 """
