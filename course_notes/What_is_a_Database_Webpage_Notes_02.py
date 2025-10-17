@@ -321,6 +321,13 @@
                     fail
                 -> automatic data replication across multiple nodes
                     -> ensuring data durability and availability
+                -> supports a range of data types
+                    -> structured
+                    -> semi-structured
+                    -> unstructured data
+                -> support for data modeling and querying
+                    -> can work with various datasets
+                -> supports advanced data analytics and reporting capabilities 
             -> benefits
     -> summary
 """
