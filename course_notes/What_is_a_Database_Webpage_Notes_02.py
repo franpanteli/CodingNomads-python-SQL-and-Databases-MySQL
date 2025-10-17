@@ -41,5 +41,7 @@
             -> we can manage multiple users and have the data be consistent
         -> retrieving data <- finding data quickly and efficiently
         -> connecting data <- we can connect different pieces of related data together
-    -> uses for databases 
+    -> uses for databases
+        -> different industries use databases
+        -> 
 """
