@@ -257,6 +257,10 @@
                     -> SQL, C, C++, Java, .NET
                 -> developer tools and resources
         -> Redis
-            -> about 
+            -> about
             -> benefits
+        -> Apache Cassandra
+            -> about
+            -> benefits
+        -> 
 """
