@@ -15,9 +15,10 @@ while True:
     print("6. Open project in PyCharm")
     print("7. Delete file with given directory")
     print("8. Clear terminal")
-    print("9. Exit")
+    print("9. Change the case of input text, to upper or lowercase")
+    print("10. Exit")
 
-    choice = input("Enter your choice (1-9): ").strip()
+    choice = input("Enter your choice (1-10): ").strip()
 
     if choice == "1":
         from course_automation_scripts import auto_git_push
@@ -51,6 +52,9 @@ while True:
         from course_automation_scripts import clear_terminal
         clear_terminal.main()
     elif choice == "9":
+        from course_automation_scripts import change_case
+        change_case.main()
+    elif choice == "10":
         print("Exiting program. Goodbye!")
         sys.exit(0)
     else:

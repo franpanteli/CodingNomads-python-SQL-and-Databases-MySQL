@@ -43,5 +43,18 @@
         -> connecting data <- we can connect different pieces of related data together
     -> uses for databases
         -> different industries use databases
-        -> 
+        -> online platforms for storing and managing user information
+        -> managing customer and sales data
+        -> research organisation analysing large amounts of scientific data
+        -> government agencies storing millions of records
+        -> retail company managing and understanding inventory data
+        -> healthcare organisations storing patient information and medical records
+    -> databases vs spreadsheets
+        -> DATABASES ARE NOT THE SAME AS SPREADSHEETS
+        -> database tables are rows and columns
+        -> DATABASES ARE MORE POWERFUL AND USEFUL THAN SPREADSHEETS
+            -> DATABASES CAN BE QUERIED, SPREADSHEETS CAN'T IN THE SAME CAPACITY
+        -> DATA PERSISTENCE <- SAVING DATA TO A DATABASE IN SOFTWARE ENGINEERING
+            -> DATA SAVED BY A JAVASCRIPT APPLICATION CAN BE ACCESSED USING A PYTHON ONE
+            -> 
 """
