@@ -258,7 +258,14 @@
                 -> developer tools and resources
         -> Redis
             -> about
-                -> 
+                -> REDIS <- REMOTE DICTIONARY SERVER
+                -> an open-source, in-memory data structure
+                    -> it can be used as a database, cache and message broker
+                    -> IT'S CALLED A NO-SQL DATABASE, BECAUSE IT DOESN'T USE A TRADITIONAL TABLE-BASED RELATIONAL MODEL
+                        -> STORES DATA IN A KEY-VALUE FORMAT
+                -> speed and performance
+                    -> data is stored in memory
+                    -> si it can perform operations 
             -> benefits
         -> Apache Cassandra
             -> about
