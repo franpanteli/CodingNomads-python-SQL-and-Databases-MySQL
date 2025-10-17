@@ -248,5 +248,9 @@
                         -> governement organisations
                         -> organisations in general
             -> benefits
-                ->   
+                -> high avaliability
+                -> desaster recovery
+                    -> automatic failover
+                    -> replication
+                    -> backup options   
 """
