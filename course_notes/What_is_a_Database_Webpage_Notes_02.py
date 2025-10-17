@@ -155,7 +155,7 @@
             -> it mimics MySQL
             -> for Microsoft customers only
                 -> it is compatible with Windows and Linux
-            ->
+            -> 
 
 
 """
