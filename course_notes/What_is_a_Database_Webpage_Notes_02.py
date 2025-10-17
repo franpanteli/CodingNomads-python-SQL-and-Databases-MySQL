@@ -340,6 +340,9 @@
                     data management capabilities
                     -> ability to handle high-write and read loads
             -> benefits
-                -> 
+                -> tunable consistency allows for personalised levels for each read-and-write operation
+                -> ease of use and developer-friendly features
+                -> supporting multiple programming languages
+                    -> 
     -> summary
 """
