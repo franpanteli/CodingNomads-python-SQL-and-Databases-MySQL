@@ -93,5 +93,7 @@
     -> most popular databases list
         -> MySQL
             -> THIS IS A RELATIONAL DATABASE MANAGEMENT SYSTEM (RDBMS)
-            -> 
+            -> this is for storing and managing data
+            -> for web applications and data warehousing
+                -> speedy, reliable and relatively easy to use
 """
