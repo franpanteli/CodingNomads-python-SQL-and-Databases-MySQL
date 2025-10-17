@@ -348,6 +348,7 @@
                     -> Java
                     -> Python
                     -> C++
-                -> 
+                -> it has a large community that provides many resources, to help developers get started
+                
     -> summary
 """
