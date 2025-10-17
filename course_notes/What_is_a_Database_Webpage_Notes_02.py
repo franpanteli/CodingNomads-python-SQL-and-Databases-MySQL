@@ -113,6 +113,21 @@
             -> it is reliable, scalable and has a robust feature set
                 -> for managing large amounts of data
                 -> used for data warehousing, web applications and other data-intensive tasks
-            -> 
+            -> this was developed at UC Berkeley
+            -> data integrity
+            -> concurrency control
+            -> SQL support
+            -> supports advanced datatypes (arrays)
+                -> good for application development
+            -> PostgreSQL is good for
+                -> data security
+                -> support for data encryption
+                -> role-based access control
+                -> other security features
+                -> location-based applications
+                    -> built-in support for full-text search and geographic data
+            -> avaliable on multiple operating systems
+            -> why use PostgreSQL
+                -> 
 
 """
