@@ -313,8 +313,11 @@
                 -> free, open-source
                 -> a distributed NoSQL database management system
                 -> it can handle large amounts of data across many commodity servers
-                    -> eliminating a single point of failiure
-                -> 
+                    -> eliminating a single point of failure
+                -> a scalable, high-performance system that can support a high write and read throughput
+                -> IT CAN SCALE ACROSS MULTIPLE SERVERS (NODES)
+                    -> and so, handle large datasets
+                -> highly avaliable
             -> benefits
     -> summary
 """
