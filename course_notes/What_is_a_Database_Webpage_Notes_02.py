@@ -378,5 +378,5 @@
             -> Mongo DB
             -> IBM DB2
             -> Redis
-            -> Apache Cassandra 
+            -> Apache Cassandra
 """
