@@ -317,7 +317,9 @@
                 -> a scalable, high-performance system that can support a high write and read throughput
                 -> IT CAN SCALE ACROSS MULTIPLE SERVERS (NODES)
                     -> and so, handle large datasets
-                -> highly avaliable
+                -> highly available <- it can continue operating and remain fully operational, even if one or more nodes
+                    fail
+                -> 
             -> benefits
     -> summary
 """
