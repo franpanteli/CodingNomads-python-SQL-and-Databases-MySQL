@@ -252,5 +252,11 @@
                 -> desaster recovery
                     -> automatic failover
                     -> replication
-                    -> backup options   
+                    -> backup options
+                -> works with multiple languages
+                    -> SQL, C, C++, Java, .NET
+                -> developer tools and resources
+        -> Redis
+            -> about 
+            -> benefits
 """
