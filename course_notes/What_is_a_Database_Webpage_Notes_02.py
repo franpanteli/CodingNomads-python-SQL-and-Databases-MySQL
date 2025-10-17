@@ -164,7 +164,19 @@
                             -> enhanced security and compliance
                             -> improved analytics and AI
             -> benefits
-                -> 
+                -> wide use of data types and integrity
+                -> advanced features, such as data replication, partitioning, built-in query optimiser, and full-text search
+                -> security features
+                    -> data encryption
+                    -> role-based access control
+                    -> auditing
+                -> scalability
+                -> avaliablity
+                -> management and administration tools
+        -> MongoDB
+            -> about
+                -> this is a document-
+            -> benefits
 
 
 
