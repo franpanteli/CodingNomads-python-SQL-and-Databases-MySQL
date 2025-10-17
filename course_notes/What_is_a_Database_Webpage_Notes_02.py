@@ -351,6 +351,9 @@
                 -> it has a large community that provides many resources, to help developers get started
                 -> there are SQL and Database tutorials in this course
                     -> mostly MySQL for this
-                -> it is one of the most popular, industry-leading relational database technologies in the market 
+                -> it is one of the most popular, industry-leading relational database technologies in the market
+                -> open-source and free
     -> summary
+        -> using the MySQL database <- next
+        -> 
 """
