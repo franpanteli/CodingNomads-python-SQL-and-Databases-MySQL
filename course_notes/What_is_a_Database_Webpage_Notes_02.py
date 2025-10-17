@@ -355,5 +355,7 @@
                 -> open-source and free
     -> summary
         -> using the MySQL database <- next
-        -> 
+        -> databases organise structured information
+        -> DATABASES ORGANISE STRUCTURED INFORMATION <- DATA  
+        ->
 """
