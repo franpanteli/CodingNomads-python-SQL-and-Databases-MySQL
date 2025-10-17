@@ -310,6 +310,10 @@
                 -> a community with resources
         -> Apache Cassandra
             -> about
+                -> free, open-source
+                -> a distributed NoSQL database management system
+                -> it can handle large amounts of data across many commodity servers
+                    -> eliminating a single point of failiure
                 -> 
             -> benefits
     -> summary
