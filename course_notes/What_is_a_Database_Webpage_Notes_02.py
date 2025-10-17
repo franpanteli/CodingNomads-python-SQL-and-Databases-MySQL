@@ -56,5 +56,20 @@
             -> DATABASES CAN BE QUERIED, SPREADSHEETS CAN'T IN THE SAME CAPACITY
         -> DATA PERSISTENCE <- SAVING DATA TO A DATABASE IN SOFTWARE ENGINEERING
             -> DATA SAVED BY A JAVASCRIPT APPLICATION CAN BE ACCESSED USING A PYTHON ONE
-            -> 
+            -> to analyse data
+    -> database components
+        -> hardware
+            -> physical devices that store the database
+        -> software
+            -> managing / controlling a database
+            -> DATABASE MANAGEMENT SYSTEM <- DBMS
+        -> data
+            -> information stored in the database
+        -> DATABASE ACCESS LANGUAGE <- E.G, SQL
+            -> the language that allows us to interact with the DBMS (DATABASE MANAGEMENT SYSTEM)
+        -> procedures
+            -> rules and the DATABASE ARCHITECTURE
+            -> the rules determine how we interact with the database information
+    -> database types
+        -> 
 """
