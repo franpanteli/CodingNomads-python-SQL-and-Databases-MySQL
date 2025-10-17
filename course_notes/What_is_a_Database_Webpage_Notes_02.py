@@ -71,5 +71,27 @@
             -> rules and the DATABASE ARCHITECTURE
             -> the rules determine how we interact with the database information
     -> database types
-        -> 
+        -> relational, NoSQL, cloud, centralised, distributed, object-oriented, graph and operational
+        -> relational databases
+            -> HOW DIFFERENT DATABASES ARE RELATED TO EACH OTHER
+            -> these are some of the most common
+            -> RELATIONAL DATABASES USE SQL
+        -> NoSQL databases
+            -> NOT ONLY SQL
+            -> NON-RELATIONAL, NON-TABULAR DATABASES
+            -> these allow more data storage flexibility
+            -> these store and query data in ways that best fit the data
+                -> document
+                -> key-value
+                -> colomnar
+                -> graph format
+        -> cloud databases
+            -> THESE ARE NOT THE ONLY TYPE OF DATABASES
+            -> these store information in remote servers
+            -> users pay for a subscription
+            -> they are used by major companies
+    -> most popular databases list
+        -> MySQL
+            -> THIS IS A RELATIONAL DATABASE MANAGEMENT SYSTEM (RDBMS)
+            -> 
 """
