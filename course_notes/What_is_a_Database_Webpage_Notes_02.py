@@ -288,10 +288,29 @@
                         -> this ensures data availability and can prevent data loss
                 -> this is a high-performance, in-memory data store
                 -> for use-cases involving low-latency and high-throughput data processing
-                -> 
+                -> features
+                    -> support for advanced data structures
+                    -> data persistence
+                    -> advanced features
+                    -> ease of use
+                    -> developer-friendly features
+                    -> real-time analytics
+                    -> for use in
+                        -> leaderboards
+                        -> message ques
+                        -> use cases that require fast data access
             -> benefits
+                -> advanced features
+                    -> Lua scripting
+                    -> transactions
+                    -> pub/sub messaging
+                -> ease of use
+                -> developer-friendly features
+                -> support for multiple programming languages
+                -> a community with resources
         -> Apache Cassandra
             -> about
+                -> 
             -> benefits
     -> summary
 """
