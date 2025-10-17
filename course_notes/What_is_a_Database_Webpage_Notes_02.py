@@ -215,8 +215,24 @@
                         -> works with SQL, C, C++, Java and .NET (multiple languages)
                         -> has a wide range of developer tools and resources
         -> IBM DB2
-            ->
-            
+            -> about
+                -> this is a RDBMS <- RELATIONAL DATABASE MANAGEMENT SYSTEM
+                -> for enterprise-level data management and processing
+                -> made by IBM
+                    -> designed to work with other IBM products
+                        -> WebSphere
+                        -> UBM Congos
+                        -> for database management and analysis
+                -> for various operating systems <- Windows, Linux and UNIX
+                -> large datasets
+                    -> advanced data compression and partitioning
+                        -> this can reduce storage space required and improve performance
+                -> supports a range of data types
+                    -> structured
+                    -> semi-structured
+                    -> unstructured 
+
+
 
 
 
