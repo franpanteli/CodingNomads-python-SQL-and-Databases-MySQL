@@ -7,5 +7,31 @@
         -> databases vs spreadsheets
         -> database components
         -> different types of databases
-        -> the most
+        -> the most popular databases list
+            -> MySQL
+            -> PostgreSQL
+            -> Oracle
+            -> Microsoft SQL Server
+            -> MongoDB
+            -> IBM DB2
+            -> Redis
+            -> Apache Cassandra
+        -> summary: what is a database
+    -> introduction
+        -> DATABASES ARE FOR THE CONTENTS OF WEBPAGES
+            -> they contain values
+            -> applications rely on databases to store and manage the data
+        -> this lesson is about
+            -> the definition of a database
+            -> common uses for databases
+            -> types of databases
+            -> the most popular databases <- MongoDB is part of this
+    -> definition of a database
+        -> a system for organising structured information (data)
+            -> rows / columns, like a spreadsheet
+            -> this can be done electronically
+                -> we can search / store / analyse and modify data, using a computer system
+    -> what you can do with a database
+        -> managing data <- large amounts of data in a structured system
+        -> accuratley store data <-
 """
