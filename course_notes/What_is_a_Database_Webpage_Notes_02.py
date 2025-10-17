@@ -367,5 +367,13 @@
         -> databases vs spreadsheets
             -> working in a smarter, more efficient way
         -> most common types of databases
+            -> relational
+            -> NoSQL
+            -> Cloud
+        -> common databases list
+            -> MySQL
+            -> PostgreSQL
+            -> Oracle
+            -> Microsoft SQL Server
             -> 
 """
