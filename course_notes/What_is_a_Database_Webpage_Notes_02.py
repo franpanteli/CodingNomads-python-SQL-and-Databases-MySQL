@@ -109,6 +109,10 @@
                 -> administrative tools
                     -> phpMyAdmin
         -> PostgreSQL
+            -> this is an OPEN-SOURCE OBJECT-RELATIONAL DATABASE MANAGEMENT SYSTEM <- ORDBMS
+            -> it is reliable, scalable and has a robust feature set
+                -> for managing large amounts of data
+                -> used for data warehousing, web applications and other data-intensive tasks
             -> 
 
 """
