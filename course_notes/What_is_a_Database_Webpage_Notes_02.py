@@ -151,14 +151,21 @@
                     -> Oracle Autonomous Database
                         -> fully autonomous, self-driving, self-securing and a self-repairing database service
         -> Microsoft SQL Server
-            -> a CLOSED-SOURCE relational database
-            -> it mimics MySQL
-            -> for Microsoft customers only
-                -> it is compatible with Windows and Linux
-            -> MS has invested in new features and improvements
-                -> Azure SQL <- cloud database service and SQL database as a service, and SQL on Linux environments
-                ->
-                 
+            -> about
+                -> a CLOSED-SOURCE relational database
+                -> it mimics MySQL
+                -> for Microsoft customers only
+                    -> it is compatible with Windows and Linux
+                -> MS has invested in new features and improvements
+                    -> Azure SQL <- cloud database service and SQL database as a service, and SQL on Linux environments
+                    -> they released new versions of SQL Server, like SQL Server 2019
+                        -> this includes new features and improvements
+                            -> support for big data scenarios
+                            -> enhanced security and compliance
+                            -> improved analytics and AI
+            -> benefits
+                -> 
+
 
 
 """
