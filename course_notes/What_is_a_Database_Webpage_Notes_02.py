@@ -327,7 +327,9 @@
                     -> unstructured data
                 -> support for data modeling and querying
                     -> can work with various datasets
-                -> supports advanced data analytics and reporting capabilities 
+                -> supports advanced data analytics and reporting capabilities
+                    -> built-in data warehousing tools
+                    -> this makes extracting insights from large datasets easier 
             -> benefits
     -> summary
 """
