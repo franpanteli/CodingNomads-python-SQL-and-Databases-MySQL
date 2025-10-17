@@ -265,7 +265,7 @@
                         -> STORES DATA IN A KEY-VALUE FORMAT
                 -> speed and performance
                     -> data is stored in memory
-                    -> si it can perform operations 
+                    -> it can perform operations
             -> benefits
         -> Apache Cassandra
             -> about
