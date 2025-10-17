@@ -237,10 +237,16 @@
                     -> built-in data mining
                     -> data warehousing tools
                         -> so extracting insights from large data sets is easier
+                -> an enterprise-level RDBMS for large and complex data management, and processing tasks
+                    -> can handle large and diverse data sets (multiple file types)
+                    -> advanced data analytics
+                    -> reporting capabilities
+                    -> high avaliability and desaster recovery options
+                    -> developer-friendly features
+                    -> a popular choice for
+                        -> businesses
+                        -> governement organisations
+                        -> organisations in general
+            -> benefits
                 ->   
-
-
-
-
-
 """
