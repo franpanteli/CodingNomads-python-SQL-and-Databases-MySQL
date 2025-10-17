@@ -175,8 +175,34 @@
                 -> management and administration tools
         -> MongoDB
             -> about
-                -> this is a document-
+                -> this is a document-oriented, open source database management system
+                -> to store large amounts of dats
+                -> part of the NoSQL database family
+                    -> FOR UNSTRUCTURED AND SEMI-STRUCTURED DATA
+                -> IT STORES DATA IN THE FORM OF BSON (BINARY JSON) DOCUMENTS
+                    -> these are like JSON objects
+                        -> they can contain several types of data
+                            -> strings
+                            -> numbers
+                            -> arrays
+                            -> other documents
+                -> ALL OF THESE ARE SYSTEMS FOR MANAGING DATABASES - MONGODB IS ONE
             -> benefits
+                -> more flexible than traditional relational databases
+                -> SHARDING <- IT SCALES HORIZONTALLY ACROSS MULTIPLE SERVERS
+                    -> large datasets can be stored and queried efficiently
+                        -> across multiple servers
+                        -> sometimes, we have too much data for one server
+                -> automatic failover and replication
+                    -> high avaliability and data durability
+                -> a wide variety of indexing options
+                    -> full-text search
+                    -> geospatial indexing
+                    -> query language
+                    -> easy to perform complex queries and data analysis
+                -> it has an aggregation framework
+                    -> this can perform data processing and analytics on large datasets
+                    ->  
 
 
 
