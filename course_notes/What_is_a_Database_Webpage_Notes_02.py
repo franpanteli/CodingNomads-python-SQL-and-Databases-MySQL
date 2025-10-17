@@ -375,5 +375,8 @@
             -> PostgreSQL
             -> Oracle
             -> Microsoft SQL Server
-            -> 
+            -> Mongo DB
+            -> IBM DB2
+            -> Redis
+            -> Apache Cassandra 
 """
