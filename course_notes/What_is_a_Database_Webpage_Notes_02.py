@@ -332,7 +332,8 @@
                     -> this makes extracting insights from large datasets easier
                     -> it is a distributed and highly scalable NoSQL database
                         -> for large and complex data management and processing tasks
-                        -> 
+                    -> it can handle large and diverse data sets, advanced data analytics and reporting capabilities
+                    -> 
             -> benefits
     -> summary
 """
