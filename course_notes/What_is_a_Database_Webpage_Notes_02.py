@@ -103,6 +103,12 @@
                 -> MySQL is one of the most popular RDBMS's
                     -> this is included in this course tutorial series
             -> why use this
-                -> 
+                -> high performance and scalability
+                -> advanced features <- replication, partitioning, built-in query optimiser, full-text search
+                -> management tools
+                -> administrative tools
+                    -> phpMyAdmin
+        -> PostgreSQL
+            -> 
 
 """
