@@ -282,7 +282,7 @@
                 -> built-in support for data expiration
                     -> this enables it to be useful for caching and time-sensitive data
                 -> it supports data persistence
-                    -> the data can survive a Redis server restart or crash 
+                    -> the data can survive a Redis server restart or crash
             -> benefits
         -> Apache Cassandra
             -> about
