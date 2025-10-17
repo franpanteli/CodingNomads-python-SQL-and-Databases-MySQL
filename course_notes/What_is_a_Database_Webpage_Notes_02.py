@@ -92,8 +92,17 @@
             -> they are used by major companies
     -> most popular databases list
         -> MySQL
-            -> THIS IS A RELATIONAL DATABASE MANAGEMENT SYSTEM (RDBMS)
-            -> this is for storing and managing data
-            -> for web applications and data warehousing
-                -> speedy, reliable and relatively easy to use
+            -> about
+                -> THIS IS A RELATIONAL DATABASE MANAGEMENT SYSTEM (RDBMS)
+                -> this is for storing and managing data
+                -> for web applications and data warehousing
+                    -> speedy, reliable and relatively easy to use
+                -> this uses SQL
+                    -> STRUCTURED QUERY LANGUAGE
+                    -> this is also used with other languages, e.g PHP, JS and Python
+                -> MySQL is one of the most popular RDBMS's
+                    -> this is included in this course tutorial series
+            -> why use this
+                -> 
+
 """
