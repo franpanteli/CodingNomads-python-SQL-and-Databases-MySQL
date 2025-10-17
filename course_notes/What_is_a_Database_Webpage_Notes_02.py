@@ -319,7 +319,8 @@
                     -> and so, handle large datasets
                 -> highly available <- it can continue operating and remain fully operational, even if one or more nodes
                     fail
-                -> 
+                -> automatic data replication across multiple nodes
+                    -> ensuring data durability and availability
             -> benefits
     -> summary
 """
