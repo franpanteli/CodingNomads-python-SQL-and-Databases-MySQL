@@ -132,6 +132,21 @@
                 -> stored procefures can be called without having to retype code
                 -> provides triggers and views for complex data manupulation and querying
         -> Oracle
-            -> 
+            -> an open-source relational database
+            -> used by corporate businesses and enterprise customers
+            -> IT IS USED FOR ANALYSING GLOBAL DATA USAGE
+            -> benefits
+                -> reliability, scalability and performance
+                -> for integrity, transactions, and locking
+                -> built-in query optimiser that can auomatically optimise queries, for better performance
+                -> security features <- data encryption, role-based access control and auditing
+                -> built-in support for high avaliability and desaster recovery
+                    -> Data Guard, Real Application Clusters (RAC) and Active Data Guard
+                    -> it contains most of the features of other RDBMS's, and more
+            -> it is built on multi-model architecture
+                -> it can support relational and NoSQL data
+            -> it uses SQL <- STRUCTURED QUERY LANGUAGE for data manipulation
+                ->
+
 
 """
