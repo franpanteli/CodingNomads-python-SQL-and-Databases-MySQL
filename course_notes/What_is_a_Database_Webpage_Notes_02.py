@@ -151,7 +151,11 @@
                     -> Oracle Autonomous Database
                         -> fully autonomous, self-driving, self-securing and a self-repairing database service
         -> Microsoft SQL Server
-            -> CLOSED-COURSE 
+            -> a CLOSED-SOURCE relational database
+            -> it mimics MySQL
+            -> for Microsoft customers only
+                -> it is compatible with Windows and Linux
+            ->
 
 
 """
