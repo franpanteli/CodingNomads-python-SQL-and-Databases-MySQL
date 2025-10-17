@@ -230,7 +230,14 @@
                 -> supports a range of data types
                     -> structured
                     -> semi-structured
-                    -> unstructured 
+                    -> unstructured
+                    -> built-in support for XML, JSON and RDF data types
+                        -> works with diverse datasets
+                -> supports advanced data analytics and reporting capabilities
+                    -> built-in data mining
+                    -> data warehousing tools
+                        -> so extracting insights from large data sets is easier
+                ->   
 
 
 
