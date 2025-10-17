@@ -365,5 +365,7 @@
             -> modifying digital data using a computer system
             -> processing millions / billions of rows of data
         -> databases vs spreadsheets
-            -> working in a smarter, more efficient way 
+            -> working in a smarter, more efficient way
+        -> most common types of databases
+            -> 
 """
