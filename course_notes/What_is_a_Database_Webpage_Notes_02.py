@@ -155,7 +155,8 @@
             -> it mimics MySQL
             -> for Microsoft customers only
                 -> it is compatible with Windows and Linux
-            ->  
+            -> MS has invested in new features and improvements
+                -> Azure SQL <-   
 
 
 """
