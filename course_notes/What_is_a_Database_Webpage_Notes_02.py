@@ -265,7 +265,16 @@
                         -> STORES DATA IN A KEY-VALUE FORMAT
                 -> speed and performance
                     -> data is stored in memory
-                    -> it can perform operations
+                    -> it cn perform operations much faster than disk-based databases
+                        -> this means it is suitable for low-latency, high throughput data processing
+                            -> e.g
+                                -> real-time analytics
+                                -> leaderboards
+                                -> message queries
+                -> it also supports many data structures
+                    -> strings
+                    -> hashes
+                    -> 
             -> benefits
         -> Apache Cassandra
             -> about
