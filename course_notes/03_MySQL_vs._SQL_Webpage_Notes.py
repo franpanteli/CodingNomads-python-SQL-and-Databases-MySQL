@@ -5,5 +5,11 @@
         -> what is SQL
             -> what SQL is used for
         -> what is MySQL
-            -> what is a relational database 
+            -> what is a relational database
+            -> is MySQL free?
+            -> what kind of server is MySL
+            -> MySQL advantages
+        -> summary <- SQL vs MySQL
+    -> introduction
+        -> 
 """
