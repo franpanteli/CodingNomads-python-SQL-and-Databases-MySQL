@@ -330,7 +330,9 @@
                 -> supports advanced data analytics and reporting capabilities
                     -> built-in data warehousing tools
                     -> this makes extracting insights from large datasets easier
-                    -> 
+                    -> it is a distributed and highly scalable NoSQL database
+                        -> for large and complex data management and processing tasks
+                        -> 
             -> benefits
     -> summary
 """
