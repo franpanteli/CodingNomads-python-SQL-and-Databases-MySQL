@@ -274,7 +274,15 @@
                 -> it also supports many data structures
                     -> strings
                     -> hashes
-                    -> 
+                    -> lists
+                    -> sets
+                    -> sorted sets
+                -> this allows for greater flexibility in storing and querying data
+                    -> this enables the use of various data models
+                -> built-in support for data expiration
+                    -> this enables it to be useful for caching and time-sensitive data
+                -> it supports data persistence
+                    -> the data can survive a Redis server restart or crash 
             -> benefits
         -> Apache Cassandra
             -> about
