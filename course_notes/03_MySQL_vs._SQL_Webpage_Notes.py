@@ -45,4 +45,8 @@
             -> Oracle
             -> Microsoft SQL Server
             -> MongoDB
+            -> once you know one of them, you can use the rest
+                -> each RDBMS is more similar than different
+        -> what is a relational database
+            ->  
 """
