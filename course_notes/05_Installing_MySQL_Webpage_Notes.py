@@ -56,5 +56,7 @@
         -> we check the MySQL version to see if MySQL was actually installed
         -> MySQL is then added to the System PATH
             -> this allows us to access MySQL in the terminal
-        -> 
+        -> next
+            -> how to install and create a new connection with MySQL Workbench
+            -> this is a MySQL management tool 
 """
