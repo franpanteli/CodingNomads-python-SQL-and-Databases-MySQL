@@ -7,5 +7,42 @@
         -> what is MySQL
         -> MySQL vs SQL
         -> how to use MySQL Workbench
-    -> 
+    -> talking about databases at a big picture
+        -> keywords
+        -> relational and non-relational
+            -> relational databases <- MySQL
+            -> oracle, IBM, SQLServer
+            -> different companies have them for managing users, inventory, etc
+            -> tech companies use relational databases
+        -> using IoT
+            -> millions of records per days
+                -> the queries in relational models can take too long
+                -> the models might also not fit the data
+                -> this is why we use NoSQL databases
+                    -> Splunk, CouchDB, Cassandra
+                    -> they are for a different use case
+                        -> more data
+        -> MySQL
+            -> SQL is a language <- Structured Query Language, for querying the data
+            -> MySQL is a software application, for managing the data
+            -> different companies have relational databases at their core
+            -> this is a database technology
+        -> MySQL Workbench
+            -> this has a GUI and is for interacting with MySQL
+            -> it has a GUI
+            -> for working with MySQL databases
+        -> MySQL
+            -> he logs into the shell in the terminal
+            -> use sakila <- this is an example of an SQL command that can be used with it
+            -> he is selecting different tables with it
+                -> different syntax for querying the databases
+                -> DIFFERENT DATABASES HAVE DIFFERENT CONNECTIONS / SCHEMAS
+                    -> relational
+            -> use sakila
+                -> this is what he types into the RDBMS
+                -> for working with entity relationshp diagrams
+                -> how the tables are related to each other
+                    -> relational
+        -> differences
+            ->   
 """
