@@ -66,5 +66,12 @@
         -> Facebook has one called Cassandra
             -> more complex than relational
         -> types
-            -> 
+            -> SQL database
+                -> relational
+                -> Analytical (OLAP)
+            -> NoSQL database
+                -> column friendly
+                -> graph
+                -> document
+                -> key-value
 """
