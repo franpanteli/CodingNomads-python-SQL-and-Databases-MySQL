@@ -46,6 +46,10 @@
             -> go to the end of the file
             -> then type this: export PATH="/usr/local/mysql/bin:$PATH"
             -> exit out of the nano editor -> Ctrl+X, Y
-            -> 
-
+            -> then in the terminal: source ~/.bash_profile
+                -> this reloads the bash profile to make the changes †ake effect
+            -> then you can check the MySQL version, using: mysql -v
+        -> this can also be done in Windows
+    -> summary
+        -> 
 """
