@@ -51,5 +51,10 @@
             -> then you can check the MySQL version, using: mysql -v
         -> this can also be done in Windows
     -> summary
+        -> this webpage was how to install MySQL
+        -> you can use the MySQL installation directions for the machine
+        -> we check the MySQL version to see if MySQL was actually installed
+        -> MySQL is then added to the System PATH
+            -> this allows us to access MySQL in the terminal
         -> 
 """
