@@ -40,5 +40,9 @@
             -> high-performing
             -> handling data in an organised way
         -> SQL is the language it uses, to query the database
-        -> 
+        -> other RDBMS examples
+            -> PostgreSQL
+            -> Oracle
+            -> Microsoft SQL Server
+            -> MongoDB
 """
