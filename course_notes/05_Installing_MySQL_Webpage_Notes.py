@@ -1,0 +1,39 @@
+""" Installing MySQL Webpage Notes
+    -> outline
+        -> introduction
+        -> how to install MySQL
+            -> installation notes
+        -> is MySQL installed on my machine?
+            -> chacking MySQL installation on
+                -> Mac
+                -> Linux
+                -> Windows
+        -> Adding MySQL to the System PATH
+            -> on Mac
+            -> on Windows
+        -> Summary: how to install MySQL
+    -> introduction
+        -> how to install MySQL
+        -> checking the MySQL version
+        -> adding MySQL to the System PATH, so we can access MySQL in the terminal
+    -> how to install MySQL
+        -> following the latest MySQL installation directions
+        -> they have notes on how to do this
+        -> then using the page for using MySQL in the CLI
+        -> installation notes
+            -> use a strong password
+            -> 12 characters
+            -> upper and lowercase letters, numbers and special characters
+            -> read all instructions carefully
+    -> is MySQL installed on my machine?
+        -> we complete the MySQL installation on the machine
+        -> then specific commands can be run on the machine, to test if MySQL is installed and running
+    -> check MySQL installation on Mac
+        -> this can be done in System preferences
+        -> it can also be done on the terminal
+            -> sudo /usr/local/mysql/support-files/mysql.server start
+            -> IF IT IS ALREADY RUNNING, IT WILL THROW AN ERROR
+        -> if this does not work, use this: sudo launchctl load -F /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
+        -> then checking the current version on the machine: mysql --version
+    -> 
+"""
