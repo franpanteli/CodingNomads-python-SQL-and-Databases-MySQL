@@ -44,6 +44,8 @@
             -> in the terminal
             -> nano ~/.bash_profile
             -> go to the end of the file
+            -> then type this: export PATH="/usr/local/mysql/bin:$PATH"
+            -> exit out of the nano editor -> Ctrl+X, Y
             -> 
 
 """
