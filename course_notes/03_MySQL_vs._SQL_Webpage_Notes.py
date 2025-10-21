@@ -96,5 +96,6 @@
                 -> MySQL IS A SOFTWARE APPLICATION FOR EDITING RELATIONAL DATABASES <- RELATIONAL DATABASE MANAGEMENT
                     SYSTEM: RDBMS
                     -> THEY STORE DATA IN SEPARATE TABLES THAT ARE CONNECTED BY RELATIONSHIPS BETWEEN THEIR COLUMNS
-                
+                -> MySQL is free open source software
+                    -> anyone can use it / modify it
 """
