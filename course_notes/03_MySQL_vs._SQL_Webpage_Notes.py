@@ -58,5 +58,14 @@
             -> THEY USE SQL
             -> MYSQL IS A RELATIONAL DATABASE MANAGEMENT SYSTEM (RDBMS)
         -> is MySQL free?
-            -> n
+            -> it is an open source software / RDBMS
+            -> it is free
+            -> there is source code that you can study
+                -> you can change the code for your context
+            -> IT USES GNU <- GENERAL PUBLIC LICENSE
+                -> to define what you can nd can't do wit the software
+                -> you can use their code in a commercial application
+                    -> you would have to buy a commercial license from Oracle for this
+        -> what kind of server is MySQL
+            -> it uses a multithreaded SQL server, that operates as a client / server system
 """
