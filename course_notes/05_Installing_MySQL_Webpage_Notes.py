@@ -35,5 +35,7 @@
             -> IF IT IS ALREADY RUNNING, IT WILL THROW AN ERROR
         -> if this does not work, use this: sudo launchctl load -F /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
         -> then checking the current version on the machine: mysql --version
-    -> 
+    -> adding MySQL to the System PATH
+        -> running the mysql command
+        -> getting an 
 """
