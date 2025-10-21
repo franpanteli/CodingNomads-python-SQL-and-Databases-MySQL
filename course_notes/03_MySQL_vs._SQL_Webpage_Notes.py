@@ -68,5 +68,9 @@
                     -> you would have to buy a commercial license from Oracle for this
         -> what kind of server is MySQL
             -> IT USES A MULTITHREADED SQL SERVER, THAT OPERATES AS A CLIENT / SERVER SYSTEM
-            -> 
+            -> this supports different backends, client programs and libraries, administrative tools
+            -> API <- APPLICATION PROGRAMMING INTERFACE
+            -> it has an embedded multithreaded library <- the application can become smaller, faster and easier to
+                manage
+        ->
 """
