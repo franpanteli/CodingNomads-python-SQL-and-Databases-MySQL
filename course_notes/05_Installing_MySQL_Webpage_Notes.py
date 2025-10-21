@@ -37,5 +37,13 @@
         -> then checking the current version on the machine: mysql --version
     -> adding MySQL to the System PATH
         -> running the mysql command
-        -> getting an 
+        -> getting an ""'mysql' is not recognized as an internal or external command"" error means that MySQL isn't
+            added to the system PATH variable
+            -> this contains a list of directories that the operating system can search for the MySQL command
+        -> to add MySQL to the system path:
+            -> in the terminal
+            -> nano ~/.bash_profile
+            -> go to the end of the file
+            -> 
+
 """
