@@ -31,6 +31,7 @@
             -> this has a GUI and is for interacting with MySQL
             -> it has a GUI
             -> for working with MySQL databases
+            -> for vosualising how databases are related to each other
         -> MySQL
             -> he logs into the shell in the terminal
             -> use sakila <- this is an example of an SQL command that can be used with it
@@ -38,7 +39,7 @@
                 -> different syntax for querying the databases
                 -> DIFFERENT DATABASES HAVE DIFFERENT CONNECTIONS / SCHEMAS
                     -> relational
-            -> use sakila
+            -> using it for the sakila database
                 -> this is what he types into the RDBMS
                 -> for working with entity relationshp diagrams
                 -> how the tables are related to each other
