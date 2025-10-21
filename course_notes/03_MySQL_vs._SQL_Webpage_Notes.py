@@ -67,5 +67,6 @@
                 -> you can use their code in a commercial application
                     -> you would have to buy a commercial license from Oracle for this
         -> what kind of server is MySQL
-            -> it uses a multithreaded SQL server, that operates as a client / server system
+            -> IT USES A MULTITHREADED SQL SERVER, THAT OPERATES AS A CLIENT / SERVER SYSTEM
+            -> 
 """
