@@ -48,5 +48,15 @@
             -> once you know one of them, you can use the rest
                 -> each RDBMS is more similar than different
         -> what is a relational database
-            ->  
+            -> RDBMS  <- a system for storing and providing access to related data points
+            ->  THEY ORGANISE DATA INTO SCHEMAS
+                -> TABLES WITH ROWS AND COLUMNS, WHICH ARE CONNECTED BY PRE-DEFINED RELATIONSHIPS
+                -> statistics
+            -> optimised for speed
+            -> the relational database rules are to ensure speed and avoid inconsistent, duplicate, out-of-date or
+                missing date
+            -> THEY USE SQL
+            -> MYSQL IS A RELATIONAL DATABASE MANAGEMENT SYSTEM (RDBMS)
+        -> is MySQL free?
+            -> n
 """
