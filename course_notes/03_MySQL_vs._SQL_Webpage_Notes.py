@@ -72,5 +72,29 @@
             -> API <- APPLICATION PROGRAMMING INTERFACE
             -> it has an embedded multithreaded library <- the application can become smaller, faster and easier to
                 manage
-        ->
+        -> MySQL advantages
+            -> it is for handling large databases
+            -> it has been used for decades
+            -> it offers sets of functions and is under development constantly
+            -> connectivity, speed and security
+            -> for accessing databases on the internet
+            -> it is commonly used by applications we use
+            -> IT OPERATES ON THE DESKTOP / LAPTOP WITH OTHER APPLICATIONS AND SERVERS
+            -> you can allocate an entire machine to MySQL
+                -> this would allow you to fine-tune the settings to optimise the memory avaliale, CPU power and I/O
+                    capacity
+                -> it is scalable and can extend to other interconnected machines
+            -> advantages
+                -> fast
+                -> reliable
+                -> SCALABLE
+                -> easy to use
+                -> widely used and supported
+            -> summary
+                -> SQL IS A QUERYING LANGUAGE
+                    -> for managing, manipulating and querying RELATIONAL DATABASES
+                -> MySQL IS A SOFTWARE APPLICATION FOR EDITING RELATIONAL DATABASES <- RELATIONAL DATABASE MANAGEMENT
+                    SYSTEM: RDBMS
+                    -> THEY STORE DATA IN SEPARATE TABLES THAT ARE CONNECTED BY RELATIONSHIPS BETWEEN THEIR COLUMNS
+                
 """
