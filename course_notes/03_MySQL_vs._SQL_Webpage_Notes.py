@@ -32,5 +32,13 @@
                 -> embedded into code in another language
                 -> written directly into the database
                 -> it can also be used with a language-specific API that can hide SQL syntax
-                
+    -> what is MySQL
+        -> MySQL is an RDBMS
+        -> benefits
+            -> reliable
+            -> easy to use
+            -> high-performing
+            -> handling data in an organised way
+        -> SQL is the language it uses, to query the database
+        -> 
 """
