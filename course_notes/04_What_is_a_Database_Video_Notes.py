@@ -45,5 +45,26 @@
                 -> how the tables are related to each other
                     -> relational
         -> differences
-            ->   
+            -> SQL <- Structured Query Language, for querying databases
+            -> MySQL <- an application for managing databases (RDBMS, Relational Database Management System)
+                -> this is done with SQL
+            -> MySQLWorkbench
+                -> a GUI for interfacing with MySQL databases
+        -> relational
+            -> they are similar to Excel spreadsheets, except the spreadsheets are linked more closley with each other
+                -> you can also process them analytically
+            -> cubes of data
+            -> YOU CAN CREATE PIVOT TABLES
+            -> vertical
+            -> comments
+            -> fast databases
+                -> working down the columns, without relations between them
+            -> A HASHMAP IS A KEY-VALUE STORE
+            -> we have specific tools for specific jobs
+                -> different companies use different RDBMS's
+                -> databasing / interfacing applications
+        -> Facebook has one called Cassandra
+            -> more complex than relational
+        -> types
+            -> 
 """
