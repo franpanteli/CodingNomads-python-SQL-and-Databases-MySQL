@@ -11,5 +11,26 @@
             -> MySQL advantages
         -> summary <- SQL vs MySQL
     -> introduction
-        -> 
+        -> MySQL vs SQL
+    -> MySQL vs SQL
+        -> SQL IS A QUERYING LANGUAGE FOR RELATIONAL DATABASES
+        -> MYSQL IS A DATABASE SOFTWARE APPLICATION
+            -> AN RDBSM <- RELATIONAL DATABASE MANAGEMENT SYSTEM
+        -> SQL is the language you use to interact with the database, MySQL is the database that stores it
+    -> what is SQL
+        -> SQL is a computer language, for database management and manipulation
+        -> STRUCTURED QUERY LANGUAGE
+            -> it is also pronounced sequel, or just SQL (letters)
+        -> this has been an international standard, since 1987
+        -> THE SQL STANDARD IS THE CURRENT VERSION OF THE SQL INTERNATIONAL STANDARD AT A GIVEN POINT IN TIME
+    -> what is SQL used for
+        -> RDBMS's <- RELATIONAL DATABASE MANAGEMENT SYSTEMS, USED TO MANAGE RELATIONAL DATABASES
+            -> e.g, MySQL, support SQL
+            -> Select, Delete, Update, Create and Drop SQL commands interact with these
+            -> context
+                -> it can be embedded in the code
+                -> embedded into code in another language
+                -> written directly into the database
+                -> it can also be used with a language-specific API that can hide SQL syntax
+                
 """
