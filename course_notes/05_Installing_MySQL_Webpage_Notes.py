@@ -58,5 +58,5 @@
             -> this allows us to access MySQL in the terminal
         -> next
             -> how to install and create a new connection with MySQL Workbench
-            -> this is a MySQL management tool 
+            -> this is a MySQL management tool
 """
