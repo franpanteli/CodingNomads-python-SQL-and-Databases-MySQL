@@ -58,8 +58,8 @@
             -> this can be done, without having to reorganise the database tables themselves
         -> the Amazon website has more information about this
     -> example of relational database
-        -> there is a diagram of the schemas in a relational database
-            -> this is the kind of table that MySQL Workbench can generate
-        ->
+        -> THERE IS A DIAGRAM OF THE SCHEMAS IN A RELATIONAL DATABASE
+            -> THIS IS THE KIND OF TABLE THAT MYSQL WORKBENCH CAN GENERATE
+        -> 
     -> summary: what is a relational database?
 """
