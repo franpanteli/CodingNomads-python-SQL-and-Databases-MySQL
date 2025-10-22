@@ -29,7 +29,11 @@
         -> RELATIONAL MODELS <- TO ORGANISE DATA INTO A SPREADSHEET FORMAT
         -> these use SQL to manage and query the database data
     -> relational databases design
-        -> 
+        -> RELATIONAL DATABASES USE SCHEMAS
+            -> THESE DOCUMENT THE RELATIONSHIPS BETWEEN TABLES OF DATA
+            -> DATA FIELDS <- COLUMNS
+                -> MANY-MANY, ONE-TO-ONE, ONE-TO-MANY, UNIQUE, REQUIRED OR OPTIONAL
+                -> pointers between different tables 
     -> relational schemas
     -> relational database tables
     -> example of relational database
