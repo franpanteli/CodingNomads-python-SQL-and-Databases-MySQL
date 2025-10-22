@@ -35,9 +35,17 @@
                 -> MANY-MANY, ONE-TO-ONE, ONE-TO-MANY, UNIQUE, REQUIRED OR OPTIONAL
                 -> pointers between different tables
                 -> the database enforces these relationship rules
-                    -> this means the application avoids 
+                    -> this means the application avoids inconsistent, duplicate, orphan, out-of-date, or missing data
+        -> they can be organised into physical files, that are optimised for speed
+            -> logical organisation <- for a flexible programming environment
+                -> this uses objects such as databases, tables, views, rows, and columns
+                -> DATABASES CAN INCLUDE MANY TABLES, NOT THE OTHER WAY AROUND
+                -> they have a lesson on database schemas, that details this
     -> relational schemas
+        -> A RELATIONAL SCHEMA IS A BLUEPRINT OF HOW ALL DATABASE ITEMS ARE RELATED TO EACH OTHER
+        -> THEY ARE REPRESENTED AS A DIAGRAM OF CONNECTED TABLES, FOR EXAMPLE BY MySQLWorkbench
     -> relational database tables
+        -> 
     -> example of relational database
     -> summary: what is a relational database?
 """
