@@ -47,5 +47,15 @@
                 -> you can also click the refresh button
                     -> this is used, for example if there are changes to the database schema
                 -> if you want to change the last name of a woman in the database
-                    -> you can change 
+                    -> you can change the name of an actor in the database, by clicking on it and typing the entry
+                    -> you can get a representation of all the tables
+                    -> he changes one of the names
+                    -> this changes the name in the database
+                        -> he then applies tihs change
+                        -> he uses the GUI
+                            -> doing this is equivalent to typing SQL commands, which it then shows
+                -> WORKING WITH ENTITY RELATIONSHIP DIAGRAMS
+                    -> there is a tabl that is open with a new database connection
+                    -> there is a file called skila.mwb
+                        -> 
 """
