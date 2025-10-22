@@ -45,7 +45,13 @@
         -> A RELATIONAL SCHEMA IS A BLUEPRINT OF HOW ALL DATABASE ITEMS ARE RELATED TO EACH OTHER
         -> THEY ARE REPRESENTED AS A DIAGRAM OF CONNECTED TABLES, FOR EXAMPLE BY MySQLWorkbench
     -> relational database tables
-        -> 
+        -> RELATIONAL DATABASE TABLES are tables that the RDBMS holds
+        -> they look like a spreadsheet
+            -> columns hold one kind of data
+            -> A FIELD IS LIKE A CELL IN THE SPREADSHEET <- IT STORES THE INFORMATION (ATTRIBUTE)
+            -> each row represents a series of related values
+                -> EACH ROW CAN BE MARKED WITH A PRIMARY KEY <- THIS IS A UNIQUE IDENTIFIER
+            -> Rows among multiple tables can be related, by using foreign keys
     -> example of relational database
     -> summary: what is a relational database?
 """
