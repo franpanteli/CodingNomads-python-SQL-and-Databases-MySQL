@@ -26,5 +26,6 @@
         -> if you see a screen with an error, then you need to start the MySQL server
             -> then you quit MySQL Workbench, start MySQL and relaunch MySQL Workbench
     -> Summary: how to install MySQL Workbench and create a MySQL database connection
-        -> 
+        -> you can install MySQL Workbench by following the official instructions on their webpage
+        -> you then create a MySQL database connection using the local host default data
 """
