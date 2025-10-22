@@ -38,5 +38,11 @@
                 -> AI <- auto increment
                 -> G <- generated columns
                     -> a value that MySQL will generate, for example when you insert a record
-                    -> 
+                    -> there are multiple ways you can generate a field
+                    -> do an update to the current timestamp, for example
+                        -> timestamps are automatically generated when you update the table
+                -> to alter table, change the column or the datatype
+                -> he goes to the actor table, you can click on the icon that looks like a spreadsheet with a lightning
+                    bolt on the LHS, to select the top 200 database entries
+                -> you can also  
 """
