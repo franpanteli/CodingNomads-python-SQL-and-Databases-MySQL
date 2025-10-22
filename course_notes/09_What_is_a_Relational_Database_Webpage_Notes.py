@@ -16,7 +16,7 @@
                 -> tables, rows and columns
                 -> THIS PAPER DEFINES THE USE OF SQL
                     -> for accessing and manipulating the data
-                    -> STRUCTURED QUERY LANGUAGE (SQL)
+                    -> SQL <- STRUCTURED QUERY LANGUAGE SQL
             -> the firs commercial RDBMS's were then introduced in the 1980s
                 -> IBM's System R
                 -> Oracle's databases
@@ -26,8 +26,10 @@
         -> RDBMS <- RELATIONAL DATABASE MANAGEMENT SYSTEM
             -> FOR MANAGING RELATED DATAPOINTS
                 -> accessing and manipulating them
-                 
+        -> RELATIONAL MODELS <- TO ORGANISE DATA INTO A SPREADSHEET FORMAT
+        -> these use SQL to manage and query the database data
     -> relational databases design
+        -> 
     -> relational schemas
     -> relational database tables
     -> example of relational database
