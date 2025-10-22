@@ -44,5 +44,8 @@
                 -> to alter table, change the column or the datatype
                 -> he goes to the actor table, you can click on the icon that looks like a spreadsheet with a lightning
                     bolt on the LHS, to select the top 200 database entries
-                -> you can also  
+                -> you can also click the refresh button
+                    -> this is used, for example if there are changes to the database schema
+                -> if you want to change the last name of a woman in the database
+                    -> you can change 
 """
