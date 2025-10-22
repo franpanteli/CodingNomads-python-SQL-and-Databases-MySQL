@@ -8,6 +8,7 @@
     -> what is MySQL Workbench
         -> MySQL WORKBENCH IS A GUI FOR INTERACTING WITH MySQL
         -> MySQL is an application for relational database management
+            -> This is run in the CLI
         -> 
     -> how to install MySQL Workbench
         ->
