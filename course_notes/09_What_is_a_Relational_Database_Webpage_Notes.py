@@ -74,5 +74,8 @@
     -> summary: what is a relational database?
         -> RDBMS <- RELATIONAL DATABASE MANAGEMENT SYSTEM
             -> this is a system for storing and accessing datapoints that are related to each other
+            -> they organise information into one or more tables with rows and columns (spreadsheets, basically)
+        -> SQL IS USED TO INTERACT WITH RELATIONAL DATABASE DATA
+        -> RELATIONAL SCHEMAS ARE BLUEPRINTS OF HOW THE TABLES AND THEIR ITEMS RELATE TO EACH OTHER
         -> 
 """
