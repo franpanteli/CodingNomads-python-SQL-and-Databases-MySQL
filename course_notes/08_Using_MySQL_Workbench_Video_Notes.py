@@ -11,5 +11,32 @@
         -> MySQL Workbench is the same thing, but with a GUI
         -> we previously installed this
         -> this required making a connection to a local host
-    -> 
+    -> in MySQL Workbench
+        -> it has a GUI
+            -> this is a GUI for MySQL databases
+            -> IT CONNECTS TO DIFFERENT DATABASES, THESE ARE CALLED CONNECTIONS
+        -> it manages multiple connections to multiple databases
+        -> we want to connect to the local host
+            -> MySQL has to be running on the machine for this to work
+            -> there are instructions for this in the course webpages
+        -> on the LHS, it shows the different databases that he is connected to
+            -> the Sakila database is an open-source database for movie rentals
+                -> this can be opened by double clicking on it
+                -> Sakila is the default database
+        -> you can run an SQL command in the main pane
+            -> you can set a default database for this
+            -> you can right click on the table and click select rows
+            -> you can right click and alter the table as well
+                -> this lets you change the table attributes
+                -> BIN <- binary
+                -> PK <- primary key
+                -> NN <- not null
+                -> UQ <- unique
+                -> UN <- UNSIGNED (NO SIGN)
+                    -> ONLY POSITIVE NUMBERS
+                -> ZF
+                -> AI <- auto increment
+                -> G <- generated columns
+                    -> a value that MySQL will generate, for example when you insert a record
+                    -> 
 """
