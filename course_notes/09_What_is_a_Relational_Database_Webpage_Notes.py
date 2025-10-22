@@ -33,7 +33,9 @@
             -> THESE DOCUMENT THE RELATIONSHIPS BETWEEN TABLES OF DATA
             -> DATA FIELDS <- COLUMNS
                 -> MANY-MANY, ONE-TO-ONE, ONE-TO-MANY, UNIQUE, REQUIRED OR OPTIONAL
-                -> pointers between different tables 
+                -> pointers between different tables
+                -> the database enforces these relationship rules
+                    -> this means the application avoids 
     -> relational schemas
     -> relational database tables
     -> example of relational database
