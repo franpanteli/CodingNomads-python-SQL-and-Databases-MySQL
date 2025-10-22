@@ -51,7 +51,13 @@
             -> A FIELD IS LIKE A CELL IN THE SPREADSHEET <- IT STORES THE INFORMATION (ATTRIBUTE)
             -> each row represents a series of related values
                 -> EACH ROW CAN BE MARKED WITH A PRIMARY KEY <- THIS IS A UNIQUE IDENTIFIER
-            -> Rows among multiple tables can be related, by using foreign keys
+            -> ROWS AMONG MULTIPLE TABLES CAN BE RELATED, BY USING FOREIGN KEYS
+        -> the data in these tables can be accessed many different ways
+            -> MySQL in the terminal
+            -> the MySQLWorkbench application <- nicer GUI, but application required
+            -> this can be done, without having to reorganise the database tables themselves
+        -> the Amazon website has more information about this
     -> example of relational database
+        -> 
     -> summary: what is a relational database?
 """
