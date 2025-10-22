@@ -73,5 +73,6 @@
                     -> scalable
     -> summary: what is a relational database?
         -> RDBMS <- RELATIONAL DATABASE MANAGEMENT SYSTEM
-        -> 
+            -> this is a system for storing and accessing datapoints that are related to each other
+            -> 
 """
