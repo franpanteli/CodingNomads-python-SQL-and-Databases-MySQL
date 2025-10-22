@@ -22,7 +22,9 @@
         -> click OK
         -> click Test connection
         -> make sure it is running, or the test will fail
-        -> if the test succeeds, it will look like the screenshot on the course webpage, at 
+        -> if the test succeeds, it will look like the screenshot on the course webpage, at https://codingnomads.com/how-to-install-mysql-workbench
+        -> if you see a screen with an error, then you need to start the MySQL server
+            -> then you quit MySQL Workbench, start MySQL and relaunch MySQL Workbench
     -> Summary: how to install MySQL Workbench and create a MySQL database connection
-        ->
+        -> 
 """
