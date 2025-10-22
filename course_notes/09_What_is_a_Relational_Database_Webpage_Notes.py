@@ -21,8 +21,12 @@
                 -> IBM's System R
                 -> Oracle's databases
                 -> these were based on Codd's ideas
-                    -> they are a foundation for the RDBMS's used today  
+                    -> they are a foundation for the RDBMS's used today
     -> what is a relational database?
+        -> RDBMS <- RELATIONAL DATABASE MANAGEMENT SYSTEM
+            -> FOR MANAGING RELATED DATAPOINTS
+                -> accessing and manipulating them
+                 
     -> relational databases design
     -> relational schemas
     -> relational database tables
