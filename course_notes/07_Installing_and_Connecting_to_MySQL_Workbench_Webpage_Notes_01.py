@@ -6,6 +6,8 @@
         -> how to create a MySQL database connection
         -> Summary: how to install MySQL Workbench and create a MySQL database connection
     -> what is MySQL Workbench
+        -> MySQL WORKBENCH IS A GUI FOR INTERACTING WITH MySQL
+        -> MySQL is an application for relational database management
         -> 
     -> how to install MySQL Workbench
         ->
