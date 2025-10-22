@@ -63,5 +63,6 @@
                         -> THIS IS AN .mwb FILE
                         -> you can also create a table structure
                             -> see the column names, the data types, attributes and more
-                -> MySQL Workbench has an  
+                -> MySQL Workbench has a GUI for interacting with MySQL databases
+                    -> you can connect to MySQL from the command line
 """
