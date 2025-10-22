@@ -12,7 +12,16 @@
             -> IBM researcher
             -> published a paper in 1970
             -> HE PROPOSED RULES FOR ORGANISING AND MANIPULATING DATA IN A RELATIONAL DATABASE
-                -> these
+                -> THESE ARE CALLED THE CODD RULES <- PRINCIPLES OF RELATIONAL DATABASES
+                -> tables, rows and columns
+                -> THIS PAPER DEFINES THE USE OF SQL
+                    -> for accessing and manipulating the data
+                    -> STRUCTURED QUERY LANGUAGE (SQL)
+            -> the firs commercial RDBMS's were then introduced in the 1980s
+                -> IBM's System R
+                -> Oracle's databases
+                -> these were based on Codd's ideas
+                    -> they are a foundation for the RDBMS's used today  
     -> what is a relational database?
     -> relational databases design
     -> relational schemas
