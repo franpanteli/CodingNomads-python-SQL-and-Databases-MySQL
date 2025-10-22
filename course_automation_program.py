@@ -5,7 +5,8 @@ import sys
 import os
 
 while True:
-    #print menu 
+    #print menu
+    print("For best results, be cd'd into the project directory")
     print("\n=== Course Automation Menu ===")
     print("1. Push all changes to GitHub")
     print("2. Auto-push to GitHub every minute (turn on)")
