@@ -72,5 +72,5 @@
                     -> concise
                     -> scalable
     -> summary: what is a relational database?
-        -> 
+        ->
 """
