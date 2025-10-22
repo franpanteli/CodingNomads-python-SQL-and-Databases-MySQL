@@ -56,6 +56,12 @@
                             -> doing this is equivalent to typing SQL commands, which it then shows
                 -> WORKING WITH ENTITY RELATIONSHIP DIAGRAMS
                     -> there is a tabl that is open with a new database connection
-                    -> there is a file called skila.mwb
-                        -> 
+                    -> there is a file called skila.mwb for this
+                        -> he opens this file in MySQL Workbench
+                        -> you can use this to visualise the database
+                        -> IT SHOWS THE CONNECTIONS BETWEEN THE DATABASE SCHEMAS
+                        -> THIS IS AN .mwb FILE
+                        -> you can also create a table structure
+                            -> see the column names, the data types, attributes and more
+                -> MySQL Workbench has an  
 """
