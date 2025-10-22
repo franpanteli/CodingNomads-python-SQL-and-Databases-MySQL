@@ -72,5 +72,6 @@
                     -> concise
                     -> scalable
     -> summary: what is a relational database?
-        ->
+        -> RDBMS <- RELATIONAL DATABASE MANAGEMENT SYSTEM
+        -> 
 """
