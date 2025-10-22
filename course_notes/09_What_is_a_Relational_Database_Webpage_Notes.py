@@ -61,6 +61,11 @@
         -> THERE IS A DIAGRAM OF THE SCHEMAS IN A RELATIONAL DATABASE
             -> THIS IS THE KIND OF TABLE THAT MYSQL WORKBENCH CAN GENERATE
             -> this only contains information about one particular element
-            -> e.g, the Passenger table only contains information related to the Passenger 
+            -> e.g, the Passenger table only contains information related to the Passenger
+                -> the Flight table only contains information about the flight
+                -> INFORMATION RELEVANT TO EACH TABLE IS ONLY CONFINED TO THAT TABLE
+                -> TABLES CAN BE RELATED USING KEYS
+                    -> this is later in the course
+                -> THIS IS THE RELATIONAL SCHEMA DESIGN -> RELATING DATABASE TABLES TO EACH OTHER, BY USING KEYS
     -> summary: what is a relational database?
 """
