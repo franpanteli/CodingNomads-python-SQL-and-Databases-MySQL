@@ -11,8 +11,8 @@
         -> Dr E. F. Codd
             -> IBM researcher
             -> published a paper in 1970
-            -> he proposed rules for organising and manipulating data in a relational database
-            -> these
+            -> HE PROPOSED RULES FOR ORGANISING AND MANIPULATING DATA IN A RELATIONAL DATABASE
+                -> these
     -> what is a relational database?
     -> relational databases design
     -> relational schemas
