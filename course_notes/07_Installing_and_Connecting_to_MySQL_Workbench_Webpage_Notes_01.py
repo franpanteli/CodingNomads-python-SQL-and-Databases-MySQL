@@ -7,11 +7,11 @@
         -> Summary: how to install MySQL Workbench and create a MySQL database connection
     -> what is MySQL Workbench
         -> MySQL WORKBENCH IS A GUI FOR INTERACTING WITH MySQL
-        -> MySQL is an application for relational database management
-            -> This is run in the CLI
-        -> 
+        -> MySQL IS AN APPLICATION FOR RELATIONAL DATABASE MANAGEMENT
+            -> THIS IS RUN IN THE CLI
+        -> MySQL WORKBENCH INTRODUCES A GUI FOR THIS
     -> how to install MySQL Workbench
-        ->
+        -> follow the instructions on their website 
     -> How to create a MySQL database connection
         ->
     -> Summary: how to install MySQL Workbench and create a MySQL database connection
