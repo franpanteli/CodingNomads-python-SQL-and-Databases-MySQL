@@ -11,7 +11,8 @@
             -> THIS IS RUN IN THE CLI
         -> MySQL WORKBENCH INTRODUCES A GUI FOR THIS
     -> how to install MySQL Workbench
-        -> follow the instructions on their website 
+        -> follow the instructions on their website
+        -> this is at https://dev.mysql.com/doc/workbench/en/wb-installing-windows.html
     -> How to create a MySQL database connection
         ->
     -> Summary: how to install MySQL Workbench and create a MySQL database connection
