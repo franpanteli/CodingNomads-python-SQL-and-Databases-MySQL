@@ -77,5 +77,6 @@
             -> they organise information into one or more tables with rows and columns (spreadsheets, basically)
         -> SQL IS USED TO INTERACT WITH RELATIONAL DATABASE DATA
         -> RELATIONAL SCHEMAS ARE BLUEPRINTS OF HOW THE TABLES AND THEIR ITEMS RELATE TO EACH OTHER
-        -> 
+    -> modelling a relational database <- next
+        -> this is using the Sakila database
 """
