@@ -6,7 +6,6 @@ import os
 
 while True:
     #print menu
-    print("For best results, be cd'd into the project directory")
     print("\n=== Course Automation Menu ===")
     print("1. Push all changes to GitHub")
     print("2. Auto-push to GitHub every minute (turn on)")
@@ -18,6 +17,7 @@ while True:
     print("8. Clear terminal")
     print("9. Change the case of input text, to upper or lowercase")
     print("10. Exit")
+    print("(For best results, be cd'd into the project directory)")
 
     choice = input("Enter your choice (1-10): ").strip()
 
