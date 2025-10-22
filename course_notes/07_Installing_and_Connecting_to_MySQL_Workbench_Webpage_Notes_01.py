@@ -15,7 +15,14 @@
         -> this is at https://dev.mysql.com/doc/workbench/en/wb-installing-windows.html
     -> How to create a MySQL database connection
         -> creating a new MySQL database connection, from inside MySQL
-        -> 
+        -> launch the application and click the + icon, to create a new connection
+        -> configure the settings for this connection
+        -> click Store in Keychain
+        -> type the MySQL password that we saved when installing MySQL
+        -> click OK
+        -> click Test connection
+        -> make sure it is running, or the test will fail
+        -> if the test succeeds, it will look like the screenshot on the course webpage, at 
     -> Summary: how to install MySQL Workbench and create a MySQL database connection
         ->
 """
