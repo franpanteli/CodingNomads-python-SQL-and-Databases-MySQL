@@ -14,7 +14,8 @@
         -> follow the instructions on their website
         -> this is at https://dev.mysql.com/doc/workbench/en/wb-installing-windows.html
     -> How to create a MySQL database connection
-        ->
+        -> creating a new MySQL database connection, from inside MySQL
+        -> 
     -> Summary: how to install MySQL Workbench and create a MySQL database connection
         ->
 """
