@@ -67,5 +67,10 @@
                 -> TABLES CAN BE RELATED USING KEYS
                     -> this is later in the course
                 -> THIS IS THE RELATIONAL SCHEMA DESIGN -> RELATING DATABASE TABLES TO EACH OTHER, BY USING KEYS
+                -> this keeps the data
+                    -> clean
+                    -> concise
+                    -> scalable
     -> summary: what is a relational database?
+        -> 
 """
