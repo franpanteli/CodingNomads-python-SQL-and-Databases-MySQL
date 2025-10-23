@@ -60,7 +60,16 @@
                 -> we want to divide this into tables
                 -> WE CHOOSE ONE COLUMN, OR MULTIPLE, AS THE PRIMARY KEY
             -> primary key
-                -> IN THE RELATIONAL MODEL, THE TABLE CAN'T CONTAIN DUPLICATE ROWS
-                    -> this would create ambiguities
-                        
+                -> use and benefits
+                    -> IN THE RELATIONAL MODEL, THE TABLE CAN'T CONTAIN DUPLICATE ROWS
+                        -> this would create ambiguities
+                        -> WE WANT DATA TO BE UNIQUE - THIS IS ONE OF THE REASONS WE USE A PRIMARY KEY
+                    -> A PRIMARY KEY IS CALLED A SIMPLE KEY, IF IT'S A SINGLE COLUMN
+                        -> IT IS CALLED A COMPOSITE KEY IF IT IS MADE UP OF SEVERAL COLUMNS
+                    -> RDBMS'S build an index on the primary key
+                        -> it is used to search for data
+                        -> this is also used to reference other tables
+                    -> WE HAVE TO DECIDE WHICH COLUMN IN THE DATABASE CONTAINS THIS
+                -> properties
+                    -> 
 """
