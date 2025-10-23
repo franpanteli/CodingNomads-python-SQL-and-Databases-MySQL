@@ -1,4 +1,33 @@
 """ Tutorial on Relational Database Design Webpage Notes 
     -> outline
-        -> 
+        -> introduction
+        -> database design objective
+        -> relational database design process
+            -> step 1: define the purpose of the database
+            -> step 2: gather data, organise in tables and specify the primary keys
+            -> step 3: create relationships among tables
+                -> one-to-many
+                -> many-to-many
+                -> one-to-one
+            -> step 4: refine and normalise the design
+                -> normalisation
+                -> first normal form
+                -> second normal form
+                -> third normal form
+                -> higher normal form
+                -> integrity rules
+                -> column indexing
+            -> references and resources
+    -> introduction
+        -> this is an explanation of why relational databases are considered relational
+        -> this is a quick-start tutorial
+        -> relational databases were proposed by Edgar Codd
+            -> IBM research
+            -> 1916
+        -> the dominant database model for commercial applications
+            -> in comparison to other database models <- hierarchical, network and object models
+        -> RDBMS <- Relational Database Management System
+            -> Oracle, IBM DB2, Microsoft SQL Server
+            -> there are free / open source ones <- MySQL, mSQL (mini SQL), embedded JavaDB (Apache Derby)
+        -> relational databases organise data    
 """
