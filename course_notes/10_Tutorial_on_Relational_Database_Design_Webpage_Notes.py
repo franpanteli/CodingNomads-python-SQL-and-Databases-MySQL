@@ -35,5 +35,26 @@
         -> relationships can be created among the tables
             -> this enables the database to store large amounts of data and retrieve selected data
             -> SQL <- STRUCTURED QUERY LANGUAGE
-    ->     
+    -> database design objective
+        -> we-designed databases will:
+            -> eliminate data redundancy
+                -> the same piece of data isn't stored in the same place
+                -> duplicate data wastes storage space and leads to insecurities
+            -> ensure data integrity
+            -> ensure the accuracy of data
+    -> relational database design process
+        -> about
+            -> DATABASE DESIGN requires many decisions
+                -> IT IS CONTEXT DEPENDENT
+                -> for a particular application
+                    -> no two are the same
+                    -> guidelines, in terms of what not to do, rather than what to do - are provided in making the design
+                        decision, but the choices are individual
+        -> step 1: define the purpose of the database (requirement analysis)
+            -> gather the requirements
+            -> define the database objective
+            -> this can require drafting input forms / queries, etc
+        -> step 2: gather data, organise tables and specify the primary keys
+            ->
+                
 """
