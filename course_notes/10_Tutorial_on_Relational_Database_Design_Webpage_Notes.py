@@ -55,5 +55,8 @@
             -> define the database objective
             -> this can require drafting input forms / queries, etc
         -> step 2: gather data, organise tables and specify the primary keys
-            ->   
+            -> we decide the purpose of the database
+            -> then we the data it stores
+                -> we want to divide this into tables
+                -> WE CHOOSE ONE COLUMN, OR MULTIPLE, AS THE PRIMARY KEY   
 """
