@@ -71,5 +71,14 @@
                         -> this is also used to reference other tables
                     -> WE HAVE TO DECIDE WHICH COLUMN IN THE DATABASE CONTAINS THIS
                 -> properties
-                    -> 
+                    -> ITS VALUES HAVE TO BE UNIQUE
+                        -> no duplicate values
+                        -> there could be two customers with the same name, for example
+                    -> the primary key will always have a value - it can't be NULL
+                    -> it should be simple and familiar
+                    -> IT'S VALUE SHOULDN'T BE CHANGED, BECAUSE IT IS REFERENCED IN THE TABLES
+                        -> it is used to reference other tables
+                        -> if you change it's value, you have to change all the references
+                        -> the references will otherwise be lost
+                        ->  
 """
