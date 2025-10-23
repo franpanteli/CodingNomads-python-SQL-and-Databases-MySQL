@@ -70,6 +70,9 @@
                         -> it is used to search for data
                         -> this is also used to reference other tables
                     -> WE HAVE TO DECIDE WHICH COLUMN IN THE DATABASE CONTAINS THIS
+                    -> it is usually a single column
+                        -> it can also be made up of several columns
+                        -> it should be set with as little columns as possible
                 -> properties
                     -> ITS VALUES HAVE TO BE UNIQUE
                         -> no duplicate values
@@ -86,5 +89,10 @@
                     -> IT COULD TAKE AN ARBITRARY NUMBER - E.G, AN AUTO-INCREMENT
                         -> an integer for the primary key
                         -> IT IS FACT-LESS - IT CONTAINS NO FACTUAL INFORMATION
-                        ->  
+                -> example
+                    -> a table called `customers`, that contains columns: lastName, firstName, phoneNumber, address,
+                        city, state, zipCode
+                    -> we can use most of the columns as the primary key
+                    ->  
+
 """
