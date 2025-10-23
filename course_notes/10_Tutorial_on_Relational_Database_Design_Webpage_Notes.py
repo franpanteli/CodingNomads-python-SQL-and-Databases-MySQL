@@ -58,5 +58,7 @@
             -> we decide the purpose of the database
             -> then we the data it stores
                 -> we want to divide this into tables
-                -> WE CHOOSE ONE COLUMN, OR MULTIPLE, AS THE PRIMARY KEY   
+                -> WE CHOOSE ONE COLUMN, OR MULTIPLE, AS THE PRIMARY KEY
+            -> primary key
+                ->   
 """
