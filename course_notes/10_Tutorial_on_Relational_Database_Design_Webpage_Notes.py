@@ -102,16 +102,15 @@
             -> TYPES OF RELATIONS BETWEEN TABLES
                 #1 ONE-TO-MANY
                     -> examples
-                        -> many students to one teacher - 'class roster'
+                        -> MANY STUDENTS TO ONE TEACHER - 'class roster'
                         -> many employees to one manager
                         -> many orders to one customer
                     -> about
-
-
-
-
-
-
+                        -> THIS IS NOT REPRESENTED BY A SINGLE TABLE
+                            -> THERE CAN BE A SINGLE TEACHERS TABLE, BUT WE ALSO NEED ANOTHER TABLE FOR ALL THE STUDENTS
+                                FOR THAT ONE TEACHER
+                            -> IF WE USED ONE TABLE FOR THIS EXAMPLE, THEN DATA WOULD BE REPLICATED - AND THIS ISN'T
+                                ALLOWED
                 #2 MANY-TO-MANY
                 #3 ONE-TO-ONE
         -> step 4: redefine and normalise the design
