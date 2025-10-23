@@ -80,5 +80,11 @@
                         -> it is used to reference other tables
                         -> if you change it's value, you have to change all the references
                         -> the references will otherwise be lost
+                    -> it uses an integer (number) type
+                        -> it could be other types - e.g, text
+                        -> IT IS BEST TO USE NUMBERS AS THE PRIMARY KEY, FOR EFFICIENCY
+                    -> IT COULD TAKE AN ARBITRARY NUMBER - E.G, AN AUTO-INCREMENT
+                        -> an integer for the primary key
+                        -> IT IS FACT-LESS - IT CONTAINS NO FACTUAL INFORMATION
                         ->  
 """
