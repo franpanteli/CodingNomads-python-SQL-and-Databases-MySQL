@@ -96,9 +96,19 @@
                     -> we don't use the columns with data that can change
                         -> personal information <- address / phone number
         -> step 3: create relationships among tables
-            ->
+            -> RELATIONAL DATABASE TABLES ARE CONNECTED
+                -> we care about the relationship between tables
+                -> we want to identify the relationship between tables
+            -> TYPES OF RELATIONS BETWEEN TABLES
+                #1 ONE-TO-MANY
+                    ->
+                #2 MANY-TO-MANY
+                #3 ONE-TO-ONE
         -> step 4: redefine and normalise the design
             ->
         -> resources and references
-            -> 
+            1. "Database design basics (Microsoft Access 2007)", available at http://office.microsoft.com/en-us/access/HA012242471033.aspx.
+            2. Paul Litwin, "Fundamentals of Relational Database Design", available at http://www.deeptraining.com/litwin/dbdesign/FundamentalsOfRelationalDatabaseDesign.aspx.
+            3. Codd E. F., "A Relational Model of Data for Large Shared Data Banks", Communications of the ACM, vol. 13, issue 6, pp. 377–387, June 1970.
+
 """
