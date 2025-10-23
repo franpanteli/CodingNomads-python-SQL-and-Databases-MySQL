@@ -60,5 +60,6 @@
                 -> we want to divide this into tables
                 -> WE CHOOSE ONE COLUMN, OR MULTIPLE, AS THE PRIMARY KEY
             -> primary key
-                -> IN THE RELATIONAL MODEL, THE TABLE CAN'T CONTAIN     
+                -> IN THE RELATIONAL MODEL, THE TABLE CAN'T CONTAIN DUPLICATE ROWS
+                    ->     
 """
