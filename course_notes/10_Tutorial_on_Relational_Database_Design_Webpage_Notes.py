@@ -105,8 +105,11 @@
                         -> many students to one teacher - 'class roster'
                         -> many employees to one manager
                         -> many orders to one customer
-                    -> this is not represented by a single table
-                    -> 
+                    -> about
+                        -> this is not represented by a single table
+                            -> there can be a single teachers table, but we also need another table for all the students
+                                for that one teacher
+                            ->  
                 #2 MANY-TO-MANY
                 #3 ONE-TO-ONE
         -> step 4: redefine and normalise the design
