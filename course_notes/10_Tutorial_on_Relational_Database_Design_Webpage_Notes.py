@@ -29,5 +29,11 @@
         -> RDBMS <- Relational Database Management System
             -> Oracle, IBM DB2, Microsoft SQL Server
             -> there are free / open source ones <- MySQL, mSQL (mini SQL), embedded JavaDB (Apache Derby)
-        -> relational databases organise data    
+        -> RELATIONAL DATABASES ORGANISE DATA IN SPREADSHEETS
+            -> TABLES ARE THE RELATIONS
+            -> A COLUMN IS CALLED A FIELD, OR ATTRIBUTE
+        -> relationships can be created among the tables
+            -> this enables the database to store large amounts of data and retrieve selected data
+            -> SQL <- STRUCTURED QUERY LANGUAGE
+    ->     
 """
