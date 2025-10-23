@@ -93,6 +93,12 @@
                     -> a table called `customers`, that contains columns: lastName, firstName, phoneNumber, address,
                         city, state, zipCode
                     -> we can use most of the columns as the primary key
-                    ->  
-
+                    -> we don't use the columns with data that can change
+                        -> personal information <- address / phone number
+        -> step 3: create relationships among tables
+            ->
+        -> step 4: redefine and normalise the design
+            ->
+        -> resources and references
+            -> 
 """
