@@ -111,9 +111,16 @@
                                 FOR THAT ONE TEACHER
                             -> IF WE USED ONE TABLE FOR THIS EXAMPLE, THEN DATA WOULD BE REPLICATED - AND THIS ISN'T
                                 ALLOWED
-                        -> 
+                        -> we need to define two tables
+                            -> one for hte teachers and one for the classes
+                            -> AND THEN A PRIMARY KEY, FOR EXAMPLE TEACHER ID, TO RELATE / LINK THE TABLES (RELATIONAL
+                                DATABASE)
+                            -> this is a one to many relationship
+                            -> WE HAVE PRIMARY KEYS, TEACHERS, AND FOREIGN KEYS, THE CLASSES THAT THEY TEACH (ONE:MANY)
                 #2 MANY-TO-MANY
+                    -> 
                 #3 ONE-TO-ONE
+                    ->
         -> step 4: redefine and normalise the design
             ->
         -> resources and references
