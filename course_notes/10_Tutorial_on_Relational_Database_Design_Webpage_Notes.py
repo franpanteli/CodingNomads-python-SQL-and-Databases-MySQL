@@ -106,11 +106,12 @@
                         -> many employees to one manager
                         -> many orders to one customer
                     -> about
-                        -> this is not represented by a single table
-                            -> there can be a single teachers table, but we also need another table for all the students
-                                for that one teacher
-                            -> if we used one table for this example, then data would be replicated - and THIS ISN'T
-                                ALLOWED
+
+
+
+
+
+
                 #2 MANY-TO-MANY
                 #3 ONE-TO-ONE
         -> step 4: redefine and normalise the design
