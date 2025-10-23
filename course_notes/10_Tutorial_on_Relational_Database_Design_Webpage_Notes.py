@@ -55,6 +55,5 @@
             -> define the database objective
             -> this can require drafting input forms / queries, etc
         -> step 2: gather data, organise tables and specify the primary keys
-            ->
-                
+            ->   
 """
