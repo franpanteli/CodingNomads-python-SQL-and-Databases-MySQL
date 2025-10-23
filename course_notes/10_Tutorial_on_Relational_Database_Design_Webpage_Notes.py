@@ -111,6 +111,7 @@
                                 FOR THAT ONE TEACHER
                             -> IF WE USED ONE TABLE FOR THIS EXAMPLE, THEN DATA WOULD BE REPLICATED - AND THIS ISN'T
                                 ALLOWED
+                        -> 
                 #2 MANY-TO-MANY
                 #3 ONE-TO-ONE
         -> step 4: redefine and normalise the design
