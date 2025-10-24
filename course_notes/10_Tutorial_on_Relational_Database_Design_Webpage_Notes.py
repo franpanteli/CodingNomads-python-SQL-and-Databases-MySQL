@@ -118,7 +118,20 @@
                             -> this is a one to many relationship
                             -> WE HAVE PRIMARY KEYS, TEACHERS, AND FOREIGN KEYS, THE CLASSES THAT THEY TEACH (ONE:MANY)
                 #2 MANY-TO-MANY
-                    -> 
+                    -> examples
+                        -> ordering things
+                            -> a customer can contain one or many products
+                            -> products can appear in many orders
+                        -> bookstore databases
+                            -> books written by one or more authors
+                            -> an author can write zero - more books
+                    -> ordering things (continued)
+                        -> designing this database
+                        -> Products and Orders tables
+                            -> the first contains information about the products
+                            -> the orders table contains information about the customer's orders
+                            ->
+                                 
                 #3 ONE-TO-ONE
                     ->
         -> step 4: redefine and normalise the design
