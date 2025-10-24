@@ -44,5 +44,8 @@
                 -> when the element is updated, this changes
                 -> APPLYING THESE CHANGES IN MYSQL WORKBENCH CREATES SQL, THAT IT SHOWS YOU
                     -> this shows the default values of different elements, the primary key and others
-                    ->  
+                    -> the auto-incrementing ID is used as the primary key
+                    -> WE WANT DATA THAT DOES NOT CHANGE AS THE PRIMARY KEY
+        -> we have the database, but there are no users
+            -> then, adding three fields  
 """
