@@ -81,5 +81,7 @@
                 -> set null <- so it sets the record to null
                 -> restrict <- so it doesn't delete the row
             -> THIS (IN MYSQL WORKBENCH) GENERATES SQL THAT WE CAN EDIT AND THEN APPLY
-            ->  
+                -> he inspects this SQL
+                    -> the UserID on the Posts table is linked by a constraint
+        -> there  
 """
