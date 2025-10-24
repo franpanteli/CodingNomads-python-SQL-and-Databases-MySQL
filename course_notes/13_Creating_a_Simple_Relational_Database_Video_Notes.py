@@ -130,5 +130,13 @@
                 -> he makes an SQL query, using MySQL Workbench
                 -> we have a database, created with tables, and it has data in it
                     -> you can delete users in the table, based on their UserID
-    -> deleting the  
+    -> he didn't create the keys
+        -> deleting one thing deletes the related data (in this database example)
+        -> he changes the query to accommodate this
+        -> he deletes one of the users from the database
+            -> this is done using SQL
+        -> he then inspects the database, to check if the user has been deleted
+            -> WE SETUP THE PRIMARY AND FOREIGN KEYS USING THE CASCADE APPROACH
+                -> THIS AFFECTS HOW THE DATABASE CHANGES WHEN ONE ELEMENT IS DELETED
+        -> 
 """
