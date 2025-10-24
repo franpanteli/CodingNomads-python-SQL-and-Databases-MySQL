@@ -66,7 +66,18 @@
                   PRIMARY KEY (ImageId))
         -> we then create the Posts table, to match the image shown in the course webpage
         -> Apply > Apply
-            -> this executes this SQL:  
+            -> this executes this SQL:
+                CREATE TABLE SocialDB.Posts (
+                PostId INT NOT NULL AUTO_INCREMENT
+                  UserId INT NOT NULL,
+                  PostText VARCHAR(500) NOT NULL,
+                  ImageId INT NULL,
+                  Date DATETIME NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+                  PRIMARY KEY (PostId));
+        -> we then create the foreign key constraint for the UserID field
+            -> this references the UserID field in the Users table
+            -> 
+
 
 
 """
