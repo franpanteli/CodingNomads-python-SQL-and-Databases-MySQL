@@ -145,7 +145,28 @@
                                     -> a product appears in many OrderDetails
                                         -> each OrderDetails item specified one product
                 #3 ONE-TO-ONE
-                    -> 
+                    -> in a product sales database
+                        -> one product:information about it
+                            -> images
+                            -> descriptions
+                            -> comments
+                            -> this information is kept in the Products table
+                            -> LARGE DATA CAN DEGRADE THE PERFORMANCE OF THE DATABASE
+                    -> we create a table, to store the optional data
+                        -> a record is only created for items with the optional data
+                        -> THERE CAN BE GAPS IN THE DATABASE, JUST NO DUPLICATES
+                        -> WE ALSO HAVE TO BE CAREFUL THAT THE DATA USED FOR THE PRIMARY KEY WON'T CHANGE, AND IS
+                            PREFERABLY A NUMBER FOR EFFICIENCY
+                        -> this is done with two extra tables, in a one-to-one relationship
+                        -> for every tow in the PARENT TABLE, there is at most one row in the child table
+                        -> SOME DATABASES LIMIT THE NUMBER OF COLUMNS THAT CAN BE CREATED INSIDE THE TABLE
+                            -> A ONE-TO-ONE RELATIONSHIP SHOULD BE USED FOR THIS, TO SPLIT THE DATA INTO TWO TABLES
+                    -> THESE RELATIONSHIPS ARE ALSO USEFUL FOR STORING SENSITIVE DATA IN A SECURE WAY
+                        -> NON-SENSITIVE DATA IN THE MAIN TABLE
+                    -> column data types
+                        -> we need to choose appropriate data for each column
+                            -> integers
+                            -> 
         -> step 4: redefine and normalise the design
             ->
         -> resources and references
