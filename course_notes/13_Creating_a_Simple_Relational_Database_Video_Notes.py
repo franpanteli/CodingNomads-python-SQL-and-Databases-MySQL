@@ -130,5 +130,5 @@
                 -> he makes an SQL query, using MySQL Workbench
                 -> we have a database, created with tables, and it has data in it
                     -> you can delete users in the table, based on their UserID
-    -> 
+    -> deleting the  
 """
