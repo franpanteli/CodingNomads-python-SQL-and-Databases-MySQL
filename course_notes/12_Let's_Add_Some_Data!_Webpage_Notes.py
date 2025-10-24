@@ -62,5 +62,7 @@
         -> we can change u.UserId to 2 or 3 to see the other user's posts
     -> summary
         -> how to add rows to each table, using INSERT INTO in SQL
-        -> 
+        -> how AUTO_INCREMENT and CURRENT_TIMESTAMP work automatically
+        -> how to query joined data from multiple tables
+    -> this is an SQL script that inserts all of this data into the database:
 """
