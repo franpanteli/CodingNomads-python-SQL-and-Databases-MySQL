@@ -110,5 +110,11 @@
             -> cascade twice
             -> applying these changes
     -> about what was just created
-        ->  
+        -> this is a simple relational database
+        -> oit cna be queried using SQL in MySQL Workbench
+        -> images have IDs
+        -> a post can have just one image (1:1)
+        -> A LOOK UP TABLE IS CREATED FOR MANY:MANY RELATIONSHIPS (THE FRIENDS THAT USERS HAVE)
+            -> he creates another table, for a many:many relationship
+            ->    
 """
