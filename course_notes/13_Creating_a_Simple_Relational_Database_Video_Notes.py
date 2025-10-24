@@ -90,5 +90,15 @@
         -> HAVING A LOOKUP TABLE TO CONNECT USER ID'S TO THE ID'S OF THEIR FRIENDS IN THE TABLE
             -> in a large dataset (e.g Facebook), you would need a different RDBMS
                 -> Cassandra
-            ->    
+        -> then adding the foreign keys
+            -> referencing the user's table
+            -> cascading on update
+            -> we want the reference that they have friends to be deleted, for example
+            -> he is editing the database in the MySQL Workbench GUI
+                -> this generates SQL, that is then applied
+                -> we can then see these changes
+        -> right clicking and selecting rows
+            -> applying more changes
+            -> YOU CAN QUERY THE DATABASE WITH SQL IN MYSQL WORKBENCH
+            ->   
 """
