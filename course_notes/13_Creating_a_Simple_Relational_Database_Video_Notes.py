@@ -68,9 +68,9 @@
         -> we can put the user's ID in the table
             -> one:many relationship with friends
                 -> every post has one author
-                -> we put the foreign key inside the table
-                    -> this is a foreign key
-                    -> the key inside the main table is called the primary key
+                -> WE PUT THE FOREIGN KEY INSIDE THE TABLE
+                    -> THIS IS A FOREIGN KEY
+                    -> THE KEY INSIDE THE MAIN TABLE IS CALLED THE PRIMARY KEY 
         -> WE CONNECT THE TABLES USING FOREIGN / PRIMARY KEYS
         ->
 """
