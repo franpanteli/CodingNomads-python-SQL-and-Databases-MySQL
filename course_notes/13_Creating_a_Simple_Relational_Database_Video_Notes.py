@@ -83,5 +83,12 @@
             -> THIS (IN MYSQL WORKBENCH) GENERATES SQL THAT WE CAN EDIT AND THEN APPLY
                 -> he inspects this SQL
                     -> the UserID on the Posts table is linked by a constraint
-        -> there  
+        -> PostId, UserId, ImageId, User update
+            -> each text has one author
+                -> 1:1
+        -> he creates the user's friends table
+        -> HAVING A LOOKUP TABLE TO CONNECT USER ID'S TO THE ID'S OF THEIR FRIENDS IN THE TABLE
+            -> in a large dataset (e.g Facebook), you would need a different RDBMS
+                -> Cassandra
+            ->    
 """
