@@ -130,8 +130,12 @@
                         -> Products and Orders tables
                             -> the first contains information about the products
                             -> the orders table contains information about the customer's orders
-                            ->
-                                 
+                            -> we don't know the amount of orders that will be made, or the amount of customers we will
+                                have
+                            -> WE CREATE A JUNCTION TABLE
+                                -> EACH ROW REPRESENTS AN ITEM OF A PARTICULAR ORDER
+                                    -> EACH ROW REPRESENTS AN ITEM OF A PARTICULAR ORDER
+                                ->   
                 #3 ONE-TO-ONE
                     ->
         -> step 4: redefine and normalise the design
