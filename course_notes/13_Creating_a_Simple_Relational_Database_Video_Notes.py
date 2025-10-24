@@ -47,5 +47,14 @@
                     -> the auto-incrementing ID is used as the primary key
                     -> WE WANT DATA THAT DOES NOT CHANGE AS THE PRIMARY KEY
         -> we have the database, but there are no users
-            -> then, adding three fields  
+            -> then, adding three fields
+                -> the userID and the date created are auto-created
+            -> running this again shows the SQL
+                -> this is in a certain order
+                -> WE CAN EDIT THE SQL THAT RUNNING MYSQL WORKBENCH GIVES US
+                -> then applying these changes
+                -> APPLYING THE CHANGES IN MYSQL WORKBENCH EXECUTES THE SQL IT SHOWS YOU
+            -> it has inserted a record into the database
+    -> creating the users table
+        -> 
 """
