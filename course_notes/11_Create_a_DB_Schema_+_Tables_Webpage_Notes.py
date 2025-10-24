@@ -24,11 +24,15 @@
             -> Mac
                 -> sudo /usr/local/mysql/support-files/mysql.server start
                 -> sudo launchctl load -F /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
-            -> Linux 
+            -> Linux
                 -> /etc/init.d/mysqld start
                 -> service mysqld start
                 -> service mysql start
-            -> Linux
-
-
+            -> Windows
+                -> C:\>"C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqld"
+        -> open MySQL Workbench
+        -> connect to the "localhost" connection
+            -> we need to set up this connection before doing this
+            -> this was covered on a previous webpage
+        -> in the open query tab, we run this SQL command: 
 """
