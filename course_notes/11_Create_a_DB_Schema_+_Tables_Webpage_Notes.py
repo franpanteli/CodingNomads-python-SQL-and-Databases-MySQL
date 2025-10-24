@@ -18,5 +18,9 @@
     -> how to create a database schema in MySQL
         -> steps for usingMySQL to create a database schema in Mac, Windows and Linux
         -> install MySQL on the machine
-            -> this is checked, by running 
+            -> this is checked, by running `mysql --version` from the CLI
+            -> if this isn't installed, refer to their instructions on how to install MySQL
+        -> run MySQL on the machine
+            -> Mac
+                -> 
 """
