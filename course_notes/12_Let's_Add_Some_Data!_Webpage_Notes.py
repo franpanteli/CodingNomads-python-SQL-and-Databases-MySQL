@@ -23,5 +23,7 @@
             ('Ed', 'Frinkel', 'ed@frinkel.co'),
             ('Sally', 'Doogooder', 'sally@doogooder.co'),
             ('George', 'Smith', 'george@smith.co');
-            -> then checking it, using 
+            -> then checking it, using SELECT * FROM Users;
+    -> then inserting data into the images table
+        -> this is done with the SQL: 
 """
