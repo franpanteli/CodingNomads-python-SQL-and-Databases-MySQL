@@ -143,9 +143,9 @@
                                     -> an order has many items in OrderDetails <- it is ordered many times
                                     -> an OrderDetails item belongs to one particular order
                                     -> a product appears in many OrderDetails
-                                        -> each OrderDetails item specified one product      
+                                        -> each OrderDetails item specified one product
                 #3 ONE-TO-ONE
-                    ->
+                    -> 
         -> step 4: redefine and normalise the design
             ->
         -> resources and references
