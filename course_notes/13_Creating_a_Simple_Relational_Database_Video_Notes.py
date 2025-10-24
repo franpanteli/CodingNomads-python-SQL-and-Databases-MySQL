@@ -67,5 +67,8 @@
         -> we are building out a database for a social media app
         -> we can put the user's ID in the table
             -> one:many relationship with friends
-        -> WE CONNECT THE TABLES  
+                -> every post has one author
+        -> WE CONNECT THE TABLES USING FOREIGN / PRIMARY KEYS
+        -> 
+
 """
