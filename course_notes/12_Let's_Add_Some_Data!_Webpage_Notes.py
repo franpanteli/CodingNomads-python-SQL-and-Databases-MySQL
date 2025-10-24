@@ -33,5 +33,13 @@
             ('https://i.pinimg.com/originals/f8/d4/b3/f8d4b3b32c3c18b4972b97f6474655a8.jpg');
         -> and checked with: SELECT * FROM Images;
     -> we then insert data into the posts table
-        -> this can be done with this SQL: 
+        -> this can be done with this SQL:
+            INSERT INTO Posts (UserId, PostText, ImageId) VALUES
+            (1, 'Ryan\'s First Post! Wahoo!', 4),
+            (2, 'Kim\'s First Post! Yay!', 2),
+            (3, 'Caden\'s First Post! Wow!', 3),
+            (4, 'Martin\'s on social media? :)', 1);
+        -> and checked with this: SELECT * FROM Posts;
+        -> this allows us to PostID auto-increments
+        -> Date defaults to the current timestamp
 """
