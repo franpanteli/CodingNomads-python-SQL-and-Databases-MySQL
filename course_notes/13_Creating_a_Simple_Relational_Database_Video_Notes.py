@@ -10,5 +10,18 @@
     -> make the connection
         -> you can click on the + buttons
         -> 127.0.0.1 <- this is the hostname, the connection is hosted on our computer
-        -> the port name is   
+        -> the port name is 33016 <- default for MySQL
+        -> you can call the connection name whatever you want
+        -> DON'T USE THE ROOT USER AS THE USERNAME IN THE REAL WORLD
+        -> then store in keychain <- this is the password
+        -> then testing the connection and seeing the success message
+            -> MySQL has to be running on the machine
+            -> it has to be to the correct connection
+    -> this creates a new connection
+        -> in the local MySQL installation
+            -> there is sys and information schema
+            -> socialDB <- he drops this database, to recreate it
+    -> creating the database
+        -> we want to create a database for a social media application
+            ->  
 """
