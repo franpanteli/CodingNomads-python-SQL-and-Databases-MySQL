@@ -232,7 +232,13 @@
                     -> quantity ordered has to be less than or equal to the stock
                 -> this is carried out with a validation rule, e.g for a specific column, or using programming logic
             -> COLUMN INDEXING
-                ->    
+                -> WE CAN CREATE AN INDEX ON CERTAIN COLUMNS
+                    -> this is used to search for, and or retrieve data
+                    -> AN INDEX IS A STRUCTURED FILE THAT SPEEDS UP DATA ACCESS FOR THE SQL SELECT QUERY
+                        -> WITHOUT THIS, THE DATABASE NEEDS TO COMPARE THE QUERY TO ALL OF THE INFORMATION IN THE TABLE
+                            -> for this reason, using an indexing file can speed up SQL queries
+                        -> THE INDEX NEEDS TO BE REBUILT WHENEVER A RECORD IS CHANGED
+                            -> THIS RE-INDEXING RESULTS IN OVERHEAD 
         -> resources and references
             1. "Database design basics (Microsoft Access 2007)", available at http://office.microsoft.com/en-us/access/HA012242471033.aspx.
             2. Paul Litwin, "Fundamentals of Relational Database Design", available at http://www.deeptraining.com/litwin/dbdesign/FundamentalsOfRelationalDatabaseDesign.aspx.
