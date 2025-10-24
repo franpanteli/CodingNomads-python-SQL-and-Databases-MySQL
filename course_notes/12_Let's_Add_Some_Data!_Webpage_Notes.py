@@ -58,4 +58,9 @@
             JOIN Posts p ON p.UserId = u.UserId
             JOIN Images i ON p.ImageId = i.ImageId
             WHERE u.UserId = 1;
+        -> this shows Alice's (UserID 1) posts, with her associated images
+        -> we can change u.UserId to 2 or 3 to see the other user's posts
+    -> summary
+        -> how to add rows to each table, using INSERT INTO in SQL
+        -> 
 """
