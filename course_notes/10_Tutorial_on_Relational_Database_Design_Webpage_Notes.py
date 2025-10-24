@@ -196,7 +196,23 @@
                     -> Higher Normal Form
                         -> where 3NF is inadequate
                         -> this leads to higher Normal form
-                            -> BOYCE / CODD 
+                            -> BOYCE / CODD Normal form
+                        -> fourth and fifth Normal forms also exist
+                        -> WE CAN BREAK THE NORMALISATION RULES
+                            -> NORMALISING A DATABASE IS NOT THE SAME AS IN STATISTICS, IT IS TO DO WITH DEPENDENCIES
+                                OF THE DATA WE USE AS THE PRIMARY KEYS IN ITS TABLES
+                            -> e.g, creating a column to do ith the price of orders that can be derived from the
+                                orderDetails table
+                                    -> WE CAN USE ONE PIECE OF INFORMATION TO BUILD UP A TABLE ON ANOTHER - IT HAS TO BE
+                                        NON-DEPENDENT IN THIS FORM (THIS IS WHAT DEPENDENCY IN THE DATA REFERS TO)
+                                -> this is to do with the decisions we are making
+                                -> it is context-dependent, for example on the different ways that SQL will be leveraged
+                                    on behalf of the user
+            -> INTEGRITY RULES
+                -> WE ALSO NEED TO CHECK THE INTEGRITY OF THE DESIGN
+                -> ENTITY INTEGRITY RULE <- THE PRIMARY CANNOT CONTAIN NULL VALUES (OTHERWISE, THEY CAN BE REPEATED, AND
+                    ARE NOT UNIQUE)
+                ->    
         -> resources and references
             1. "Database design basics (Microsoft Access 2007)", available at http://office.microsoft.com/en-us/access/HA012242471033.aspx.
             2. Paul Litwin, "Fundamentals of Relational Database Design", available at http://www.deeptraining.com/litwin/dbdesign/FundamentalsOfRelationalDatabaseDesign.aspx.
