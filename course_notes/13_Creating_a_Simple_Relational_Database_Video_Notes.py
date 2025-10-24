@@ -30,5 +30,12 @@
         -> right click > create schema > utf8-default
         -> MySQL Workbench ALLOWS YOU TO REVIEW THE SQL
             -> applying this change
-        ->    
+        -> refresh the changes
+        -> he expands SocialDB, right clicks and creates the Users table
+            -> creating the UserID table
+                -> this auto-increments
+            -> the next column is for the name of the user
+                -> we are setting a limit to the amount of characters
+                -> NOT NULL MEANS THAT THE DATA IT CONTAINS HAS TO EXIST
+                ->    
 """
