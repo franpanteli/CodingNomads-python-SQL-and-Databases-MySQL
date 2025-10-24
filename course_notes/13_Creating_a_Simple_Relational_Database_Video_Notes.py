@@ -55,6 +55,11 @@
                 -> then applying these changes
                 -> APPLYING THE CHANGES IN MYSQL WORKBENCH EXECUTES THE SQL IT SHOWS YOU
             -> it has inserted a record into the database
-    -> creating the users table
-        -> 
+    -> creating the images table
+        -> COMMON STEPS
+            -> HE TYPES IN INFORMATION IN MYSQL WORKBENCH
+                -> THIS LOOKS LIKE A SPREADSHEET
+            -> RUNNING THIS GENERATES SQL, THAT CAN BE EDITED
+            -> THIS IS THEN APPLIED, WHICH WRITES THE TABLE
+        ->
 """
