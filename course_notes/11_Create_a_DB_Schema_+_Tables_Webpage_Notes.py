@@ -11,5 +11,12 @@
                 -> this contains a GUI
         -> Summary: create a database schema and table in MySQL
     -> introduction
-        -> 
+        -> to create a relational database schema with MySQL, we first need to connect to the RDBMS
+            -> relational database management system
+            -> we then need to create the tables and relationships between them that are required for the application
+            -> IN THIS LESSON, WE ARE CREATING A MYSQL DATABASE AND TABLE
+    -> how to create a database schema in MySQL
+        -> steps for usingMySQL to create a database schema in Mac, Windows and Linux
+        -> install MySQL on the machine
+            -> this is checked, by running 
 """
