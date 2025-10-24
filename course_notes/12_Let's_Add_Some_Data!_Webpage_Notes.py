@@ -11,4 +11,9 @@
             -> validate changes, by clicking "Apply"
             -> repeat this for each table
         -> summary: using 'MySQL Insert Into', to add data into a table
+    -> we are adding data into the database
+        -> this is manually using MySQL Workbench, or by using INSERT INTO SQL statements
+            -> we are doing this without MySQL Workbench and in the terminal, because we already have this open
+    -> we first select the database
+        ->
 """
