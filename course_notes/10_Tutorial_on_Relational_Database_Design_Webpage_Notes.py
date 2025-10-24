@@ -218,7 +218,21 @@
                 -> EACH FOREIGN KEY MUST BE MATCHED TO A PRIMARY KEY VALUE, EITHER IN THE PARENT / REFERENCED TABLE
                     -> YOU CAN INSERT A ROW WITH A FOREIGN KEY IN THE CHILD TABLE, ONLY IF THE VALUE EXISTS IN THE
                         PARENT TABLE
-                    ->     
+                    -> IF THE KEY CHANGES IN THE PARENT TABLE, THEN ALL ROWS WITH THE FOREIGN KEY HAVE TO BE HANDLED
+                        -> they now depend an entity that has changed
+                        -> you can
+                            -> disallow changes
+                            -> cascade the change (delete al rows) in the child tables
+                            -> set the ley value in child tables to NULL
+            -> MOST RDBMS'S ENFORCE THESE RULES
+            -> BUSINESS LOGIC INTEGRITY
+                -> VALIDATION PERTAINING TO THE BUSINESS LOGIC <- E.G, A ZIP CODE IS ONLY 5 DIGITS
+                    -> some data must be within a certain range
+                    -> delivery dates must take certain formats
+                    -> quantity ordered has to be less than or equal to the stock
+                -> this is carried out with a validation rule, e.g for a specific column, or using programming logic
+            -> COLUMN INDEXING
+                ->    
         -> resources and references
             1. "Database design basics (Microsoft Access 2007)", available at http://office.microsoft.com/en-us/access/HA012242471033.aspx.
             2. Paul Litwin, "Fundamentals of Relational Database Design", available at http://www.deeptraining.com/litwin/dbdesign/FundamentalsOfRelationalDatabaseDesign.aspx.
