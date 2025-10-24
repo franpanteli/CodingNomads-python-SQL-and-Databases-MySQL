@@ -125,5 +125,10 @@
             -> he does an example where there is one post with four images
             -> different images can be associated with different users for this
             -> he writes a query to demonstrate this
-                ->     
+                -> THERE ARE DIFFERENT LOOKUP TABLES FOR MANY:MANY RELATIONSHIPS
+                -> MYSQL DOESN'T CARE IF THE SQL QUERY IS UPPERCASE OR NOT
+                -> he makes an SQL query, using MySQL Workbench
+                -> we have a database, created with tables, and it has data in it
+                    -> you can delete users in the table, based on their UserID
+    -> 
 """
