@@ -42,4 +42,14 @@
         -> and checked with this: SELECT * FROM Posts;
         -> this allows us to PostID auto-increments
         -> Date defaults to the current timestamp
+    -> then inserting data into the Users_Friends table
+        -> we can connect friends, using this SQL:
+            INSERT INTO Users_Friends (UserId_1, UserId_2) VALUES
+            (1, 2),
+            (1, 3),
+            (1, 4),
+            (2, 3),
+            (3, 4);
+        -> and check this worked using this: SELECT * FROM Users_Friends;
+
 """
