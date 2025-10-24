@@ -10,8 +10,5 @@
             -> MySQL can be run in the CLI, or using an open-source application called MySQL Workbench
                 -> this contains a GUI
         -> Summary: create a database schema and table in MySQL
-    -> we are following the instructions on this webpage: 
-
-
-
+    -> we are following the instructions on the course webpage, at: https://codingnomads.com/mysql-create-database-schema-mysql-create-table-tutorial
 """
