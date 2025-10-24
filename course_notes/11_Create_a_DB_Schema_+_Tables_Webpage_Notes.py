@@ -22,5 +22,13 @@
             -> if this isn't installed, refer to their instructions on how to install MySQL
         -> run MySQL on the machine
             -> Mac
-                -> 
+                -> sudo /usr/local/mysql/support-files/mysql.server start
+                -> sudo launchctl load -F /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
+            -> Linux 
+                -> /etc/init.d/mysqld start
+                -> service mysqld start
+                -> service mysql start
+            -> Linux
+
+
 """
