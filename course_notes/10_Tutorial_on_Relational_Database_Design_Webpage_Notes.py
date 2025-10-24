@@ -212,7 +212,12 @@
                 -> WE ALSO NEED TO CHECK THE INTEGRITY OF THE DESIGN
                 -> ENTITY INTEGRITY RULE <- THE PRIMARY CANNOT CONTAIN NULL VALUES (OTHERWISE, THEY CAN BE REPEATED, AND
                     ARE NOT UNIQUE)
-                ->    
+                -> WITH A COMPOSITE KEY MADE OF SEVERAL COLUMNS, NONE OF THE COLUMNS CAN CONTAIN NULL
+                    -> MOST RDBMS'S ENFORCE THIS RULE
+            -> REFERENTIAL INTEGRITY RULE
+                -> EACH FOREIGN KEY MUST BE MATCHED TO A PRIMARY KEY VALUE, EITHER IN THE PARENT / REFERENCED TABLE
+                    -> you can insert a row with a foreign key in the child table, only if the value exists in the parent table
+                    ->
         -> resources and references
             1. "Database design basics (Microsoft Access 2007)", available at http://office.microsoft.com/en-us/access/HA012242471033.aspx.
             2. Paul Litwin, "Fundamentals of Relational Database Design", available at http://www.deeptraining.com/litwin/dbdesign/FundamentalsOfRelationalDatabaseDesign.aspx.
