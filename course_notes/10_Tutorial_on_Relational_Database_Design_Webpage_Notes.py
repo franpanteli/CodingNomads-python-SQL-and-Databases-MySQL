@@ -135,7 +135,15 @@
                             -> WE CREATE A JUNCTION TABLE
                                 -> EACH ROW REPRESENTS AN ITEM OF A PARTICULAR ORDER
                                     -> EACH ROW REPRESENTS AN ITEM OF A PARTICULAR ORDER
-                                ->   
+                                -> the primary key consists of two columns in this case
+                                    -> orderID and productID <- THESE NUMBERS ARE LITERALLY USED IN THE DATABASE
+                                    -> THEY ARE ALSO FOREIGN KEYS IN THE JUNCTION TABLE
+                            -> THE MANY-TO-MANY RELATIONSHIP IS IMPLEMENTED AS TWO MANY-TO-ONE RELATIONSHIPS
+                                -> THIS IS DONE BY IMPLEMENTING THE JUNCTION TABLE
+                                    -> an order has many items in OrderDetails <- it is ordered many times
+                                    -> an OrderDetails item belongs to one particular order
+                                    -> a product appears in many OrderDetails
+                                        -> each OrderDetails item specified one product      
                 #3 ONE-TO-ONE
                     ->
         -> step 4: redefine and normalise the design
