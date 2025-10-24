@@ -34,5 +34,14 @@
         -> connect to the "localhost" connection
             -> we need to set up this connection before doing this
             -> this was covered on a previous webpage
-        -> in the open query tab, we run this SQL command: 
+        -> in the open query tab, we run this SQL command:
+            -> create schema SocialDB;
+            -> and then execute it, by clicking the lightning bolt
+        -> we then refresh the "schemas" tab on the left side of the screen
+            -> this shows the new schema, by clicking the refresh icon
+        -> we then expand the SocialDB Schema
+            -> this is done by clicking the arrow next to it
+    -> we then add a table using MySQL <- we create a table
+        -> right click on Tables and Create Table
+        -> we then create the Users table, to match the image shown on the course webpage, at 
 """
