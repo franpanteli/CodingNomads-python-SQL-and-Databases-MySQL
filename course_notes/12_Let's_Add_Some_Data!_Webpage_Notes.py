@@ -51,5 +51,11 @@
             (2, 3),
             (3, 4);
         -> and check this worked using this: SELECT * FROM Users_Friends;
-
+    -> we then verify the data with a Join
+        -> this is done using this SQL:
+            SELECT u.FirstName, u.LastName, p.PostText, i.ImageURL
+            FROM Users u
+            JOIN Posts p ON p.UserId = u.UserId
+            JOIN Images i ON p.ImageId = i.ImageId
+            WHERE u.UserId = 1;
 """
