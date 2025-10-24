@@ -43,5 +43,9 @@
             -> this is done by clicking the arrow next to it
     -> we then add a table using MySQL <- we create a table
         -> right click on Tables and Create Table
-        -> we then create the Users table, to match the image shown on the course webpage, at 
+        -> we then create the Users table, to match the image shown on the course webpage, at https://codingnomads.com/mysql-create-database-schema-mysql-create-table-tutorial
+        -> AI <- AUTO-INCREMENT
+            -> THIS MEANS THAT THE FOREIGN KEYS OF THE TABLE CAN INCREASE IN ONES, SO THEY ARE NON-REPEATED NUMBERS
+            -> the DateCreated field sets the default TimeStamp to the "Current_Timestamp"
+        -> 
 """
