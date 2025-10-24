@@ -47,5 +47,26 @@
         -> AI <- AUTO-INCREMENT
             -> THIS MEANS THAT THE FOREIGN KEYS OF THE TABLE CAN INCREASE IN ONES, SO THEY ARE NON-REPEATED NUMBERS
             -> the DateCreated field sets the default TimeStamp to the "Current_Timestamp"
-        -> we then Apply, to execute the following SQL statement: 
+        -> we then Apply, to execute the following SQL statement:
+            CREATE TABLE SocialDB.Users (
+            UserId INT NOT NULL AUTO_INCREMENT,
+              FirstName VARCHAR(100) NOT NULL,
+              LastName VARCHAR(100) NOT NULL,
+              Email VARCHAR(100) NOT NULL,
+              DateCreated DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+              PRIMARY KEY (UserId));
+        -> we then create the Images table, to match the one shown in the course webpage
+            -> this is done by clicking different check boxes
+        -> Apply > Apply
+            -> this executes the following SQL:
+                CREATE TABLE Images (
+                ImageId int(11) NOT NULL AUTO_INCREMENT
+                  ImageURL varchar(250) NOT NULL
+                  Date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+                  PRIMARY KEY (ImageId))
+        -> we then create the Posts table, to match the image shown in the course webpage
+        -> Apply > Apply
+            -> this executes this SQL:  
+
+
 """
