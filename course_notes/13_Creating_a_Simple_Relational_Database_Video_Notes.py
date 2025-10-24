@@ -78,6 +78,8 @@
             -> IF A USER IS DELETED, THEN IT DELETES ALL ROWS ASSOCIATED WITH THIS IN THE USER TABLE
                 -> THIS IS ON UPDATE DELETE CASCADE
                 -> we can also do no action <- it will do nothing
-                -> 
-                -> restriction <- so it doesn't delete the row
+                -> set null <- so it sets the record to null
+                -> restrict <- so it doesn't delete the row
+            -> THIS (IN MYSQL WORKBENCH) GENERATES SQL THAT WE CAN EDIT AND THEN APPLY
+            ->  
 """
