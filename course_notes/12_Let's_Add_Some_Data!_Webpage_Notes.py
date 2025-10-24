@@ -25,5 +25,13 @@
             ('George', 'Smith', 'george@smith.co');
             -> then checking it, using SELECT * FROM Users;
     -> then inserting data into the images table
-        -> this is done with the SQL: 
+        -> this is done with the SQL:
+            INSERT INTO Images (ImageURL) VALUES
+            ('http://www.maravipost.com/wp-content/uploads/2017/07/computer-jokes-comic-book.jpg'),
+            ('https://i.pinimg.com/originals/a1/15/9f/a1159f251ddca8438c2bbb0b0bf70eaa.png'),
+            ('https://i.pinimg.com/originals/f2/3d/e2/f23de2ef2f598238e8f16bfb0c3c4cb5.jpg'),
+            ('https://i.pinimg.com/originals/f8/d4/b3/f8d4b3b32c3c18b4972b97f6474655a8.jpg');
+        -> and checked with: SELECT * FROM Images;
+    -> we then insert data into the posts table
+        -> this can be done with this SQL: 
 """
