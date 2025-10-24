@@ -77,5 +77,7 @@
             -> the userID in the User's table
             -> IF A USER IS DELETED, THEN IT DELETES ALL ROWS ASSOCIATED WITH THIS IN THE USER TABLE
                 -> THIS IS ON UPDATE DELETE CASCADE
-            -> 
+                -> we can also do no action <- it will do nothing
+                -> 
+                -> restriction <- so it doesn't delete the row
 """
