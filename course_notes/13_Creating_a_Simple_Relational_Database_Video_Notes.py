@@ -140,5 +140,6 @@
                 -> THIS AFFECTS HOW THE DATABASE CHANGES WHEN ONE ELEMENT IS DELETED
                 -> we made the images lookup table, to adapt to this
                     -> LOOKUP TABLES, FOR MANY:MANY RELATIONSHIPS
-                    -> 
+        -> we have another lookup table, for the user's friends
+            -> LOOKUP TABLES ARE MADE WITH JOIN QUERIES
 """
