@@ -23,5 +23,12 @@
             -> socialDB <- he drops this database, to recreate it
     -> creating the database
         -> we want to create a database for a social media application
-            ->  
+            -> users
+            -> images
+            -> posts
+            -> users' friends
+        -> right click > create schema > utf8-default
+        -> MySQL Workbench ALLOWS YOU TO REVIEW THE SQL
+            -> applying this change
+        ->    
 """
