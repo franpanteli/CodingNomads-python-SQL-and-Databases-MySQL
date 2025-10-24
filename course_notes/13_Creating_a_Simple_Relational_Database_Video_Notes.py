@@ -61,5 +61,11 @@
                 -> THIS LOOKS LIKE A SPREADSHEET
             -> RUNNING THIS GENERATES SQL, THAT CAN BE EDITED
             -> THIS IS THEN APPLIED, WHICH WRITES THE TABLE
-        ->
+        -> he sets the default timestamp values to update
+            -> looking through the SQL this has given us
+    -> he then creates another table for the user's friends
+        -> we are building out a database for a social media app
+        -> we can put the user's ID in the table
+            -> one:many relationship with friends
+        -> WE CONNECT THE TABLES  
 """
