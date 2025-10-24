@@ -15,5 +15,13 @@
         -> this is manually using MySQL Workbench, or by using INSERT INTO SQL statements
             -> we are doing this without MySQL Workbench and in the terminal, because we already have this open
     -> we first select the database
-        ->
+        -> this is done with USE SocialDB;
+    -> we then want to insert data into the user's table
+        -> we can do this in MySQL Workbench, or achieve the same results using MySQL in the terminal
+        -> this is done via
+            INSERT INTO Users (FirstName, LastName, Email) VALUES
+            ('Ed', 'Frinkel', 'ed@frinkel.co'),
+            ('Sally', 'Doogooder', 'sally@doogooder.co'),
+            ('George', 'Smith', 'george@smith.co');
+            -> then checking it, using 
 """
