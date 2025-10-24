@@ -37,5 +37,12 @@
             -> the next column is for the name of the user
                 -> we are setting a limit to the amount of characters
                 -> NOT NULL MEANS THAT THE DATA IT CONTAINS HAS TO EXIST
-                ->    
+                -> he also makes an email column
+            -> then adding a date created column
+                -> this contains timestamps
+                -> its default value is the current timestamp
+                -> when the element is updated, this changes
+                -> APPLYING THESE CHANGES IN MYSQL WORKBENCH CREATES SQL, THAT IT SHOWS YOU
+                    -> this shows the default values of different elements, the primary key and others
+                    ->  
 """
