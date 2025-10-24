@@ -216,8 +216,9 @@
                     -> MOST RDBMS'S ENFORCE THIS RULE
             -> REFERENTIAL INTEGRITY RULE
                 -> EACH FOREIGN KEY MUST BE MATCHED TO A PRIMARY KEY VALUE, EITHER IN THE PARENT / REFERENCED TABLE
-                    -> you can insert a row with a foreign key in the child table, only if the value exists in the parent table
-                    ->
+                    -> YOU CAN INSERT A ROW WITH A FOREIGN KEY IN THE CHILD TABLE, ONLY IF THE VALUE EXISTS IN THE
+                        PARENT TABLE
+                    ->     
         -> resources and references
             1. "Database design basics (Microsoft Access 2007)", available at http://office.microsoft.com/en-us/access/HA012242471033.aspx.
             2. Paul Litwin, "Fundamentals of Relational Database Design", available at http://www.deeptraining.com/litwin/dbdesign/FundamentalsOfRelationalDatabaseDesign.aspx.
