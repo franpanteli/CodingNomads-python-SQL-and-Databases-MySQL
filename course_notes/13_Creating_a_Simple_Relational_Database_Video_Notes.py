@@ -100,5 +100,15 @@
         -> right clicking and selecting rows
             -> applying more changes
             -> YOU CAN QUERY THE DATABASE WITH SQL IN MYSQL WORKBENCH
-            ->   
+        -> then creating posts
+            -> he updates the database more
+            -> this is in the MySQL Workbench GUI
+            -> HE CREATES FRIENDS AND POSTS IN THE SOCIAL MEDIA DATABASE
+            -> THE DATABASE IS FIRST CREATED, WITH TABLES, AND THEN THESE ARE POPULATED
+        -> then setting up the foreign keys
+            -> ImageID
+            -> cascade twice
+            -> applying these changes
+    -> about what was just created
+        ->  
 """
