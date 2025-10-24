@@ -116,5 +116,14 @@
         -> a post can have just one image (1:1)
         -> A LOOK UP TABLE IS CREATED FOR MANY:MANY RELATIONSHIPS (THE FRIENDS THAT USERS HAVE)
             -> he creates another table, for a many:many relationship
-            ->    
+    -> he edits the table in MySQL Workbench and applies the changes
+        -> these can be seen
+        -> there is a limit to the number of images in one post
+            -> sometimes there isn't
+            -> it won't scale if they are unlimited; many columns
+        -> YOU CAN HAVE MULTIPLE IMAGES FOR ONE POST: A LOOK UP TABLE
+            -> he does an example where there is one post with four images
+            -> different images can be associated with different users for this
+            -> he writes a query to demonstrate this
+                ->     
 """
