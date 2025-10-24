@@ -70,7 +70,12 @@
                 -> every post has one author
                 -> WE PUT THE FOREIGN KEY INSIDE THE TABLE
                     -> THIS IS A FOREIGN KEY
-                    -> THE KEY INSIDE THE MAIN TABLE IS CALLED THE PRIMARY KEY 
+                    -> THE KEY INSIDE THE MAIN TABLE IS CALLED THE PRIMARY KEY
         -> WE CONNECT THE TABLES USING FOREIGN / PRIMARY KEYS
-        ->
+        -> he creates foreign keys
+            -> the UserID, referencing the Users table
+            -> the userID in the User's table
+            -> IF A USER IS DELETED, THEN IT DELETES ALL ROWS ASSOCIATED WITH THIS IN THE USER TABLE
+                -> THIS IS ON UPDATE DELETE CASCADE
+            -> 
 """
