@@ -238,10 +238,20 @@
                         -> WITHOUT THIS, THE DATABASE NEEDS TO COMPARE THE QUERY TO ALL OF THE INFORMATION IN THE TABLE
                             -> for this reason, using an indexing file can speed up SQL queries
                         -> THE INDEX NEEDS TO BE REBUILT WHENEVER A RECORD IS CHANGED
-                            -> THIS RE-INDEXING RESULTS IN OVERHEAD 
+                            -> THIS RE-INDEXING RESULTS IN OVERHEAD
+                -> indexing doesn't have to be done in a separate file, a column can be used for this
+                    -> WHEN A SET OF COLUMNS IS USED TO INDEX A DATABASE, THIS IS CALLED A CONCATENATED INDEX
+                        -> PART OF A COLUMN CAN ALSO BE USED TO CREATE A DATABASE INDEX
+                            -> THIS IS CALLED A PARTIAL INDEX
+                -> YOU CAN ALSO BUILD ON MORE THAN ONE INDEX IN A TABLE
+                    -> e.g, a customer can be searched for in a database by using multiple different pieces of
+                        information
+                        -> THIS SEARCH CAN BE SPEAD UP BY USING AN INDEX, BECAUSE IT MEANS WE DON'T HAVE TO COMPARE ALL
+                            OF THE INFORMATION IN THE DATABASE WHEN AN SQL QUERY IS MADE - THE DATA WE ARE LOOKING FOR
+                            ALREADY HAS AN INDEX
+                            -> MOST RDBMS'S AUTOMATICALLY USE THE PRIMARY KEY FOR THIS
         -> resources and references
             1. "Database design basics (Microsoft Access 2007)", available at http://office.microsoft.com/en-us/access/HA012242471033.aspx.
             2. Paul Litwin, "Fundamentals of Relational Database Design", available at http://www.deeptraining.com/litwin/dbdesign/FundamentalsOfRelationalDatabaseDesign.aspx.
             3. Codd E. F., "A Relational Model of Data for Large Shared Data Banks", Communications of the ACM, vol. 13, issue 6, pp. 377–387, June 1970.
-
 """
