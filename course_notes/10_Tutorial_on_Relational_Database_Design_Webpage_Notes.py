@@ -165,10 +165,38 @@
                         -> NON-SENSITIVE DATA IN THE MAIN TABLE
                     -> column data types
                         -> we need to choose appropriate data for each column
-                            -> integers
-                            -> 
+                            -> integers, floating-point numbers, string (or text), date/time, binary, collection (such
+                                as enumeration and set)
         -> step 4: redefine and normalise the design
-            ->
+            -> editing the design of the database
+                -> adding columns
+                -> creating new tables for one-to-one relationships
+                -> splitting large tables into smaller ones
+            -> normalisation
+                -> normalisation
+                    -> NORMALISING THE DATA IN THE TABLE
+                -> normal forms
+                    -> FIRST NORMAL FORM
+                        -> A TABLE IS 1NF IF EVERY CELL CONTAINS A SINGLE VALUE, NOT A LIST OF THEM
+                        -> THIS IS ALSO CALLED ATOMIC
+                        -> THIS PROHIBITS REPEATING GROUP OF COLUMNS
+                        -> to maintain this, we want to create another table, using a one-to-many relationship
+                    -> Second Normal Form (2NF)
+                        -> a table is 2NF, if it is 1NF AND EVERY NON-KEY COLUMN IS FULLY DEPENDENT ON THE PRIMARY KEY
+                        -> if the primary key is made up of several columns, every non-key column will depend on the
+                            entire set and not part of it
+                            -> e.g, ONE PRIMARY KEY CAN BE MADE UP OF TWO DIFFERENT TABLES
+                                -> we are thinking about dependencies here
+                    -> Third Normal Form (3NF)
+                        -> A TABLE IS 3NF, IF IT IS 2NF AND THE NON-KEY COLUMNS ARE INDEPENDENT OF EACH OTHER
+                            -> THE NON-KEY COLUMNS ARE DEPENDENT ONLY ON THE PRIMARY-KEY
+                            -> e.g, a products table with a primary key and unit price column
+                                -> ONE COLUMN (DISCOUNT RATE) DOES NOT BELONG TO THE UNIT PRICE TABLE, BECAUSE IT IS NOT
+                                    A PART OF THE PRIMARY KEY
+                    -> Higher Normal Form
+                        -> where 3NF is inadequate
+                        -> this leads to higher Normal form
+                            -> BOYCE / CODD 
         -> resources and references
             1. "Database design basics (Microsoft Access 2007)", available at http://office.microsoft.com/en-us/access/HA012242471033.aspx.
             2. Paul Litwin, "Fundamentals of Relational Database Design", available at http://www.deeptraining.com/litwin/dbdesign/FundamentalsOfRelationalDatabaseDesign.aspx.
