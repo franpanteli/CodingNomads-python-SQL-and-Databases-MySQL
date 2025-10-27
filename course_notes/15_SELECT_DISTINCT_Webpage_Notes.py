@@ -14,5 +14,4 @@
             -> to select rows that have unique values in one or more columns
     -> general syntax:
         -> SELECT DISTINCT <YOUR_COLUMN_NAMES> FROM <YOUR_TABLE>;
-
 """
