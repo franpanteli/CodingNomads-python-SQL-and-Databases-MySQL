@@ -4,5 +4,25 @@
     -> SELECT statements
         -> the most common SQL query, for reading data
     -> in MySQL Workbench
-        -> 
+        -> right clicks on a table
+        -> select rows limit 1,000
+        -> you can click the lightning bolt, or command enter, to execute the query
+        -> * <- everything
+        -> it also shows the table name
+        -> SELECT * FROM actor;
+        -> use mylms; <- using a different table
+            -> then SELECT * from actor; won't work
+            -> WE HAVE TO TELL IT TO USE THE TABLE WE ARE QUERYING
+        -> you can create a connection to one specific database
+            -> you can double click on the database to use this in MySQL Workbench
+            -> you can also do SELECT * from actor;
+        -> SELECT first_name from actor;
+            -> you can click on the first name, to sort the list
+        -> SELECT DISTINCT first_name from actor; <- REMOVES DUPLICATES, FOR UNIQUE NAMES
+            -> there are multiple actors with the same first name
+        -> you can right click on the table to select the names
+            -> or, the spreadsheet with the lightning bolt
+            -> it generates SQL and applies it
+    -> for pulling data out of the database
+    -> you can select everything, using *, or just the columns you want
 """
