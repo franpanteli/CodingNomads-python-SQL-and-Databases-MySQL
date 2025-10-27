@@ -12,4 +12,10 @@
     -> you don't have to capitalise SQL statements
     -> SQL STATEMENTS HAVE TO END IN A SEMI-COLON
     -> sudo mysql <- TO LOG INTO SQL AS THE ROOT USER
+    -> SELECT can retrieve data from one or more tables
+    -> SELECT statement syntax:
+        -> SELECT <YOUR_COLUMNS> FROM <YOUR_TABLE>;
+    -> a JOIN query can be used to select data from one or more tables
+    -> example SQL commands
+        -> 
 """
