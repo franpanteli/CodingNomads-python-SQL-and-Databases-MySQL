@@ -8,4 +8,7 @@
         -> if we want to know information about unique data
         -> we can find out the number of distinct names in a table, if there are repeated first names in an actors table,
             for exmaple
+        -> like Python sets, it removes the duplicates
+    -> example
+        -> 
 """
