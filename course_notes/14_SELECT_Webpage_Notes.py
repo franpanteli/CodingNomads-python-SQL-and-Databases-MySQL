@@ -17,5 +17,7 @@
         -> SELECT <YOUR_COLUMNS> FROM <YOUR_TABLE>;
     -> a JOIN query can be used to select data from one or more tables
     -> example SQL commands
+        -> select * from actor; <- everything from the actors table
+        -> SELECT first_name, last_name FROM actor; <- just actor first and last names
         -> 
 """
