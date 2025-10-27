@@ -19,5 +19,5 @@
     -> example SQL commands
         -> select * from actor; <- everything from the actors table
         -> SELECT first_name, last_name FROM actor; <- just actor first and last names
-        -> 
+        -> SELECT actor_id FROM actor; <- one column
 """
