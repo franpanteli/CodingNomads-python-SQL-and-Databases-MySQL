@@ -9,4 +9,7 @@
             -> 2. Fetch multiple columns
             -> 3. Fetch one distinct column
         -> summary: SQL Select statement
+    -> you don't have to capitalise SQL statements
+    -> SQL STATEMENTS HAVE TO END IN A SEMI-COLON
+    -> 
 """
