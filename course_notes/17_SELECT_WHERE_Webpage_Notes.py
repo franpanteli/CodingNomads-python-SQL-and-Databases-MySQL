@@ -17,5 +17,6 @@
         -> how to use the SQL WHERE statement
         -> THIS CAN BE USED TO FILTER ROWS WITH A CERTAIN BOOLEAN CONDITION
         -> SQL WHERE syntax
-            ->  
+            -> SELECT <YOUR_COLUMN_NAMES> FROM <YOUR_TABLE> WHERE <YOUR_CONDITION>;
+            -> substitute the contents of <> with our own
 """
