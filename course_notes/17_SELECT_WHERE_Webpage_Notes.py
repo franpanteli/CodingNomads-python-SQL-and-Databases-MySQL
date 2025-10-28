@@ -10,5 +10,7 @@
     -> selecting rows conditionally
     -> it filters selected data
     -> SELECT * FROM sakila.actor WHERE first_name = "JULIA"; <- to select actors with a çertain first name
-    -> SELECT * FROM sakila.actor WHERE actor_id = 123; <- to select an actor with a certain ID 
+    -> SELECT * FROM sakila.actor WHERE actor_id = 123; <- to select an actor with a certain ID
+        -> this can be done in the terminal (SQL), or in the MySQL Workbench application with a GUI
+    -> SELECT * FROM sakila.film WHERE length > 184; <- to select records WHERE a certain condition is True 
 """
