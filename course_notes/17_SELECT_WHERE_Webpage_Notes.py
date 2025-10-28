@@ -9,5 +9,6 @@
         -> Summary: the SQL WHERE statement
     -> selecting rows conditionally
     -> it filters selected data
-    -> 
+    -> SELECT * FROM sakila.actor WHERE first_name = "JULIA"; <- to select actors with a çertain first name
+    -> SELECT * FROM sakila.actor WHERE actor_id = 123; <- to select an actor with a certain ID 
 """
