@@ -7,4 +7,5 @@
             -> Example 2: SELECT WHERE ID
             -> Example 3: SELECT WHERE length
         -> Summary: the SQL WHERE statement
+    -> 
 """

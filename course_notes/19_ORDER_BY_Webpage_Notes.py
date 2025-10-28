@@ -6,5 +6,5 @@
             -> 1. SQL ORDER BY ascending
             -> 2. SQL ORDER BY descending
             -> 3. SQL ORDER BY field
-        -> Summary: SQL ORDER BY 
+        -> Summary: SQL ORDER BY
 """
