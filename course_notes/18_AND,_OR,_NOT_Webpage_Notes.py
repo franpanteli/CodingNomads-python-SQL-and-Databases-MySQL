@@ -9,7 +9,11 @@
             -> SQL NOT operator example
         -> Summary: SQL AND, SQL OR, and SQL NOT queries
     -> AND
-        -> this returns True if both results are True
+        -> THIS RETURNS TRUE IF BOTH RESULTS ARE TRUE
         -> SELECT * FROM film WHERE length < 50 AND rating = "G"; <- to look for a movie rated G
             -> the length of the film is < 50 and the rating is G
+        -> this can be run in MySQL Workbench (GUI), or in the terminal
+    -> OR
+        -> IF AT LEAST ONE OF THE STATEMENTS IS TRUE
+        -> 
 """
