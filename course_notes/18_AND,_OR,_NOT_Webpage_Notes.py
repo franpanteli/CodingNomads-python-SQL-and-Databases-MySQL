@@ -15,5 +15,6 @@
         -> this can be run in MySQL Workbench (GUI), or in the terminal
     -> OR
         -> IF AT LEAST ONE OF THE STATEMENTS IS TRUE
-        -> 
+        -> SELECT * FROM sakila.film where rating = "G" OR rating = "PG";
+            _> selecting all of the film data, where the rating is G or PG (both of those conditions are True)
 """
