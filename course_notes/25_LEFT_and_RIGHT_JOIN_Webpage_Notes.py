@@ -13,10 +13,15 @@
     -> SOMETIMES, YOU NEED ALL THE RECORDS FROM ONE TABLE WHETHER OR NOT THERE IS A MATCHING RECORD IN THE JOIN TABLE
         -> this is where a LEFT or RIGHT JOIN is used
     -> LEFT JOIN
+        -> THIS RETURNS ALL ROWS FROM THE LEFT TABLE (THE FIRST TABLE IN THE JOIN CLAUSE)
+        -> this happens even if there is no matching record in the right table
     -> RIGHT JOIN
+        -> this returns all the rows from the right table
+            -> THE RIGHT TABLE IS THE SECOND ONE MENTIONED IN THE JOIN CLAUSE 
     -> LEFT JOIN vs RIGHT JOIN
     -> example of LEFT JOIN vs RIGHT JOIN
         -> LEFT JOIN example
         -> RIGHT JOIN example
-        -> RIGHT / LEFT JOIN vs INNER JOIN 
+        -> RIGHT / LEFT JOIN vs INNER JOIN
+    -> summary: LEFT JOIN and RIGHT JOIN
 """
