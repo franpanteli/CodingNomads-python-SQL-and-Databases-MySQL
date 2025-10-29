@@ -39,6 +39,6 @@
             VALUES
               (<YOUR_VALUES>);
               -> insert out data in between <>
-              -> 
-
+              -> FOR ADDING DATA INTO THE TABLE, ROW BY ROW
+    -> next <- creating a table, using the results of the SELECT statement
 """
