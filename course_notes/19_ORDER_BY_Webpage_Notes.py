@@ -26,6 +26,12 @@
                 -> ORDER BY last_name DESC;
                     -> ordering this by last name in descending order
             -> order by field
-                -> 
+                -> SELECT * from actor
+                -> ORDER BY actor_id;
+                    -> A FIELD IS SOMETHING GENERAL, LIKE THE ID OF THE ACTORS
+                    -> THIS CAN BE USED TO ORDER THE ACTORS BY
+                    -> we are selecting everything from the table
+                    -> we are then ordering this by the data in the actor_id column
         -> summary
+            -> ORDER BY orders the rows 
 """
