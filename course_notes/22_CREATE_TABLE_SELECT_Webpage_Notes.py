@@ -25,6 +25,7 @@
                 -> this is done by selecting all the rows in a table and coppying them over
         -> 2. CREATE TABLE, SELECT SPECIFIC COLUMNS
             -> YOU DON'T NEED TO USE *, YOU CAN WRITE THE NAMES OF THE TABLES YOU WANT TO COPPY INSTEAD
+
             CREATE TABLE kids_movies
             SELECT title, length, rating
             FROM film
@@ -34,6 +35,10 @@
                     -> these can later be deleted, or re-backed up when the data changes
                 -> this is useful if we are doing something potentially risky and want a table backup
                 -> this can be used with JOIN statements
-                -> we then want to DROP the new tables we created, to keep the database tidy 
+
+            DROP TABLE sakila.kids_movies;
+            DROP TABLE sakila.actor_backup;
+                -> dropping the new tables we created, to keep the database tidy
     -> summary
+        -> 
 """
