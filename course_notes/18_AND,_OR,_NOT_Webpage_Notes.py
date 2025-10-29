@@ -26,5 +26,7 @@
             -> they aren't that certain value
             -> NOT True is False, and vice versa
             -> it returns the opposite
+        -> SELECT * FROM sakila.film where NOT rating = "NC-17";
+            -> select the results from the table that don't have a rating of NC-17
         -> 
 """
