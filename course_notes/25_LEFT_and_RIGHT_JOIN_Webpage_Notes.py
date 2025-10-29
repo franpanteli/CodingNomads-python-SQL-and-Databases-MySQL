@@ -104,5 +104,5 @@
             ON <YOUR_TABLE_1.COLUMN> = <YOUR_TABLE_2.COLUMN>
             -> we place our data inside the <> symbols
             -> THIS MEANS 'JOIN THE TWO TABLES'
-        -> next <- a video on what we just learned 
+        -> next <- a video on what we just learned
 """
