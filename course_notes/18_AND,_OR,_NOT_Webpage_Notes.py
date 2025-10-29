@@ -27,6 +27,14 @@
             -> NOT True is False, and vice versa
             -> it returns the opposite
         -> SELECT * FROM sakila.film where NOT rating = "NC-17";
-            -> select the results from the table that don't have a rating of NC-17
-        -> 
+            -> select the results from the table that don't have a rating of NC-17 (there are a lot of these)
+    -> summary
+        -> SQL AND, OR and NOT operators
+        -> THESE ARE LIKE TRADITIONAL LOGICAL OPERATORS IN PROGRAMMING
+            -> to filter data from the database
+        -> AND <- TRUE IF BOTH STATEMENTS ARE TRUE
+        -> OR <- TRUE IF ONE OF THE EXPRESSIONS IS TRUE
+        -> NOT <- TRUE IF THE EXPRESSION RETURNS FALSE
+            -> (if it's not that thing)
+        -> THESE ARE FOR BOOLEAN CONDITIONS 
 """
