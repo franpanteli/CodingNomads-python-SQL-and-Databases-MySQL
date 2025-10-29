@@ -96,5 +96,13 @@
                 -> RIGHT JOIN is the opposite, with the second table representing the right one
             -> LEFT and RIGHT are synonymous with first and second tables written in the query
         -> LEFT JOIN / RIGHT JOIN syntax
-            -> 
+            SELECT <YOUR_COLUMNS>
+                -> we select the columns in the first (left table)
+            FROM <YOUR_TABLE_1>
+                -> to create an alias (see examples for customers / actors table aliases above)
+            <LEFT_or_RIGHT> JOIN <YOUR_TABLE_2>
+            ON <YOUR_TABLE_1.COLUMN> = <YOUR_TABLE_2.COLUMN>
+            -> we place our data inside the <> symbols
+            -> THIS MEANS 'JOIN THE TWO TABLES'
+        -> wa
 """
