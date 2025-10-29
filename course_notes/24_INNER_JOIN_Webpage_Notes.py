@@ -56,6 +56,28 @@
     -> INNER JOIN tips
         -> INNER JOIN IS THE DEFAULT JOIN STATEMENT
             -> YOU DON'T NEED TO WRITE THE WORD INNER
-        -> 
+
+            SELECT actor.first_name, actor.last_name, film.title, film.release_year
+                -> selecting the different columns
+            FROM actor
+            JOIN film actor
+                -> use a join query
+                -> INNER JOIN is the default for this
+            ON actor. actor_id = film_actor.actor_id
+            JOIN film
+                -> using a second JOIN query
+            ON film_actor. film_id = film.|film_id
+            WHERE actor. first_name = "PENELOPE" AND actor.last_name = "GUINNESS"
+                -> FILTERING THE RESULTS FROM THIS QUERY, BY USING A WHERE STATEMENT
+
+        -> ALIASES MAKE QUERIES SHORTER
+
+
+
+
+        
+            -> you can shorten the query, by not typing the table names over and over
+            -> YOU CAN CREATE ALIASES (NICKNAMES) FOR EACH TABLE, AND THEN REFER TO THE TABLES BY THOSE ALIASES
+
     -> summary: the INNER JOIN statement
 """
