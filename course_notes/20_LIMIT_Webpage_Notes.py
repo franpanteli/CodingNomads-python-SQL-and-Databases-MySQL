@@ -13,8 +13,21 @@
     -> LIMIT examples
         -> LIMIT 10 1 from Table
             -> we are using customer and payment tables
-            -> 
+            -> SELECT * FROM customer
+            -> LIMIT 10;
+            -> selecting everything from the customer table
+            -> THEN LIMITING THE RESPONSES TO 10
         -> LIMIT 5 from 2 tables
+            -> a GROUP BY example, where we limit the total number of payments for all customers
+            -> limiting this to 5 results, for the 5 best customers
+            -> SELECT c.first_name, c.last_name, SUM(p.amount) as total_payments
+            -> FROM customer c
+            -> JOIN payment p
+            -> ON c.customer_id = p.customer_id
+            -> GROUP BY c.customer_id
+            -> ORDER BY total_payments DESC
+            -> LIMIT 5;
+
     -> avoid this error with LIMIT
     -> summary
 """
