@@ -30,7 +30,7 @@
             FROM film
             WHERE rating = "G"
             AND length < 60
-                -> 
+                -> THIS IS USED FOR CREATING LOOKUP TABLES, AS WELL AS 
 
     -> summary
 """
