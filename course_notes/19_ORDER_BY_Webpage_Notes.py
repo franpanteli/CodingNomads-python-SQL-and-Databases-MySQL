@@ -33,5 +33,9 @@
                     -> we are selecting everything from the table
                     -> we are then ordering this by the data in the actor_id column
         -> summary
-            -> ORDER BY orders the rows 
+            -> ORDER BY ORDERS THE ROWS of the table
+                -> ASC <- ASCENDING ORDER (DEFAULT)
+                -> DEC <- DESCENDING ORDER
+            -> THIS COMES AFTER A SELECT QUERY
+            -> A
 """
