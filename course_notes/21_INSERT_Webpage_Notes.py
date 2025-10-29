@@ -5,5 +5,5 @@
             -> 1. insert two values in two columns
             -> 2. insert one value into one column
         -> summary: the INSERT INTO command
-    -> 
+    ->
 """
