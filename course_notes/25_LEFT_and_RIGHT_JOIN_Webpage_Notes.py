@@ -17,9 +17,16 @@
         -> this happens even if there is no matching record in the right table
     -> RIGHT JOIN
         -> this returns all the rows from the right table
-            -> THE RIGHT TABLE IS THE SECOND ONE MENTIONED IN THE JOIN CLAUSE 
+            -> THE RIGHT TABLE IS THE SECOND ONE MENTIONED IN THE JOIN CLAUSE
     -> LEFT JOIN vs RIGHT JOIN
+        -> LEFT IS THE FIRST TABLE IN THE QUERY, RIGHT IS THE SECOND TABLE IN THE QUERY
+            -> this is whether or not there are matches in the other table
     -> example of LEFT JOIN vs RIGHT JOIN
+        -> about
+            -> getting a list of customers, from the `customers` table
+            -> if we also want to return a list of actors, from the `actors` table
+            -> we want these ones that share a first / last name with the customer
+            -> this requires the entire list of customers 
         -> LEFT JOIN example
         -> RIGHT JOIN example
         -> RIGHT / LEFT JOIN vs INNER JOIN
