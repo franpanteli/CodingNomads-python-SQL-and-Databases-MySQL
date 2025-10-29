@@ -41,5 +41,5 @@
                 SELECT <YOUR_COLUMNS>
                 FROM <YOUR_TABLE>
                 ORDER BY <YOUR_COLUMNS> ASC
-        -> LIMIT <- next; to select some of the rows that we want the query to return 
+        -> LIMIT <- next; to select some of the rows that we want the query to return
 """
