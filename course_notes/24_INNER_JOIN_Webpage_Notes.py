@@ -10,5 +10,5 @@
         -> INNER JOIN example - explained
             -> INNER JOIN tips
         -> summary: the INNER JOIN statement
-    -> 
+    ->
 """
