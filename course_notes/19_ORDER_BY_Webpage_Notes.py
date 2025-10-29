@@ -15,8 +15,13 @@
             -> we can choose the order type we want
         -> examples
             -> order by ascending
-                -> 
+                -> SELECT * from actor
+                    -> selecting all actors
+                -> ORDER BY first_name ASC;
+                    -> ordering †hem by first name in ascending order
+                -> we can use DESC for descending
             -> order by descending
+                -> 
             -> order by field
         -> summary
 """
