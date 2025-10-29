@@ -6,5 +6,5 @@
             -> 1. safe way to delete data
             -> 2. dangerous way to delete data
         -> summary: DELETE statement
-    ->
+    -> 
 """
