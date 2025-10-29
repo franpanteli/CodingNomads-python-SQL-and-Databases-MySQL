@@ -6,5 +6,5 @@
             -> 1. CREATE TABLE, SELECT ALL
             -> 2. CREATE TABLE, select specific columns
         -> summary: the SQL CREATE TABLE query
-    ->   
+    ->
 """
