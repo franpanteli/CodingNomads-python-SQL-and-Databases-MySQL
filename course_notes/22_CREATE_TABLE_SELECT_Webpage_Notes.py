@@ -16,7 +16,13 @@
                 -> MAKING A BACKUP OF THE ACTOR TABLE
                 -> creating a ctable called actor_backup
                 -> selecting everything from the actors table
-                -> we are selecting everything from the actors table and creating another table from this 
+                -> we are selecting everything from the actors table and creating another table from this
+            -> WE THEN REFRESH THE SCHEMA NAVIGATOR ON THE LEFT
+                -> this runs a refresh
+                -> spinning arrows icon
+            -> TO BACKUP THE TABLE, YOU NEED TO CREATE A BLANK TABLE, WHICH THE INFORMATION FROM ANOTHER ONE IS THEN
+                COPIED INTO
+                -> this is done by selecting all the rows   
         -> 2. CREATE TABLE, SELECT SPECIFIC COLUMNS
     -> summary
 """
