@@ -42,7 +42,20 @@
             -> this can be done in the MySQL Workbench GUI, or in the terminal using MySQL commands
 
     -> INNER JOIN example - explained
-        -> next <- 
+        -> next <- a video on JOIN queries / statements
+        -> we want to select the first and last names from the actor table, and the film title and release date from the
+            `film` table
+            -> the only way to do this is with a JOIN statement on the `film_actor` table
+            -> the `actor` table has no data about films, and the `film` table has no data about actors
+            -> WHEN WE WANT TO JOIN INFORMATION FROM TWO TABLES
+                -> THE INFORMATION IN THE TABLES IS UNIQUE - SO THEY ARE CAN BE JOINED WHEN THEY HAVE AT LEAST ONE COLUMN
+                    IN COMMON
+                    -> THIS IS AN INNER JOIN
+            -> JOINING TWO TABLES CREATES A LOOKUP TABLE
+                -> THIS CAN BE CREATED WITH AN INNER JOINS STATEMENT, AND QUERIED WITH SQL
     -> INNER JOIN tips
+        -> INNER JOIN IS THE DEFAULT JOIN STATEMENT
+            -> YOU DON'T NEED TO WRITE THE WORD INNER
+        -> 
     -> summary: the INNER JOIN statement
 """
