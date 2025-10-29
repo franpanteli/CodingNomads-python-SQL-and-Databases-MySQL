@@ -21,5 +21,5 @@
                 side than there are on both
     -> OR and AND together
         -> SELECT * FROM sakila.film where rating = "G" OR rating = "PG" OR rating = "PG-13";
-        -> 
+        -> this uses three OR statements 
 """
