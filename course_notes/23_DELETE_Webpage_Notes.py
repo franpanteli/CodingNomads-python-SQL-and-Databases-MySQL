@@ -14,8 +14,13 @@
             -> DELETE FROM sakila.actor
             -> WHERE actor_id = 201;
                 -> IT'S SAFER TO APPLY A SPECIFIC WHERE CONDITION WHEN DELETING DATA FROM THE DATABASE
-                -> we can tell if this has worked or not, by looking at the number of rows under "Response" in MySQL
-                    Workbench
+                -> WE CAN TELL IF THIS HAS WORKED OR NOT, BY LOOKING AT THE NUMBER OF ROWS UNDER "RESPONSE" IN MYSQL
+                    WORKBENCH
                 -> this tells you the amount of time the query took to run
         -> 2. dangerous way to delete data
+            -> YOU NEED TO USE A WHERE STATEMENT WHEN DELETING THE DATA
+                -> THIS IS SAFER
+            -> WITHOUT USING A WHERE CLAUSE, ALL RECORDS WILL BE DELETED FROM THE TABLE
+            -> THERE IS NO UNDO FOR THIS IN THE TABLE  
+    -> summary
 """
