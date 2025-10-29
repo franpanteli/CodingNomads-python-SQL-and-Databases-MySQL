@@ -86,6 +86,15 @@
             -> IT IS LIKE THE OVERLAP OF TWO SETS OF DATA (TWO COLUMNS / TABLES)
                 -> (per each entry)
             -> YOU DON'T HAVE TO TPE INNER JOIN, BECAUSE IT'S DEFAULT
-            -> this can be done in MySQL Workbench (the GUI application), or in the terminal 
+            -> this can be done in MySQL Workbench (the GUI application), or in the terminal
     -> summary: LEFT JOIN and RIGHT JOIN
+        -> LEFT / RIGHT JOINs
+            -> LEFT JOIN AND RIGHT JOIN ARE USED TO SELECT ALL RESULTS FROM ONE TABLE, AND ONLY THE MATCHING RESULTS FROM
+                THE OTHER
+            -> LEFT JOIN TAKES ALL RESULTS FROM THE LEFT (FIRST) TABLE, AND ONLY MATCHING RESULTS FROM THE SECOND (RIGHT)
+                TABLE. ALL OTHER NON-MATCHING VALUES ARE NULL IN THE RIGHTMOST TABLE
+                -> RIGHT JOIN is the opposite, with the second table representing the right one
+            -> LEFT and RIGHT are synonymous with first and second tables written in the query
+        -> LEFT JOIN / RIGHT JOIN syntax
+            -> 
 """
