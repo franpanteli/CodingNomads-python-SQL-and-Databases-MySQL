@@ -8,7 +8,16 @@
     -> to insert data into the database
     -> examples
         -> 1. insert two values in two columns
-            -> 
+            -> INSERT INTO sakila.actor (first_name, last_name)
+                -> we are inserting data into the first and last name columns
+            -> VALUES ("Coding", "Nomads");
+                -> A SECOND LINE CONTAINS THE DATA WE WANT TO ADD INTO THE TABLES
+            -> SQL auto-generates actor_id and last_update
+            -> AI <- THE ID IS AUTO-INCREMENTED
+            -> the last_update field has a Default / Expression assigned to CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+                -> ALL NEW RECORDS WILL HAVE THE CURRENT TIMESTAMP AUTOMATICALLY INSERTED, AS WELL AS ON UPDATE
+                -> when the record is updated, so will the timestamp be
+                
         -> 2. insert one value into one column
     -> summary
 """
