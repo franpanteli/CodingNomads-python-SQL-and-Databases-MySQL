@@ -87,6 +87,28 @@
             -> YOU CAN CREATE ALIASES (NICKNAMES) FOR EACH TABLE, AND THEN REFER TO THE TABLES BY THOSE ALIASES
 
         -> the same thing as before, without the comments:
+            SELECT a.first_name, a.last_name, f.title, f.release_year
+            FROM actor a
+            JOIN film_actor fa
+              ON a.actor_id = fa.actor_id
+            JOIN film f
+              ON fa.film_id = f.film_id
+            WHERE a.first_name = "PENELOPE" AND a.last_name = "GUINESS";
+            -> they recommend practicing and it will get better
 
     -> summary: the INNER JOIN statement
+        -> the INNER JOIN COMMAND SELECTS ALL RECORDS THAT HAVE MATCHING VALUES IN THE TWO CHOSEN TABLES
+            -> INNER JOIN IS THE DEFAULT JOIN, AND IT ONLY WORKS FOR TWO TABLES
+        -> tips for INNER JOIN statements
+            -> it is the default command
+            -> INNER JOINED TABLES HAVE TO CONTAIN SIMILAR TABLES / DATA TYPES
+            -> a WHERE query can be added after the INNER JOIN command, to filter the resulting data
+            -> ALIASES CAN BE USED, INSTEADOF WRITING THE FULL TABLE NAME EACH TIME
+        -> how to write an INNER JOIN in SQL
+            -> 1. CHOOSE THE TABLES
+            -> 2. SELECT JOIN COLUMNS
+            -> 3. OPTIONAL: ADD A CONDITIONAL WHERE STATEMENT, to filter results
+            -> 4. RUN THE QUERY
+        -> INNER JOIN SYNTAX
+            -> we put our data inside the <> symbols  
 """
