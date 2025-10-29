@@ -7,4 +7,16 @@
             -> 2. SQL ORDER BY descending
             -> 3. SQL ORDER BY field
         -> Summary: SQL ORDER BY
+    -> ORDER BY
+        -> this is a utility keyword
+        -> elements
+            -> the SELECT statement can be followed with ORDER BY
+            -> one or multiple columns can be ordered
+            -> we can choose the order type we want
+        -> examples
+            -> order by ascending
+                -> 
+            -> order by descending
+            -> order by field
+        -> summary
 """

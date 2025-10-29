@@ -36,5 +36,5 @@
         -> OR <- TRUE IF ONE OF THE EXPRESSIONS IS TRUE
         -> NOT <- TRUE IF THE EXPRESSION RETURNS FALSE
             -> (if it's not that thing)
-        -> THESE ARE FOR BOOLEAN CONDITIONS 
+        -> THESE ARE FOR BOOLEAN CONDITIONS
 """
