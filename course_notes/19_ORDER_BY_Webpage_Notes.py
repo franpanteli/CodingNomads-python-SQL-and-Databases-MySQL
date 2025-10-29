@@ -37,5 +37,9 @@
                 -> ASC <- ASCENDING ORDER (DEFAULT)
                 -> DEC <- DESCENDING ORDER
             -> THIS COMES AFTER A SELECT QUERY
-            -> A
+            -> general syntax:
+                SELECT <YOUR_COLUMNS>
+                FROM <YOUR_TABLE>
+                ORDER BY <YOUR_COLUMNS> ASC
+        -> LIMIT <- next; to select some of the rows that we want the query to return 
 """
