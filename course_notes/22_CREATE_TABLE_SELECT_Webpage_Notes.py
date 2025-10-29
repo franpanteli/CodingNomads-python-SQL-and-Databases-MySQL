@@ -44,5 +44,5 @@
         -> THIS CAN BE USED TO SELECT EVERYTHING AT ONCE
             -> we can also select the specific rows and columns that we want
         -> CREATE TABLE CAN BE USED FOR TEMPORARY BACKUP AND LOOKUP TABLES
-        -> 
+        -> CREATE TABLE syntax:
 """
