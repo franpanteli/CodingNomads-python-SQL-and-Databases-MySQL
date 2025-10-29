@@ -10,6 +10,13 @@
             -> RIGHT / LEFT JOIN vs INNER JOIN
         -> summary: LEFT JOIN and RIGHT JOIN
     -> INNER JOIN returns all results where there is a matching record in each table
-    -> sometimes, you need all the records from one table whether or not there is a matching record in the JOIN table
+    -> SOMETIMES, YOU NEED ALL THE RECORDS FROM ONE TABLE WHETHER OR NOT THERE IS A MATCHING RECORD IN THE JOIN TABLE
         -> this is where a LEFT or RIGHT JOIN is used
+    -> LEFT JOIN
+    -> RIGHT JOIN
+    -> LEFT JOIN vs RIGHT JOIN
+    -> example of LEFT JOIN vs RIGHT JOIN
+        -> LEFT JOIN example
+        -> RIGHT JOIN example
+        -> RIGHT / LEFT JOIN vs INNER JOIN 
 """
