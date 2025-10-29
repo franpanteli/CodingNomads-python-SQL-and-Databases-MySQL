@@ -12,12 +12,14 @@
                 -> we are inserting data into the first and last name columns
             -> VALUES ("Coding", "Nomads");
                 -> A SECOND LINE CONTAINS THE DATA WE WANT TO ADD INTO THE TABLES
+                -> this then shows a success message
             -> SQL auto-generates actor_id and last_update
             -> AI <- THE ID IS AUTO-INCREMENTED
             -> the last_update field has a Default / Expression assigned to CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
                 -> ALL NEW RECORDS WILL HAVE THE CURRENT TIMESTAMP AUTOMATICALLY INSERTED, AS WELL AS ON UPDATE
                 -> when the record is updated, so will the timestamp be
-                
         -> 2. insert one value into one column
+            ->  
     -> summary
+        ->
 """
