@@ -26,8 +26,14 @@
             -> getting a list of customers, from the `customers` table
             -> if we also want to return a list of actors, from the `actors` table
             -> we want these ones that share a first / last name with the customer
-            -> this requires the entire list of customers 
+            -> this requires the entire list of customers
+                -> we want to include data that isn't unique
+            -> a LEFT JOIN can be used for this
+                -> to get all records ƒrom the `customer` table, as well as any matching records from the `actor` table
+                -> WHEN THERE IS NO MATCH WITH A JOIN QUERY, A NULL RESULT IS RETURNED
+                    -> THERE IS A CASE WHERE THE ENTIRE QUERY RETURNS NULL VALUES N THE ROW
         -> LEFT JOIN example
+            -> 
         -> RIGHT JOIN example
         -> RIGHT / LEFT JOIN vs INNER JOIN
     -> summary: LEFT JOIN and RIGHT JOIN
