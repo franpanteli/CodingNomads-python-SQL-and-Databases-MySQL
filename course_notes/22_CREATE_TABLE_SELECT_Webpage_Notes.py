@@ -40,5 +40,9 @@
             DROP TABLE sakila.actor_backup;
                 -> dropping the new tables we created, to keep the database tidy
     -> summary
+        -> CREATE TABLE SELECT <- TO CREATE A NEW TABLE, BY SELECTING DATA FROM AN ALREADY EXISTING TABLE
+        -> THIS CAN BE USED TO SELECT EVERYTHING AT ONCE
+            -> we can also select the specific rows and columns that we want
+        -> CREATE TABLE CAN BE USED FOR TEMPORARY BACKUP AND LOOKUP TABLES
         -> 
 """
