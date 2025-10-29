@@ -45,4 +45,9 @@
             -> we can also select the specific rows and columns that we want
         -> CREATE TABLE CAN BE USED FOR TEMPORARY BACKUP AND LOOKUP TABLES
         -> CREATE TABLE syntax:
+            CREATE TABLE <YOUR_TABLE_NAME>
+            SELECT <YOUR_COLUMNS>
+            FROM <YOUR_TABLE>
+            -> we insert our data in the <> syntax
+    -> next <- video review of ways to add data into the database
 """
