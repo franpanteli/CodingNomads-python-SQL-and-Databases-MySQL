@@ -22,7 +22,15 @@
                 -> spinning arrows icon
             -> TO BACKUP THE TABLE, YOU NEED TO CREATE A BLANK TABLE, WHICH THE INFORMATION FROM ANOTHER ONE IS THEN
                 COPIED INTO
-                -> this is done by selecting all the rows   
+                -> this is done by selecting all the rows in a table and coppying them over
         -> 2. CREATE TABLE, SELECT SPECIFIC COLUMNS
+            -> YOU DON'T NEED TO USE *, YOU CAN WRITE THE NAMES OF THE TABLES YOU WANT TO COPPY INSTEAD
+            CREATE TABLE kids_movies
+            SELECT title, length, rating
+            FROM film
+            WHERE rating = "G"
+            AND length < 60
+                -> 
+
     -> summary
 """
