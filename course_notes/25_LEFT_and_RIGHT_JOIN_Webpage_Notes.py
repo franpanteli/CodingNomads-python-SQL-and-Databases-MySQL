@@ -10,5 +10,6 @@
             -> RIGHT / LEFT JOIN vs INNER JOIN
         -> summary: LEFT JOIN and RIGHT JOIN
     -> INNER JOIN returns all results where there is a matching record in each table
-    -> 
+    -> sometimes, you need all the records from one table whether or not there is a matching record in the JOIN table
+        -> this is where a LEFT or RIGHT JOIN is used
 """
