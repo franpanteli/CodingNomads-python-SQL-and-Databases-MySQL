@@ -8,5 +8,11 @@
         -> summary: the SQL CREATE TABLE query
     -> CREATE TABLE <- TO CREATE A TABLE, BASED ON THE RESULTS OF A SELECT QUERY
     -> this defines the order of the command
-    -> 
+    -> we CREATE TABLE and choose its name, then selecting what you would like in another table
+    -> examples
+        -> 1. CREATE TABLE, SELECT ALL
+            -> using the `film` and `actor` table in the sakila database
+            -> 
+        -> 2. CREATE TABLE, SELECT SPECIFIC COLUMNS
+    -> summary
 """
