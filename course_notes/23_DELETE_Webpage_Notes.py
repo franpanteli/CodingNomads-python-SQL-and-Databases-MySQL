@@ -29,5 +29,8 @@
             -> IF YOU DON'T USE A WHERE QUERY, THEN ALL OF THE INFORMATION IN THE DATABASE WILL BE DELETED, WITHOUT
                 RECOURSE OR REVERSABILITY
         -> DELETE syntax:
-            -> 
+            -> DELETE FROM <YOUR_TABLE>
+            -> WHERE <YOUR_CONDITION>;
+                -> our data is inserted in the <> brackets
+    -> next <- video on how to update and delete information from the database table
 """
