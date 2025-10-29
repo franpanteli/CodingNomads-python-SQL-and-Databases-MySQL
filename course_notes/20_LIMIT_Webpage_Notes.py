@@ -33,15 +33,9 @@
                 -> LIMIT 5;
                     -> LIMITING THE TOTAL NUMBER OF RESULTS TO 5
     -> avoid this error with LIMIT
-
-SELECT c.first_name, c.last_name, SUM(p.amount) as total_payments
-FROM customer c
-JOIN payment p
-ON c.customer_id = p.customer_id
-GROUP BY c.customer_id
-LIMIT 5
-ORDER BY total_payments DESC;
-
-
+        -> THE LIMIT QUERY IS USED AFTER SQL QUERIES ARE RAN
+            -> AN ERROR WILL BE RETURNED IF LIMIT ISN'T THE LAST QUERY USED
+        -> LIMIT THE NUMBER OF RESULTS WE WANT FROM THE QUERY
+        -> 
     -> summary
 """
