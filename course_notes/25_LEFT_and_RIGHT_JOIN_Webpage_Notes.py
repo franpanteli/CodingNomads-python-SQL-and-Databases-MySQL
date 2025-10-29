@@ -70,5 +70,22 @@
             -> RIGHT JOINs are the opposite of LEFT JOINs
             -> IT SHOWS NULL IF THERE IS NO MATCH
         -> RIGHT / LEFT JOIN vs INNER JOIN
+            SELECT
+                c.first_name,
+                c.last_name,
+                a.first_name,
+                a.last_name
+                -> return the column names
+            FROM customer c
+                -> use an alias of c for the `customer` table
+            INNER JOIN actor a
+                -> execute an INNER JOIN (default) with the actors table, with an alias of a
+            ON c.last_name = a.last_name
+                -> execute the JOIN on these two columns
+            -> AN INNER JOIN IS ONLY USED IF WE WANT THE DATA FROM BOTH TABLES THAT MATCH
+            -> IT IS LIKE THE OVERLAP OF TWO SETS OF DATA (TWO COLUMNS / TABLES)
+                -> (per each entry)
+            -> YOU DON'T HAVE TO TPE INNER JOIN, BECAUSE IT'S DEFAULT
+            -> this can be done in MySQL Workbench (the GUI application), or in the terminal 
     -> summary: LEFT JOIN and RIGHT JOIN
 """
