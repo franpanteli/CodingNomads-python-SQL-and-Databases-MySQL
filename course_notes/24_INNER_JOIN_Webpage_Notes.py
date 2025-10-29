@@ -110,5 +110,10 @@
             -> 3. OPTIONAL: ADD A CONDITIONAL WHERE STATEMENT, to filter results
             -> 4. RUN THE QUERY
         -> INNER JOIN SYNTAX
-            -> we put our data inside the <> symbols  
+            SELECT <YOUR_COLUMNS>
+            FROM <YOUR_TABLE_1>
+            INNER JOIN <YOUR_TABLE_2>
+            ON <YOUR_TABLE_1.COLUMN> = <YOUR_TABLE_2.COLUMN>
+            -> we put our data inside the <> symbols
+        -> next <- LEFT and RIGHT joins
 """

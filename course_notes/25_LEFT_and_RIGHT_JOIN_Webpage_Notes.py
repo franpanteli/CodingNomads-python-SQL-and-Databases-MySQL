@@ -9,5 +9,5 @@
             -> RIGHT JOIN example
             -> RIGHT / LEFT JOIN vs INNER JOIN
         -> summary: LEFT JOIN and RIGHT JOIN
-    ->
+    -> 
 """
