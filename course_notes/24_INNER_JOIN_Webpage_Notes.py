@@ -39,9 +39,10 @@
             INNER JOIN film -- second table to join
                 ON film_actor.film_id = film.film_id -- the field on which to join the two tables
             WHERE actor.first_name = "PENELOPE" AND actor.last_name = "GUINESS"; -- boolean condition to filter results
-
+            -> this can be done in the MySQL Workbench GUI, or in the terminal using MySQL commands
 
     -> INNER JOIN example - explained
+        -> next <- 
     -> INNER JOIN tips
     -> summary: the INNER JOIN statement
 """
