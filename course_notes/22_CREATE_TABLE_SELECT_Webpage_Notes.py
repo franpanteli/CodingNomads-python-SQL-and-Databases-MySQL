@@ -34,7 +34,6 @@
                     -> these can later be deleted, or re-backed up when the data changes
                 -> this is useful if we are doing something potentially risky and want a table backup
                 -> this can be used with JOIN statements
-                -> 
-
+                -> we then want to DROP the new tables we created, to keep the database tidy 
     -> summary
 """
