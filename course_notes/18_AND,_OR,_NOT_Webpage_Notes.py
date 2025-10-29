@@ -19,5 +19,7 @@
             _> selecting all of the film data, where the rating is G or PG (both of those conditions are True)
             -> this returns a lot more results than the AND query does, because there are more True statements on either
                 side than there are on both
-            -> 
+    -> OR and AND together
+        -> SELECT * FROM sakila.film where rating = "G" OR rating = "PG" OR rating = "PG-13";
+        -> 
 """
