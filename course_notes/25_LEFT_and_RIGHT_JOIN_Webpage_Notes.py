@@ -33,8 +33,29 @@
                 -> WHEN THERE IS NO MATCH WITH A JOIN QUERY, A NULL RESULT IS RETURNED
                     -> THERE IS A CASE WHERE THE ENTIRE QUERY RETURNS NULL VALUES N THE ROW
         -> LEFT JOIN example
-            -> 
+            SELECT
+                c.first_name,
+                c.last_name,
+                a.first_name,
+                a.last_name
+                -> we are selecting all of these columns
+            FROM customer c
+                -> CREATING AN ALIAS FOR THE CUSTOMERS TABLE (C)
+            LEFT JOIN actor a
+                -> EXECUTING A LEFT JOIN, AND IMPLEMENTING AN ALIAS FOR THE ACTORS TABLE (A)
+                -> THIS IS A LETTER AT THE END OF THE QUERY LINE
+            ON c.last_name = a.last_name
+            ORDER BY c.last_name;
+                -> ordering the results from this, according to the data in the `last_name` column
+                -> A LEFT JOIN SELECTS ALL RECORDS FROM THE LEFT (FIRST MENTIONED) TABLE, AND ONLY THE RESULTS FROM THE
+                    SECOND (RIGHT) TABLE, IF THEY ARE MATCHING
+                        -> BOOLEAN STATEMENTS CAN BE USED FOR THIS
+                        -> THIS IS LIKE STANDARD GATES IN COMPUTER SCIENCE
+                -> IF THEY DON'T MATCH, IT SHOWS NULL
+                    -> in this case, it's in the second (rightmost) table, because we are using a LEFT  (first mentioned
+                        table) JOIN
         -> RIGHT JOIN example
+            -> 
         -> RIGHT / LEFT JOIN vs INNER JOIN
     -> summary: LEFT JOIN and RIGHT JOIN
 """
