@@ -32,7 +32,14 @@
             -> selecting all films that a certain actor is in, for example
 
         -> 4. run the query
-            -> 
+            SELECT actor.first_name, actor.last_name, film.title, film.release_year -- fields to select
+            FROM actor   --first table to select from
+            INNER JOIN film_actor  -- first table to join
+                ON actor.actor_id = film_actor.actor_id  -- the field on which to join the two tables
+            INNER JOIN film -- second table to join
+                ON film_actor.film_id = film.film_id -- the field on which to join the two tables
+            WHERE actor.first_name = "PENELOPE" AND actor.last_name = "GUINESS"; -- boolean condition to filter results
+
 
     -> INNER JOIN example - explained
     -> INNER JOIN tips
