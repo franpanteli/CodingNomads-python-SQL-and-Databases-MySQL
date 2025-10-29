@@ -32,5 +32,6 @@
             -> select * from category where name = "Cartoon";
                 -> using a select table, to see what we just inserted
     -> summary
-        -> 
+        -> THE INSERT COMMAND INSERTS DATA INTO THE DATABASE TABLE
+        -> INSERT COMMAND SYNTAX:   
 """
