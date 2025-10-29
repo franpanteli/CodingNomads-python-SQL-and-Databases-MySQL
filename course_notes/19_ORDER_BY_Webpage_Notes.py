@@ -21,7 +21,11 @@
                     -> ordering †hem by first name in ascending order
                 -> we can use DESC for descending
             -> order by descending
-                -> 
+                -> SELECT * from actor
+                    -> selecting everything from the actors table
+                -> ORDER BY last_name DESC;
+                    -> ordering this by last name in descending order
             -> order by field
+                -> 
         -> summary
 """
