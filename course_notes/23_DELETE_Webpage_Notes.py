@@ -18,9 +18,16 @@
                     WORKBENCH
                 -> this tells you the amount of time the query took to run
         -> 2. dangerous way to delete data
+            delete from actor; -- bad (do not run this)
             -> YOU NEED TO USE A WHERE STATEMENT WHEN DELETING THE DATA
                 -> THIS IS SAFER
             -> WITHOUT USING A WHERE CLAUSE, ALL RECORDS WILL BE DELETED FROM THE TABLE
-            -> THERE IS NO UNDO FOR THIS IN THE TABLE  
+            -> THERE IS NO UNDO FOR THIS IN THE TABLE
+            -> COMMENTS ARE MADE WITH -- ON THE END OF THE SQL STATEMENT LINE
     -> summary
+        -> DELETE <- this deletes data from the database
+            -> IF YOU DON'T USE A WHERE QUERY, THEN ALL OF THE INFORMATION IN THE DATABASE WILL BE DELETED, WITHOUT
+                RECOURSE OR REVERSABILITY
+        -> DELETE syntax:
+            -> 
 """
