@@ -71,13 +71,22 @@
                 -> FILTERING THE RESULTS FROM THIS QUERY, BY USING A WHERE STATEMENT
 
         -> ALIASES MAKE QUERIES SHORTER
-
-
-
-
-        
+            SELECT a.first_name, a.last_name, f.title, f.release_year # here we're using the aliases "a" and "f"
+                -> select the different column names
+                -> A AND F ARE ALIASES
+            FROM actor a    # see how we've created the alias "a" here for the actor table?
+            JOIN film_actor fa    # and we've created the alias "fa" here for the film_actor table
+                -> use a JOIN statement
+              ON a.actor_id = fa.actor_id    # here we're using this aliases "a" and "fa"
+            JOIN film f    # created the alias "f" here for the film table
+                -> TO CREATE AN ALIAS, IT'S THE NAME OF THE TABLE, AND THEN THE ALIAS AFTER THIS, THAT YOU WANT TO REFER
+                    TO THE TABLE WITH
+              ON fa.film_id = f.film_id    # here we're using the aliases "fa" and "f"
+            WHERE a.first_name = "PENELOPE" AND a.last_name = "GUINESS";    # here we're using alias "a" (for actor table)
             -> you can shorten the query, by not typing the table names over and over
             -> YOU CAN CREATE ALIASES (NICKNAMES) FOR EACH TABLE, AND THEN REFER TO THE TABLES BY THOSE ALIASES
+
+        -> the same thing as before, without the comments:
 
     -> summary: the INNER JOIN statement
 """
