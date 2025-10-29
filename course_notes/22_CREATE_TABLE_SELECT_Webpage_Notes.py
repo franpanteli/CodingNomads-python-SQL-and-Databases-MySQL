@@ -12,7 +12,11 @@
     -> examples
         -> 1. CREATE TABLE, SELECT ALL
             -> using the `film` and `actor` table in the sakila database
-            -> 
+            -> CREATE TABLE actor_backup SELECT * FROM actor;
+                -> MAKING A BACKUP OF THE ACTOR TABLE
+                -> creating a ctable called actor_backup
+                -> selecting everything from the actors table
+                -> we are selecting everything from the actors table and creating another table from this 
         -> 2. CREATE TABLE, SELECT SPECIFIC COLUMNS
     -> summary
 """
