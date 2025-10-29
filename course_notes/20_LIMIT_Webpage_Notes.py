@@ -36,6 +36,9 @@
         -> THE LIMIT QUERY IS USED AFTER SQL QUERIES ARE RAN
             -> AN ERROR WILL BE RETURNED IF LIMIT ISN'T THE LAST QUERY USED
         -> LIMIT THE NUMBER OF RESULTS WE WANT FROM THE QUERY
-        -> 
+        -> this returns this error: ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY total_payments DESC' at line 7
     -> summary
+        -> LIMIT can be placed at the end of the query, to limit the results to a certain number
+        -> LIMIT is followed by a number
+        -> LIMIT has to be the last element in the query 
 """
