@@ -33,5 +33,12 @@
                 -> using a select table, to see what we just inserted
     -> summary
         -> THE INSERT COMMAND INSERTS DATA INTO THE DATABASE TABLE
-        -> INSERT COMMAND SYNTAX:   
+        -> INSERT COMMAND SYNTAX:
+            INSERT INTO <YOUR_TABLE>
+              (<YOUR_COLUMNS>)
+            VALUES
+              (<YOUR_VALUES>);
+              -> insert out data in between <>
+              -> 
+
 """
