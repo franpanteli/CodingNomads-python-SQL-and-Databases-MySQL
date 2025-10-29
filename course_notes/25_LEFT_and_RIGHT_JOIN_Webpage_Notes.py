@@ -55,7 +55,20 @@
                     -> in this case, it's in the second (rightmost) table, because we are using a LEFT  (first mentioned
                         table) JOIN
         -> RIGHT JOIN example
-            -> 
+            SELECT
+                c.first_name,
+                c.last_name,
+                a.first_name,
+                a.last_name
+                -> selecting the columns from the database
+            FROM customer c
+                -> SETTING UP AN ALIAS FOR THE CUSTOMERS TABLE
+            RIGHT JOIN actor a
+                -> EXECUTING A RIGHT JOIN FO RIGHT TABLE WITH THE ACTORS TABLE, AND GIVING THIS AN ALIAS OF A
+            ON c.last_name = a.last_name
+            -> we read the `customer` table, before we read the `actor` table
+            -> RIGHT JOINs are the opposite of LEFT JOINs
+            -> IT SHOWS NULL IF THERE IS NO MATCH
         -> RIGHT / LEFT JOIN vs INNER JOIN
     -> summary: LEFT JOIN and RIGHT JOIN
 """
