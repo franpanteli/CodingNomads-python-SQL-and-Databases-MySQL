@@ -30,7 +30,9 @@
             FROM film
             WHERE rating = "G"
             AND length < 60
-                -> THIS IS USED FOR CREATING LOOKUP TABLES, AS WELL AS 
+                -> THIS IS USED FOR CREATING LOOKUP TABLES, AS WELL AS FOR CREATING BACKUPS OF TABLES
+                    -> these can later be deleted, or re-backed up when the data changes
+                -> 
 
     -> summary
 """
