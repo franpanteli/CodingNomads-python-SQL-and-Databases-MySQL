@@ -7,4 +7,13 @@
         -> AVERAGE
         -> summary: SUM, COUNT and AVERAGE
     ->
-"""
+
+
+
+
+MAX / MIN
+GROUP BY
+LIKE + Wildcards
+IN
+BETWEEN
+ANY / ALLAN / ALL
