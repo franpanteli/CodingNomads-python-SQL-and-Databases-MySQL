@@ -3,7 +3,8 @@
         -> introduction
         -> how to run a database backup in MySQL Workbench
         -> how to drop a database in MySQL Workbench
-        -> how to restore / import to MySQL via Workbench
+        -> how to restore / import to MySQL via MySQL Workbench
             -> how to verify the data import to MySQL
-        -> summary: MySQL database backup 
+        -> summary: MySQL database backup and restore via MySQL Workbench
+    ->
 """
