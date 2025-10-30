@@ -13,7 +13,8 @@
 
 MAX / MIN
 GROUP BY
-LIKE + Wildcards
+LIKE + Wi
+ldcards
 IN
-BETWEEN
+BETWANY / ALLEEN
 ANY / ALLAN / ALL
