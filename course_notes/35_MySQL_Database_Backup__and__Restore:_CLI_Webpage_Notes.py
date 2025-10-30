@@ -6,5 +6,5 @@
         -> how to restore the MySQL Dump via the CLI
             -> how to verify your MySQL restore from dump
         -> summary: MySQL database backup and restore via command line
-    -> 
+    ->
 """
