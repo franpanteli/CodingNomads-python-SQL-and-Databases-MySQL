@@ -1,5 +1,4 @@
 """ SUM, COUNT and AVERAGE Webpage Notes 
-ORDER BY Webpage Notes
     -> outline
         -> introduction
         -> SQL SUM
