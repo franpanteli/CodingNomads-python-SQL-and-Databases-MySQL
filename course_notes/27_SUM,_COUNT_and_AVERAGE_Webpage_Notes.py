@@ -7,14 +7,8 @@
         -> AVERAGE
         -> summary: SUM, COUNT and AVERAGE
     ->
+"""
 
 
 
 
-MAX / MIN
-GROUP BY
-LIKE + Wi
-ldcards
-IN
-BETWANY / ALLEEN
-ANY / ALLAN / ALL
