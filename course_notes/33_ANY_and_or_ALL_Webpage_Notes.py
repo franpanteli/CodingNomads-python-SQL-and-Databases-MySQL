@@ -4,5 +4,5 @@
         -> ANY
         -> ALL
         -> summary: WHERE ANY and ALL operators
-    -> 
+    ->
 """
