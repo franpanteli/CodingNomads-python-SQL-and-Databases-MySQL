@@ -1,4 +1,4 @@
-"""ORDER BY Webpage Notes
+"""UNION Webpage Notes
     -> outline
         -> introduction
         -> SQL Union vs. Union All
