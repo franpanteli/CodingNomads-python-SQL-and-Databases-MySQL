@@ -1,27 +1,29 @@
 # CodingNomads-python-SQL-and-Databases-MySQL
 
-## Repository Contents 
+## 1. Repository Contents 
 
-1. [Outline](#outline)
-2. [Files in This Repository](#files-in-this-repository)
-   1. [databases Directory](#databases-directory)
-   2. [course_notes Directory](#course-notes-directory)
-   3. [course_automation_scripts Directory](#course_automation_scripts-directory)
-      1. [Why I Automated My Work](#why-i-automated-my-work)
-      2. [How I Automated My Work](#how-i-automated-my-work)
-   4. [The course_automation_program.py file](#the-course_automation_programpy-file)
-3. [To Clone This Repository](#to-clone-this-repository)
+1. [Outline](#2-outline)
+2. [Files in This Repository](#3-files-in-this-repository)
+   1. [databases Directory](#31-databases-directory)
+   2. [course_notes Directory](#32-course_notes-directory)
+   3. [course_automation_scripts Directory](#33-course_automation_scripts-directory)
+      1. [Why I Automated My Work](#331-why-i-automated-my-work)
+      2. [How I Automated My Work](#332-how-i-automated-my-work)
+   4. [The course_automation_program.py file](#34-the-course_automation_programpy-file)
+3. [To Clone This Repository](#4-to-clone-this-repository)
 
-## Outline
+---
+
+## 2. Outline
 
 This repository contains my coursework for the CodingNomads [SQL & Databases course](https://codingnomads.com/course/learn-sql-mysql-databases). I completed this course as part of my independent learning to enhance my Python skills. This course was the third in CodingNomad’s ten-part [Python Web Development career track](https://codingnomads.com/career-track/python-web-development-learn-python-bootcamp) series. This consisted of six core modules:
 
-1. Introduction
-2. MySQL & MySQL Workbench
-3. Creating Relational Databases
-4. Importing MySQL Demo Database
-5. SQL Commands for Querying Databases
-6. Managing Databases
+1. Introduction  
+2. MySQL & MySQL Workbench  
+3. Creating Relational Databases  
+4. Importing MySQL Demo Database  
+5. SQL Commands for Querying Databases  
+6. Managing Databases  
 
 This introduced Structured Query Language (SQL) as a language that interacts with Relational Database Management Systems (RDBMS). Multiple types of RDBMS applications were explored, showing a preference for MySQL Workbench. SQL was explored using the Sakila demonstration database, both in the terminal and with the MySQL Workbench GUI. The Sakila database contains information about actors, movies, and their rentals. MySQL Workbench was chosen for its open-source nature and ease of use relative to other RDBMS approaches. I learnt through completing this course that a relational database consists of multiple tables, which can be linked through primary and foreign keys. These keys have unique values to avoid data replication. Various methods of interacting with, backing up (dumping), and creating these databases were explored through SQL.
 
@@ -31,29 +33,29 @@ This course was advertised with a 40-hour time completion, in comparison to the 
 
 After completing resources that covered the course content, I passed assessments to consolidate my knowledge. These consisted of thirteen quizzes and four journal entries. Journal entries for this covered foreign keys, query practice imports, and exports from MySQL. I pushed my course notes and files, wrote a project README.md file using PyCharm and the Grammarly text checker, and finally submitted a certificate of completion request on the CodingNomads platform to pass the course. The remainder of this README file provides a walkthrough of the files contained in my repository from completing the course.
 
-## Files in This Repository
-
 ---
 
-### databases Directory
+## 3. Files in This Repository
+
+### 3.1 databases Directory
 
 The [databases directory](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/tree/main/databases) in this repository was created through following the course content. Multiple examples containing databases were used in this course, primarily with the Sakila (films) database. Queries practicing on this database included operations on its actors table, creating functions (stored procedures) to operate on them, and limiting the number of returned results using the SQL `LIMIT` query. Multiple JOIN methods, such as `LEFT JOIN`, `RIGHT JOIN`, and `INNER JOIN` (default), were also explored.
 
 ---
 
-### course_notes Directory
+### 3.2 course_notes Directory
 
 The [course_notes directory](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/tree/main/course_notes) contains my notes on course content. These notes were created in either webpage or Video Note format, depending on the mode in which the course content was presented. I wrote these notes in Python (.py) files, in line with the two previous Python courses I completed as part of the [career track](https://codingnomads.com/career-track/python-web-development-learn-python-bootcamp). These were written with the PyCharm IDE, although this series of notes only contains text. These notes were spell-checked using the Grazie extension and are presented in chronological order. I found that the course took longer than 40 hours to complete (as advertised), due to making these in-depth notes.
 
 ---
 
-### course_automation_scripts Directory
+### 3.3 course_automation_scripts Directory
 
-#### Why I Automated My Work
+#### 3.3.1 Why I Automated My Work
 
 When working, I cloned a copy of my GitHub repository for the course on my Desktop. My workflow for course completion involved creating a new .py file where notes were to be taken and committing changes to GitHub whenever significant updates were made. These notes (contained in the [course_notes directory](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/tree/main/course_notes)) were also named in a specific format. This involved naming them according to their number and titling the standard Python docstrings that each set of notes included. I found multiple issues with this, such as the tediousness of having to enter the same commands into the terminal to commit changes to GitHub. Since my course notes involved capitalisation to emphasise certain points, I also found that I sometimes typed lowercase text that I wanted capitalised. Rather than having to type the same text again in uppercase, I found it faster to write and use a Python program for this.
 
-#### How I automated my work
+#### 3.3.2 How I Automated My Work
 
 Although this was not included as part of the course material or suggestions, [this directory](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/tree/main/course_automation_scripts) contains nine Python modules that I wrote and edited using ChatGPT to automate various tasks. When run, the [auto_git_push_scheduler.py module](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/blob/main/course_automation_scripts/auto_git_push_scheduler.py) automatically pushes changes made to the course repository every minute. Below is a screenshot of this script when being left to run for three minutes without changes:
 
@@ -85,7 +87,7 @@ The [open_github_repo.py module](https://github.com/franpanteli/CodingNomads-pyt
 
 ---
 
-### The course_automation_program.py file
+### 3.4 The course_automation_program.py file
 
 [This program](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/blob/main/course_automation_program.py) combines the Python modules located in the [course_automation_scripts directory](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/tree/main/course_automation_scripts) to create a user interface in the terminal for automating tasks related to course completion. A menu is first printed for the user, using the `input()` function. An image of this menu is shown below:
 
@@ -97,6 +99,6 @@ This is contained within an infinite `while` loop, which repeatedly generates me
 
 ---
 
-## To Clone This Repository
+## 4. To Clone This Repository
 ```bash
 git clone https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL.git
