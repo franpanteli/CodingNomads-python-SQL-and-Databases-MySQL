@@ -40,7 +40,7 @@ After completing resources that covered the course content, I passed assessments
 
 ### 3.1 databases Directory
 
-The [databases directory](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/tree/main/databases) in this repository was created through following the course content. Multiple examples containing databases were used in this course, primarily with the Sakila (films) database. Queries practicing on this database included operations on its actors table, creating functions (stored procedures) to operate on them, and limiting the number of returned results using the SQL `LIMIT` query. Multiple JOIN methods, such as `LEFT JOIN`, `RIGHT JOIN`, and `INNER JOIN` (default), were also explored.
+The [databases directory](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/tree/main/databases) in this repository was created through following the course content. Multiple examples containing databases were used in this course, primarily with the Sakila (films) database. Queries practicing on this database included operations on its actors table, creating functions (stored procedures) to operate on them, and limiting the number of returned results using the SQL `LIMIT` query. Multiple `JOIN` methods, such as `LEFT JOIN`, `RIGHT JOIN`, and `INNER JOIN` (default), were also explored.
 
 ---
 
