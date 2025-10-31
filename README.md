@@ -3,7 +3,7 @@
 ## Contents of This Repository
 
 - [Outline](#outline)
-- [Files This Repository Contains](#files-this-repository-contains)
+- [Files in This Repository](#files-in-this-repository)
   - [databases Directory](#databases-directory)
   - [course_notes Directory](#course_notes-directory)
   - [course_automation_scripts Directory](#course_automation_scripts-directory)
@@ -31,7 +31,7 @@ This course was advertised with a 40-hour time completion, in comparison to the 
 
 After completing resources that covered the course content, I passed assessments to consolidate my knowledge. These consisted of thirteen quizzes and four journal entries. Journal entries for this covered foreign keys, query practice imports, and exports from MySQL. I pushed my course notes and files, wrote a project README.md file using PyCharm and the Grammarly text checker, and finally submitted a certificate of completion request on the CodingNomads platform to pass the course. The remainder of this README file provides a walkthrough of the files contained in my repository from completing the course.
 
-## Files This Repository Contains
+## Files in This Repository
 
 ---
 
