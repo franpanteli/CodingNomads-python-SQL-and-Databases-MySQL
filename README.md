@@ -69,7 +69,9 @@ The [open_github_repo.py module](https://github.com/franpanteli/CodingNomads-pyt
 
 [This program](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/blob/main/course_automation_program.py) combines the Python modules located in the [course_automation_scripts directory](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/tree/main/course_automation_scripts) to create a user interface in the terminal for automating tasks related to course completion. A menu is first printed for the user, using the `input()` function. An image of this menu is shown below:
 
-![Course Automation Program Menu](https://github.com/user-attachments/assets/4d4fbb47-3adc-4b14-9487-5d46e9338ea1)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4d4fbb47-3adc-4b14-9487-5d46e9338ea1" alt="Course Automation Program Menu">
+</div>
 
 This is contained within an infinite `while` loop, which repeatedly generates menu options after one has been selected and executed, unless the user selects to exit the program. A set of `if` blocks is used to import and execute the module relevant to the selected menu option. These modules were imported in statements, such as “from course_automation_scripts import auto_git_push_scheduler.” These were contained underneath each `if` block statement, rather than imported at the top of the code, to avoid automatically running them. It was not suggested that I write this program as a part of the course. I wrote this with ChatGPT and edited it using PyCharm to automate repetitive tasks during the process of creating course notes and other content.  
 
