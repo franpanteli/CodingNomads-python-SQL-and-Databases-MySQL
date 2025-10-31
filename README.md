@@ -2,15 +2,16 @@
 
 ## 1. Repository Contents 
 
-1. [Outline](#2-outline)
-2. [Files in This Repository](#3-files-in-this-repository)
+1. [Repository Contents](#1-repository-contents) 
+2. [Outline](#2-outline)
+3. [Files in This Repository](#3-files-in-this-repository)
    1. [databases Directory](#31-databases-directory)
    2. [course_notes Directory](#32-course_notes-directory)
    3. [course_automation_scripts Directory](#33-course_automation_scripts-directory)
       1. [Why I Automated My Work](#331-why-i-automated-my-work)
       2. [How I Automated My Work](#332-how-i-automated-my-work)
    4. [The course_automation_program.py file](#34-the-course_automation_programpy-file)
-3. [To Clone This Repository](#4-to-clone-this-repository)
+4. [To Clone This Repository](#4-to-clone-this-repository)
 
 ---
 
