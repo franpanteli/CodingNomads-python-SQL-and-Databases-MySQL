@@ -2,16 +2,15 @@
 
 ## 1. Repository Contents 
 
-1. [Repository Contents](#1-repository-contents) 
-2. [Outline](#2-outline)
-3. [Files in This Repository](#3-files-in-this-repository)
-   1. [databases Directory](#3.i-databases-directory)
-   2. [course_notes Directory](#3.11-course_notes-directory)
+1. [Outline](#2-outline)
+2. [Files in This Repository](#3-files-in-this-repository)
+   1. [databases Directory](#31-databases-directory)
+   2. [course_notes Directory](#32-course_notes-directory)
    3. [course_automation_scripts Directory](#33-course_automation_scripts-directory)
       1. [Why I Automated My Work](#331-why-i-automated-my-work)
       2. [How I Automated My Work](#332-how-i-automated-my-work)
    4. [The course_automation_program.py file](#34-the-course_automation_programpy-file)
-4. [To Clone This Repository](#4-to-clone-this-repository)
+3. [To Clone This Repository](#4-to-clone-this-repository)
 
 ---
 
@@ -38,19 +37,19 @@ After completing resources that covered the course content, I passed assessments
 
 ## 3. Files in This Repository
 
-### 3.i databases Directory
+### 3.1 databases Directory
 
 The [databases directory](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/tree/main/databases) in this repository was created through following the course content. Multiple examples containing databases were used in this course, primarily with the Sakila (films) database. Queries practicing on this database included operations on its actors table, creating functions (stored procedures) to operate on them, and limiting the number of returned results using the SQL `LIMIT` query. Multiple JOIN methods, such as `LEFT JOIN`, `RIGHT JOIN`, and `INNER JOIN` (default), were also explored.
 
 ---
 
-### 3.ii course_notes Directory
+### 3.2 course_notes Directory
 
 The [course_notes directory](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/tree/main/course_notes) contains my notes on course content. These notes were created in either webpage or Video Note format, depending on the mode in which the course content was presented. I wrote these notes in Python (.py) files, in line with the two previous Python courses I completed as part of the [career track](https://codingnomads.com/career-track/python-web-development-learn-python-bootcamp). These were written with the PyCharm IDE, although this series of notes only contains text. These notes were spell-checked using the Grazie extension and are presented in chronological order. I found that the course took longer than 40 hours to complete (as advertised), due to making these in-depth notes.
 
 ---
 
-### 3.iii course_automation_scripts Directory
+### 3.3 course_automation_scripts Directory
 
 #### 3.3.1 Why I Automated My Work
 
