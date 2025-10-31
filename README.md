@@ -1,5 +1,17 @@
 # CodingNomads-python-SQL-and-Databases-MySQL
 
+## Contents
+
+- [Repository Outline](#repository-outline)
+- [Files This Repository Contains](#files-this-repository-contains)
+  - [databases Directory](#databases-directory)
+  - [course_notes Directory](#course_notes-directory)
+  - [course_automation_scripts Directory](#course_automation_scripts-directory)
+    - [Why I Automated My Work](#why-i-automated-my-work)
+    - [How I Automated My Work](#how-i-automated-my-work)
+  - [The course_automation_program.py file](#the-course_automation_programpy-file)
+- [To Clone This Repository](#to-clone-this-repository)
+
 ## Repository Outline
 
 This repository contains my coursework for the CodingNomads [SQL & Databases course](https://codingnomads.com/course/learn-sql-mysql-databases). I completed this course as part of my independent learning to enhance my Python skills. This course was the third in CodingNomad’s ten-part [Python Web Development career track](https://codingnomads.com/career-track/python-web-development-learn-python-bootcamp) series. This consisted of six core modules:
