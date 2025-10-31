@@ -49,7 +49,6 @@ Although this was not included as part of the course material or suggestions, [t
   <img src="https://github.com/user-attachments/assets/a16af0c6-11b8-4dc1-98d8-7ba7a0cac777" alt="Auto Git Push Scheduler">
 </div>
 
-
 I leveraged this when writing notes, and found that the number of commits made while completing the course content was relatively higher compared to the previous two courses in the career track I had completed. The one-minute auto-push can be changed within its file. This module can be left running in the terminal; however, if only one commit is required, the [auto_git_push.py file](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/blob/main/course_automation_scripts/auto_git_push.py) can be run instead. An example output of this module is below, after attempting to commit no changes to the project:
 
 <div align="center">
@@ -62,13 +61,11 @@ The [change_case.py module](https://github.com/franpanteli/CodingNomads-python-S
   <img src="https://github.com/user-attachments/assets/669f7708-02a1-42c2-bd3a-d60dace585bd" alt="Change Case Example">
 </div>
 
-
 The [clear_terminal.py module](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/blob/main/course_automation_scripts/clear_terminal.py) is similar to a Bash clear command and clears the terminal. Next, the [create_notes.py module](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/blob/main/course_automation_scripts/create_notes.py) generates .py files for writing course notes in. The .py files produced are created in the [course_notes directory](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/tree/main/course_notes) and are automatically numbered. This module uses the `input()` function to ask users whether they would like to produce notes for a Webpage or a Video in the course, and names them accordingly. An example of this module output is shown below:
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/3e158b27-c0ad-4991-b4cf-1487485f6b5f" alt="Create Notes Example">
 </div>
-
 
 The [delete_file.py module](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/blob/main/course_automation_scripts/delete_file.py) can be used to delete a file in a given directory. The suggested method for doing this is to drag and drop the file from its directory into the terminal when prompted by the module’s user interface. The [open_file_in_pycharm.py module](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/blob/main/course_automation_scripts/open_file_in_pycharm.py) can be used to open a file in PyCharm, and the [open_project_in_pycharm.py module](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/blob/main/course_automation_scripts/open_project_in_pycharm.py) can be used to open the entire project repository in PyCharm. 
 
@@ -83,7 +80,6 @@ The [open_github_repo.py module](https://github.com/franpanteli/CodingNomads-pyt
 <div align="center">
   <img src="https://github.com/user-attachments/assets/4d4fbb47-3adc-4b14-9487-5d46e9338ea1" alt="Course Automation Program Menu">
 </div>
-
 
 This is contained within an infinite `while` loop, which repeatedly generates menu options after one has been selected and executed, unless the user selects to exit the program. A set of `if` blocks is used to import and execute the module relevant to the selected menu option. These modules were imported in statements, such as “from course_automation_scripts import auto_git_push_scheduler.” These were contained underneath each `if` block statement, rather than imported at the top of the code, to avoid automatically running them. It was not suggested that I write this program as a part of the course. I wrote this with ChatGPT and edited it using PyCharm to automate repetitive tasks during the process of creating course notes and other content.  
 
