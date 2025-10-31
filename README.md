@@ -3,7 +3,7 @@
 
 ## Repository Outline
 
-This repository contains my coursework for the CodingNomads SQL & Databases course. I completed this course as part of my independent learning to enhance my Python skills. This course was the third in CodingNomad’s ten-part Python Web Development career track series. This consisted of six core modules:
+This repository contains my coursework for the CodingNomads [SQL & Databases course](https://codingnomads.com/course/learn-sql-mysql-databases). I completed this course as part of my independent learning to enhance my Python skills. This course was the third in CodingNomad’s ten-part [Python Web Development career track](https://codingnomads.com/career-track/python-web-development-learn-python-bootcamp) series. This consisted of six core modules:
 
 1. Introduction
 2. MySQL & MySQL Workbench
