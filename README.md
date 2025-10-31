@@ -47,19 +47,22 @@ When working, I cloned a copy of my GitHub repository for the course on my Deskt
 
 Although this was not included as part of the course material or suggestions, this repository contains nine Python modules that I wrote and edited using ChatGPT to automate various tasks. When run, the auto_git_push_auto_scheduler.py module automatically pushes changes made to the course repository every minute. Below is a screenshot of this script when being left to run for three minutes without changes:
 
-Screenshot 2025-10-31 at 22.12.28.png
+![9d4ff67567a9deadf5a418810ac9086c7aaf69beab9d0a996ea155d92f28e7571463dfbc1d0eb05d30c93242badd0e7d463350c2ae62e9bef32a5879ab0f65babeeecaee4a91d2dae438aa3cac26f1f506457e102d7cfc869a704c3a1c964c7d9975174b](https://github.com/user-attachments/assets/a16af0c6-11b8-4dc1-98d8-7ba7a0cac777)
+
 
 I leveraged this when writing notes, and found that the number of commits made while completing the course content was relatively higher compared to the previous two courses in the career track I had completed. The one-minute auto-push can be changed within its file. This module can be left running in the terminal; however, if only one commit is required, the git_auto_push.py file can be run instead. An example output of this module is below, after attempting to commit no changes to the project:
 
-Screenshot 2025-10-31 at 22.13.02.png
+![07353c3a7adf541f29a82599cf39875137c958a3be85b0f8cc969f3d213db695cb3df140bea573ed755f0b6ef495c7d768c7016a0d0c10bceeaa0f7237f3de5243798c7d374eb016c493ba46f66c40a4e8363a1f47b3cbb85cf1f6982091faaee25baf49](https://github.com/user-attachments/assets/54163521-0553-4072-a74d-127830e37822)
+
 
 The change_case.py module prompts the user to enter text, specifying whether it should be converted to uppercase or lowercase, and whether they want the text to be changed to uppercase or lowercase. I used this wherever I was writing notes, and I wanted text I had written in lowercase to be emphasised in uppercase - without having to rewrite it. An example of this is shown below:
 
-Screenshot 2025-10-31 at 22.14.02.png
+![e380ca32783e9413aa9ba262cf24073d65a24d7ba465c862c403ef1d1a10eb51c26f9af9e535d364a31aa9b79bd4fa1f70a8f546454da1008ee4aa47a2bbe0e2c5d6a3536f36240d13b29930b12ffe80c285028066537c5c0b33481f5a8ed0065125ebc3](https://github.com/user-attachments/assets/669f7708-02a1-42c2-bd3a-d60dace585bd)
 
 The clear_case.py module is similar to a Bash clear command and clears the terminal. Next, the create_notes.py module generates .py files for writing course notes in. The .py files produced are created in the course_notes directory and are automatically numbered. This module uses the input() function to ask users whether they would like to produce notes for a Webpage or a Video in the course, and names them accordingly. An example of this module output is shown below:
 
-Screenshot 2025-10-31 at 22.15.39.png
+![6049e751c2268996c0b0b3b844fe662690f0773490364b4ba73d7f5825f5ef43fdc835606cf921666eb01dae5f7af7ecda1b9f496a5cf9029ba514298bd517fe0fddc442b9b8db690d071d2b1e767b898d4fcd8a1e42bcd961fa6e813659d387df669c31](https://github.com/user-attachments/assets/3e158b27-c0ad-4991-b4cf-1487485f6b5f)
+
 
 The delete_file.py module can be used to delete a file in a given directory. The suggested method for doing this is to drag and drop the file from its directory into the terminal when prompted by the module’s user interface. This was again created with the Python input() function. The open_file_in_pycharm.py module can be used to open a file in PyCharm, and the open_project_in_pycharm.py module can be used to open the entire project repository in PyCharm. 
 
@@ -71,7 +74,8 @@ The open_github_repo.py module can now be used to launch a browser (specifically
 
 This program combines the Python modules located in the course_automation_scripts directory to create a user interface in the terminal for automating tasks related to course completion. A menu is first printed for the user, using the input() function. An image of this menu is shown below:
 
-Screenshot 2025-10-31 at 22.00.40.png
+![103906b34eba31622f2c4400396397b67ba11d852394d095017dcec4241758aa77bbc32d8a7f6d74a03b9e50d473a2806b319ab7e00f342a76ae4f3694ca4c0112cfc8d0daac4b7cc102373056c1242cf0eed16c9b0912b2d5e4d06d35266d39026e1e70](https://github.com/user-attachments/assets/4d4fbb47-3adc-4b14-9487-5d46e9338ea1)
+
 
 This is contained within an infinite while loop, which repeatedly generates the menu options after one has been selected and executed, unless the user selects to exit the program. A set of if blocks is used to import and execute the module relevant to the selected menu option. These modules were imported in statements, such as “from course_automation_scripts import auto_git_push_scheduler.” These were contained underneath each if block statement, rather than imported at the top of the code, to avoid automatically running the code they contain. 
 
