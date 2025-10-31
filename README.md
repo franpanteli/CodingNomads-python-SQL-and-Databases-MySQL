@@ -12,7 +12,7 @@
    4. [The course_automation_program.py file](#the-course_automation_programpy-file)
 3. [To Clone This Repository](#to-clone-this-repository)
 
-## 1. Outline
+## Outline
 
 This repository contains my coursework for the CodingNomads [SQL & Databases course](https://codingnomads.com/course/learn-sql-mysql-databases). I completed this course as part of my independent learning to enhance my Python skills. This course was the third in CodingNomad’s ten-part [Python Web Development career track](https://codingnomads.com/career-track/python-web-development-learn-python-bootcamp) series. This consisted of six core modules:
 
@@ -31,7 +31,7 @@ This course was advertised with a 40-hour time completion, in comparison to the 
 
 After completing resources that covered the course content, I passed assessments to consolidate my knowledge. These consisted of thirteen quizzes and four journal entries. Journal entries for this covered foreign keys, query practice imports, and exports from MySQL. I pushed my course notes and files, wrote a project README.md file using PyCharm and the Grammarly text checker, and finally submitted a certificate of completion request on the CodingNomads platform to pass the course. The remainder of this README file provides a walkthrough of the files contained in my repository from completing the course.
 
-## 2. Files in This Repository
+## Files in This Repository
 
 ---
 
