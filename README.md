@@ -1,5 +1,6 @@
 # CodingNomads-python-SQL-and-Databases-MySQL
 
+
 ## Repository Outline
 
 This repository contains my coursework for the CodingNomads SQL & Databases course. I completed this course as part of my independent learning to enhance my Python skills. This course was the third in CodingNomad’s ten-part Python Web Development career track series. This consisted of six core modules:
@@ -19,15 +20,22 @@ This course was advertised with a 40-hour time completion, in comparison to the 
 
 After completing resources that covered the course content, I took assessments to consolidate my knowledge. These consisted of thirteen quizzes and four journal entries. Journal entries for this covered foreign keys, query practice imports, and exports from MySQL. I pushed my course notes and files while covering the material, wrote a project README.md file using PyCharm and the Grammarly text checker, and finally submitted a certificate of completion request on the CodingNomads platform to pass the course. The remainder of this README file provides a walkthrough of the files contained in my repository after completing the course. 
 
+
 ## Files This Repository Contains
+
+---
 
 ### databases Directory 
 
 The databases directory in this repository was automatically created when following the course content. Multiple examples containing databases were used in this course, primarily with the Sakila database. Queries practicing on this database included operations on the actors table, creating functions (stored procedures) to operate on them, and limiting the number of returned results using the SQL LIMIT query. Multiple JOIN methods, such as LEFT JOIN, RIGHT JOIN, and INNER JOIN (default), were also explored.
 
+---
+
 ### course_notes Directory
 
 The course_notes directory contains my notes on course content. These were created in either webpage or Video Note format, depending on the mode in which the course content was presented. I wrote these notes in Python (.py) files, in line with the two previous Python courses I completed as part of the career track. These were written with the PyCharm IDE, although this series of notes only contains text. These notes were spell-checked using the Grazie extension in this IDE and are presented in chronological order. I found that the course took longer than 40 hours to complete (as advertised), due to the need to make in-depth notes like these. 
+
+---
 
 ### course_automation_scripts Directory 
 
@@ -56,6 +64,8 @@ Screenshot 2025-10-31 at 22.15.39.png
 The delete_file.py module can be used to delete a file in a given directory. The suggested method for doing this is to drag and drop the file from its directory into the terminal when prompted by the module’s user interface. This was again created with the Python input() function. The open_file_in_pycharm.py module can be used to open a file in PyCharm, and the open_project_in_pycharm.py module can be used to open the entire project repository in PyCharm. 
 
 The open_github_repo.py module can now be used to launch a browser (specifically, Chrome) and open the URL for this project's repository. This module was used on several occasions to verify that the modules that auto-committed changes to project files were functioning correctly. This module utilises the Selenium WebDriver, which requires initial installation.  
+
+---
 
 ### The course_automation_program.py file 
 
