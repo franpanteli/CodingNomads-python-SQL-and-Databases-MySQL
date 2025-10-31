@@ -32,7 +32,9 @@ I primarily preferred interacting with MySQL in the terminal, rather than using 
 
 This course was advertised with a 40-hour time completion, in comparison to the first two courses in the Python Web Development career track, which were advertised as 80 hours each. My repositories for the first two courses in this career track are [here](https://github.com/franpanteli/CodingNomads-python-101) and [here](https://github.com/franpanteli/CodingNomads-python-201). These courses were purely focused on Python, as opposed to the third course in its web development track, which covered SQL and databases.
 
-After completing resources that covered the course content, I passed assessments to consolidate my knowledge. These consisted of thirteen quizzes and four journal entries. Journal entries for this covered foreign keys, query practice imports, and exports from MySQL. I pushed my course notes and files, wrote a project README.md file using PyCharm and the Grammarly spell checker, and finally submitted a certificate of completion request on the CodingNomads platform to pass the course. The remainder of this README file provides a walkthrough of the files contained in my repository from completing the course.
+After completing resources that covered the course content, I passed assessments to consolidate my knowledge. These consisted of thirteen quizzes and four journal entries. Journal entries for this covered foreign keys, query practice imports, and exports from MySQL. I pushed my course notes and files, wrote a project README.md file using PyCharm and the Grammarly spell checker, and finally submitted a certificate of completion request on the CodingNomads platform to pass the course. 
+
+The remainder of this README file provides a walkthrough of the files contained in my repository from completing the course.
 
 ---
 
