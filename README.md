@@ -1,124 +1,71 @@
 # CodingNomads-python-SQL-and-Databases-MySQL
 
-## Repository Overview
-This repository contains my coursework for [Python 201 - Procedural Programming](https://codingnomads.com/course/python-programming-201), the second course in the [Python Web Development Career Track](https://codingnomads.com/career-track/python-web-development-learn-python-bootcamp) by [CodingNomads](https://codingnomads.com/). This was an 80-hour course, designed to help learners deepen their understanding of Python through procedural programming concepts, debugging, and API integration. This included multiple projects and labs, including SQLAlchemy, API integration, and debugging approaches. 
+Repository Outline
 
----
+This repository contains my coursework for the CodingNomads SQL & Databases course. I completed this course as part of my independent learning to enhance my Python skills. This course was the third in CodingNomad’s ten-part Python Web Development career track series. This consisted of six core modules:
 
-## Table of Contents
-- [Repository Overview](#repository-overview)
-- [Table of Contents](#table-of-contents)
-- [Concepts Covered](#concepts-covered)
-- [Course Prerequisites](#prerequisites)
-- [Exercises & Labs](#exercises--labs)
-- [Projects](#projects)
-- [API Capstone Project](#api-capstone-project)
-- [To Clone This Repository](#to-clone-this-repository)
-  
----
+1. Introduction
+2. MySQL & MySQL Workbench
+3. Creating Relational Databases
+4. Importing MySQL Demo Database
+5. SQL Commands for Querying Databases
+6. Managing Databases
 
-## Concepts Covered 
-The following Python skills were acquired when completing this course:
-- Functions: arguments, return values, and scope 
-- Advanced data types: tuples, lists, sets, and dictionaries
-- File input/output and managing paths effectively
-- Building modules and packages 
-- Dependency management, using virtual environments 
-- Debugging programs using IDE features, Python PDB, web-pdb and pudb modules  
-- Database integration, with SQLAlchemy
-- REST API integration, with the Python `requests` package 
+This introduced Structured Query Language (SQL) as a language that interacts with Relational Database Management Systems (RDBMS). Multiple types of RDBMS applications were explored, showing a preference for MySQL. SQL was explored using the Sakila demonstration database, both in the terminal and with the MySQL Workbench GUI. The Sakila database contains information about actors, movies, and their rentals. MySQL Workbench was chosen for its open-source nature and ease of use relative to other RDBMS approaches. I learnt through completing this that a relational database consists of multiple tables, which can be linked through primary and foreign keys. These keys have unique values to avoid data replication. Various methods of interacting with, backing up (database dumping), and creating these databases were explored through SQL.
 
----
+I primarily preferred interacting with MySQL in the terminal, rather than using MySQL Workbench. This first required running a MySQL installation, and then logging into MySQL in the CLI. This required typing a password. SQL tutorials were then followed on the course webpage. These took the form of reading through a webpage, making notes while doing so, and then completing its instructions. Video notes were also completed, where appropriate.
 
-## Course Prerequisites
-The [CodingNomads Python 101 course](https://github.com/franpanteli/CodingNomads-python-101) was a prerequisite for this. Other prerequisites included a Python version above 3.0 to be installed, for the completion of its pdb debugger and virtual environment sections.
+This course was advertised with a 40-hour time completion, in comparison to the first two courses in the Python Web Development career track, which were advertised as 80 hours each. My repositories for the first two courses in this career track are linked here and here. These courses were purely focused on Python, as opposed to the third course in its web development track, which covered SQL and databases. 
 
----
+After completing resources that covered the course content, I took assessments to consolidate my knowledge. These consisted of thirteen quizzes and four journal entries. Journal entries for this covered foreign keys, query practice imports, and exports from MySQL. I pushed my course notes and files while covering the material, wrote a project README.md file using PyCharm and the Grammarly text checker, and finally submitted a certificate of completion request on the CodingNomads platform to pass the course. The remainder of this README file provides a walkthrough of the files contained in my repository after completing the course. 
 
-## Exercises & Labs
-One directory was created for each module in the course, from modules two to ten. Each of these directories includes two further directories, for content and practice. Course content was presented in the form of videos and webpages. Notes were made on each of these, in a .py file per video and webpage. These notes are included in each module’s `webpage_and_video_notes` directory. Labs (module exercises) were next completed. My solutions for these were annotated with comments and are published in each module’s lab folder. Links to each set of my module notes and exercise solutions are presented below. These are also found in the repository [resources](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/resources) folder. 
-- [02 More Data Types](labs/resources/02_more-datatypes)
-  - [02_webpage_and_video_notes](labs/resources/02_more-datatypes/02_webpage_and_video_notes)
-  - [02_labs](labs/resources/02_more-datatypes/02_labs)
-- [03 File Input/Output](labs/resources/03_file-input-output)
-  - [03_webpage_and_video_notes](labs/resources/03_file-input-output/03_webpage_and_video_notes)
-  - [03_labs](labs/resources/03_file-input-output/03_labs)
-- [04 Functions and Scopes](labs/resources/04_functions-and-scopes)
-  - [04_webpage_and_video_notes](labs/resources/04_functions-and-scopes/04_webpage_and_video_notes)
-  - [04_labs](labs/resources/04_functions-and-scopes/04_labs)
-- [05 Virtual Environments and Packages](labs/resources/05_venvs-and-packages)
-  - [05_webpage_and_video_notes](labs/resources/05_venvs-and-packages/05_webpage_and_video_notes)
-  - [05_labs](labs/resources/05_venvs-and-packages/05_labs)
-- [06 Advanced Python Concepts](labs/resources/06_advanced-python-concepts)
-  - [06_webpage_and_video_notes](labs/resources/06_advanced-python-concepts/06_webpage_and_video_notes)
-  - [06_labs](labs/resources/06_advanced-python-concepts/06_labs)
-- [07 APIs and Databases](labs/resources/07_APIs_and_Databases)
-  - [07_webpage_and_video_notes](labs/resources/07_APIs_and_Databases/07_webpage_and_video_notes)
-  - [07_labs](labs/resources/07_APIs_and_Databases/07_labs)
-- [08 Debugging](labs/resources/08_debugging)
-  - [08_webpage_and_video_notes](labs/resources/08_debugging/08_webpage_and_video_notes)
-  - [08_labs](labs/resources/08_debugging/08_labs)
-- [09 Integrating APIs](labs/resources/09_Integrating_APIs)
-- [10 Next Steps](labs/resources/10_Next_Steps)
+Files This Repository Contains
 
----
+databases Directory 
 
-## Projects
+The databases directory in this repository was automatically created when following the course content. Multiple examples containing databases were used in this course, primarily with the Sakila database. Queries practicing on this database included operations on the actors table, creating functions (stored procedures) to operate on them, and limiting the number of returned results using the SQL LIMIT query. Multiple JOIN methods, such as LEFT JOIN, RIGHT JOIN, and INNER JOIN (default), were also explored.
 
-- **[Crash Blossoms CLI](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Crash_Blossoms_CLI)**: this project was the result of following a Crash Blossoms CLI tutorial in the course. This leveraged a title-case
-function to generate “Crash Blossom”-style headlines. This repeatedly asked the user for input text, which was
-capitalised according to headline conventions 
+course_notes Directory
 
-- **[Python REST API Tutorial (Automation Tools)](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Python_REST_API_Tutorial_(Automation_Tools))**: this project (webpage.py) used `HTTP` GET requests to retrieve a randomly generated dog image url a and famous
-quote. These were parsed into an HTML file, outputted to the user’s desktop. These APIs were selected due to their
-lack of key requirements, high potential use cases, and readable documentation. In the case that too many API
-requests were made, it was recommended to use a VPN. When run in the browser, the HTML file this project
-generated contained a random famous quote and a dog image  
+The course_notes directory contains my notes on course content. These were created in either webpage or Video Note format, depending on the mode in which the course content was presented. I wrote these notes in Python (.py) files, in line with the two previous Python courses I completed as part of the career track. These were written with the PyCharm IDE, although this series of notes only contains text. These notes were spell-checked using the Grazie extension in this IDE and are presented in chronological order. I found that the course took longer than 40 hours to complete (as advertised), due to the need to make in-depth notes like these. 
 
-- **[Rock Paper Scissors Game](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/Rock_Paper_Scissors_Game)**: this is a CLI-based rock-paper-scissors game. Users input a number representing their hand, and the computer
-generates a random choice (its hand). The `determine_winner()` function was then defined and called to compare
-these hands, print them to the console, and output the winner  
+course_automation_scripts Directory 
 
-- **[File Counter](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/file_counter)**: the first purpose of this project was to analyse desktop file types. This was implemented by outputting an SQL file
-to summarise desktop file counts and types. The Data_Analysis.py file outputted summary statistics of this file,
-such as the most common desktop file type. The second purpose of this project was to move desktop files of the
-same type that occurred in a quantity of five or more into their own desktop directory. This used the `pathlib`
-module to iterate through desktop files and create relevant directories  
+Why I automated my work 
 
-- **[Making the Enumerate Function](https://github.com/franpanteli/CodingNomads-python-201/tree/main/labs/projects/making_the_enumerate_function.py)**: this project recreated the Python `enumerate()` function, implementing iteration with indices. This defined a
-function (`my_enumerate()`) which returned a list of tuples, that could be used in the same way as the native
-Python `enumerate()` function. This project includes three .py files: my_enumerate.py (containing the defined
-function), for_loops.py, and range_length.py. The latter two were written while working with the `enumerate()`
-function documentation   
+When working, I cloned a copy of my GitHub repository for the course on my Desktop. My workflow for course completion involved creating a new .py file where notes were to be taken and committing changes to these notes to GitHub whenever significant updates were made. These notes (contained in the course_notes directory) were also named in a specific format. This involved naming them according to their number and titling the standard Python docstrings that each set of notes included. I found multiple issues with this, such as the tediousness of having to enter the same commands into the terminal to commit changes to GitHub. Since my course notes involved capitalisation to emphasise certain points, I also found that I sometimes typed lowercase text that I actually wanted capitalised. Rather than having to type the same text again in uppercase, I found it faster to write a Python program that did this and could be run. 
 
----
+How I automated my work 
 
-## API Capstone Project
+Although this was not included as part of the course material or suggestions, this repository contains nine Python modules that I wrote and edited using ChatGPT to automate various tasks. When run, the auto_git_push_auto_scheduler.py module automatically pushes changes made to the course repository every minute. Below is a screenshot of this script when being left to run for three minutes without changes:
 
-The capstone project in the first course of this career track was a CLI-based Dungeons and Dragons game. I refactored this project three times, producing versions 1.0 - 3.0. Version 4.0 of this project was produced as the capstone project for this, the second course, in the career track. This version of the project introduces API integration, via `HTTP` `GET` requests, on two occasions. The repository containing all my versions of this project is [here](https://github.com/franpanteli/CodingNomads-python-101-capstone), and the script for Version 4.0, which I built for the capstone project in this course, is [viewable here](https://github.com/franpanteli/CodingNomads-python-101-capstone/blob/main/dungeons_and_dragon_game_4.0.py). 
+Screenshot 2025-10-31 at 22.12.28.png
 
-### Gameplay Summary
-- The player navigates through four rooms (left, right, forward, or back). As they do so, they can discover items, such as a sword or shield 
-- The user's inventory is recorded via a game log 
-- The user battles opponents such as dragons and goblins, with outcomes determined by a combination of weapons inventory status and a randomised dice roll
-- Winning or losing a battle affects the player’s inventory 
-- The game continues using, a while loop until the player chooses to exit
+I leveraged this when writing notes, and found that the number of commits made while completing the course content was relatively higher compared to the previous two courses in the career track I had completed. The one-minute auto-push can be changed within its file. This module can be left running in the terminal; however, if only one commit is required, the git_auto_push.py file can be run instead. An example output of this module is below, after attempting to commit no changes to the project:
 
-### Project Overview
-Version 4.0 of this project integrates APIs twice:
+Screenshot 2025-10-31 at 22.13.02.png
 
-1. **The Uzby API:** when the player starts the game, they are asked if they have a stable internet connection. The status of this is stored in the `internet_status` variable. If they have a stable connection, an `HTTP` `GET` request is made to the Uzby API. This generates a random name (stage name), whose length is the same as the user's entered name. This name is printed in the CLI. For this to work, the minimum and maximum lengths of the random name requested from the API are both set to the length of the user's entered name
+The change_case.py module prompts the user to enter text, specifying whether it should be converted to uppercase or lowercase, and whether they want the text to be changed to uppercase or lowercase. I used this wherever I was writing notes, and I wanted text I had written in lowercase to be emphasised in uppercase - without having to rewrite it. An example of this is shown below:
 
-2. **The Dog CEO API:** this API call implements a prize for the user, if they have a stable internet connection and defeat an opponent. This makes an `HTTP` `GET` request to generate a random dog image URL. This is presented to the user in the terminal, as a prize for defeating the opponent
+Screenshot 2025-10-31 at 22.14.02.png
 
-This project version uses the same event logging system developed in versions 1.0 - 3.0 of the game. This logs the user's progress, choices, encounters, and outcomes in the `game_log.txt` file. This leverages the `log_status()` function to write timestamped messages. 
+The clear_case.py module is similar to a Bash clear command and clears the terminal. Next, the create_notes.py module generates .py files for writing course notes in. The .py files produced are created in the course_notes directory and are automatically numbered. This module uses the input() function to ask users whether they would like to produce notes for a Webpage or a Video in the course, and names them accordingly. An example of this module output is shown below:
 
-### Concepts Applied
-- Procedural programming with function design
-- File I/O, using the `open()` function in append mode to record game events  
-- API integration, with the `requests` module  
-- Randomisation, using the `random` module
-- Game history tracking, via data logging   
+Screenshot 2025-10-31 at 22.15.39.png
+
+The delete_file.py module can be used to delete a file in a given directory. The suggested method for doing this is to drag and drop the file from its directory into the terminal when prompted by the module’s user interface. This was again created with the Python input() function. The open_file_in_pycharm.py module can be used to open a file in PyCharm, and the open_project_in_pycharm.py module can be used to open the entire project repository in PyCharm. 
+
+The open_github_repo.py module can now be used to launch a browser (specifically, Chrome) and open the URL for this project's repository. This module was used on several occasions to verify that the modules that auto-committed changes to project files were functioning correctly. This module utilises the Selenium WebDriver, which requires initial installation.  
+
+The course_automation_program.py file 
+
+This program combines the Python modules located in the course_automation_scripts directory to create a user interface in the terminal for automating tasks related to course completion. A menu is first printed for the user, using the input() function. An image of this menu is shown below:
+
+Screenshot 2025-10-31 at 22.00.40.png
+
+This is contained within an infinite while loop, which repeatedly generates the menu options after one has been selected and executed, unless the user selects to exit the program. A set of if blocks is used to import and execute the module relevant to the selected menu option. These modules were imported in statements, such as “from course_automation_scripts import auto_git_push_scheduler.” These were contained underneath each if block statement, rather than imported at the top of the code, to avoid automatically running the code they contain. 
+
+It was not suggested that I write this program as a part of the course. I wrote this with ChatGPT and edited it using PyCharm to automate repetitive tasks during the process of creating course notes and other content.  
 
 ---
 
