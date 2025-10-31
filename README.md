@@ -31,7 +31,7 @@ The [databases directory](https://github.com/franpanteli/CodingNomads-python-SQL
 
 ### course_notes Directory
 
-The [course_notes directory](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/tree/main/course_notes) contains my notes on course content. These notes were created in either webpage or Video Note format, depending on the mode in which the course content was presented. I wrote these notes in Python (.py) files, in line with the two previous Python courses I completed as part of the [career track](https://github.com/franpanteli). These were written with the PyCharm IDE, although this series of notes only contains text. These notes were spell-checked using the Grazie extension and are presented in chronological order. I found that the course took longer than 40 hours to complete (as advertised), due to making these in-depth notes.
+The [course_notes directory](https://github.com/franpanteli/CodingNomads-python-SQL-and-Databases-MySQL/tree/main/course_notes) contains my notes on course content. These notes were created in either webpage or Video Note format, depending on the mode in which the course content was presented. I wrote these notes in Python (.py) files, in line with the two previous Python courses I completed as part of the [career track](https://codingnomads.com/career-track/python-web-development-learn-python-bootcamp). These were written with the PyCharm IDE, although this series of notes only contains text. These notes were spell-checked using the Grazie extension and are presented in chronological order. I found that the course took longer than 40 hours to complete (as advertised), due to making these in-depth notes.
 
 ---
 
