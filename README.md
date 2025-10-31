@@ -1,6 +1,6 @@
 # CodingNomads-python-SQL-and-Databases-MySQL
 
-## Contents of This Repository
+## Repository Contents 
 
 - [Outline](#outline)
 - [Files in This Repository](#files-in-this-repository)
